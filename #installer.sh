@@ -1,14 +1,15 @@
 #!/bin/sh
 #########################################################
-version=Red-Dragon-FHD v1.2
-description="Red-Dragon-FHD v1.2" !!!
+version=5.5
+description="NEW XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" !!!
 
 #########################################################
 
 #########################################################
-PACKAGE_DIR='TeamNitro/main/'
-MY_FILE="Red-Dragon-FHD-1.2.tar.gz"
+PACKAGE_DIR='TeamNitro/main'
+MY_FILE="Test.tar.gz"
 #########################################################
+
 MY_MAIN_URL="https://raw.githubusercontent.com/biko-73/"
 MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_FILE
 MY_TMP_FILE="/tmp/"$MY_FILE
