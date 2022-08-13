@@ -1,13 +1,13 @@
 #!/bin/sh
 #########################################################
-version=5.5
-description="NitroAdvanceFHD v5.5" !!!
+version=1.2
+description="Red-Dragon-FHD v1.2" !!!
 
 #########################################################
 
 #########################################################
 PACKAGE_DIR='TeamNitro/main/'
-MY_FILE="NitroAdvanceFHD.tar.gz"
+MY_FILE="Red-Dragon-FHD-1.2.tar.gz"
 #########################################################
 MY_MAIN_URL="https://raw.githubusercontent.com/biko-73/"
 MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_FILE
