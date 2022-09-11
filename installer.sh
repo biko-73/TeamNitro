@@ -1,7 +1,7 @@
 #!/bin/sh
 #########################################################
 version=2.1.1
-description="BoHLALA_FHD-V" !!!
+description="BoHLALA_FHD" !!!
 
 #########################################################
 
@@ -17,7 +17,6 @@ MY_TMP_FILE="/tmp/"$MY_FILE
 MY_URL_PLUGIN=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_PLUGIN
 MY_TMP_PLUGIN="/tmp/"$MY_PLUGIN
 
-
 rm -f $MY_TMP_FILE > /dev/null 2>&1
 
 MY_SEP='============================================================='
@@ -30,7 +29,7 @@ echo ''
 wget -T 2 $MY_URL -P "/tmp/"
 wget -T 2 $MY_URL_PLUGIN -P "/tmp/"
 
-if [ -f $MY_TMP_FILE ]; then
+if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_PLUGIN ]; then
 
 	echo ''
 	echo $MY_SEP
@@ -38,22 +37,11 @@ if [ -f $MY_TMP_FILE ]; then
 	echo $MY_SEP
 	echo ''
 	tar -xf $MY_TMP_FILE -C /
+ tar -xf $MY_TMP_PLUGIN -C /
 	MY_RESULT=$?
 
 	rm -f $MY_TMP_FILE > /dev/null 2>&1
-
-
-if [ -f $MY_TMP_PLUGIN ]; then
-
-	echo ''
-	echo $MY_SEP
-	echo 'Extracting ...'
-	echo $MY_SEP
-	echo ''
-	tar -xf $MY_TMP_PLUGIN -C /
-	MY_RESULT=$?
-
-	rm -f $MY_TMP_PLUGIN > /dev/null 2>&1
+ rm -f $MY_TMP_PLUGIN > /dev/null 2>&1
 
 	echo ''
 	echo ''
