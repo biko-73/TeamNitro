@@ -1,7 +1,7 @@
 #!/bin/sh
 #########################################################
-version=5.5
-description="NitroAdvanceFHD v5.5" !!!
+version=5.4
+description="NitroAdvanceFHD" !!!
 
 #########################################################
 
@@ -37,13 +37,13 @@ if [ -f $MY_TMP_FILE ]; then
 	echo ''
 	echo ''
 	if [ $MY_RESULT -eq 0 ]; then
-        echo "#########################################################"
-        echo "#  TeamNitro Skin $version INSTALLED SUCCESSFULLY      #"
-        echo "#                BY BIKO - support on                   #"
-        echo "#       https://www.tunisia-sat.com/forums/forums       #"
-        echo "#########################################################"
-        echo "#           your Device will RESTART Now                #"
-        echo "#########################################################"		
+        echo "#####################################################################"
+        echo "#  	TeamNitro Skin $description $version INSTALLED SUCCESSFULLY   #"
+        echo "#                			BY BIKO - support on                      #"
+        echo "#      		 https://www.tunisia-sat.com/forums/forums            #"
+        echo "#####################################################################"
+        echo "#             	your Device will RESTART Now             	      #"
+        echo "#####################################################################"		
 		if which systemctl > /dev/null 2>&1; then
 			sleep 2; systemctl restart enigma2
 		else

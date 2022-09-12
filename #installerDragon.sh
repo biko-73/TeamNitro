@@ -1,13 +1,13 @@
 #!/bin/sh
 #########################################################
-version=1.2
-description="Red-Dragon-FHD v1.2" !!!
+version=2.0
+description="DragonFHD Multi color" !!!
 
 #########################################################
 
 #########################################################
 PACKAGE_DIR='TeamNitro/main/'
-MY_FILE="Red-Dragon-FHD-1.2.tar.gz"
+MY_FILE="DragonFHD_v2.0.tar.gz"
 #########################################################
 MY_MAIN_URL="https://raw.githubusercontent.com/biko-73/"
 MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_FILE
@@ -34,16 +34,17 @@ if [ -f $MY_TMP_FILE ]; then
 
 	rm -f $MY_TMP_FILE > /dev/null 2>&1
 
+
 	echo ''
 	echo ''
 	if [ $MY_RESULT -eq 0 ]; then
-        echo "#########################################################"
-        echo "#  TeamNitro Skin $version INSTALLED SUCCESSFULLY      #"
-        echo "#                BY BIKO - support on                   #"
-        echo "#       https://www.tunisia-sat.com/forums/forums       #"
-        echo "#########################################################"
-        echo "#           your Device will RESTART Now                #"
-        echo "#########################################################"		
+        echo "#####################################################################"
+        echo "#  	TeamNitro Skin $descriptio $version INSTALLED SUCCESSFULLY   #"
+        echo "#                			BY BIKO - support on                      #"
+        echo "#      		 https://www.tunisia-sat.com/forums/forums            #"
+        echo "#####################################################################"
+        echo "#             	your Device will RESTART Now             	      #"
+        echo "#####################################################################"		
 		if which systemctl > /dev/null 2>&1; then
 			sleep 2; systemctl restart enigma2
 		else
