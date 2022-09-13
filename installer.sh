@@ -1,13 +1,12 @@
 #!/bin/sh
 #########################################################
-version=2.1.1
-description="BoHLALA_FHD" !!!
-
+version=2.0
+description="DragonFHD Multi color" !!!
 #########################################################
 
 #########################################################
 PACKAGE_DIR='TeamNitro/main/'
-MY_FILE="BoHLALA_FHD.tar.gz"
+MY_FILE="DragonFHD_v2.0.tar.gz"
 MY_PLUGIN="TeamNitro.tar.gz"
 #########################################################
 MY_MAIN_URL="https://raw.githubusercontent.com/biko-73/"
@@ -47,9 +46,9 @@ if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_PLUGIN ]; then
 	echo ''
 	if [ $MY_RESULT -eq 0 ]; then
         echo "#####################################################################"
-        echo "#  	TeamNitro Skin $description $version INSTALLED SUCCESSFULLY   #"
+        echo "# 	TeamNitro Skin $description $version INSTALLED SUCCESSFULLY  #"
         echo "#                			BY BIKO - support on                      #"
-        echo "#      		 https://www.tunisia-sat.com/forums/forums            #"
+        echo "#        https://www.tunisia-sat.com/forums/threads/4295976/        #"
         echo "#####################################################################"
         echo "#             	your Device will RESTART Now             	      #"
         echo "#####################################################################"		

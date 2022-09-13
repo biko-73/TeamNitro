@@ -39,9 +39,9 @@ if [ -f $MY_TMP_FILE ]; then
 	echo ''
 	if [ $MY_RESULT -eq 0 ]; then
         echo "#####################################################################"
-        echo "#  	TeamNitro Skin $descriptio $version INSTALLED SUCCESSFULLY   #"
+        echo "#  	TeamNitro Skin $description $version INSTALLED SUCCESSFULLY   #"
         echo "#                			BY BIKO - support on                      #"
-        echo "#      		 https://www.tunisia-sat.com/forums/forums            #"
+        echo "#        https://www.tunisia-sat.com/forums/threads/4295976/        #"
         echo "#####################################################################"
         echo "#             	your Device will RESTART Now             	      #"
         echo "#####################################################################"		
