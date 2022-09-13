@@ -46,12 +46,12 @@ if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_PLUGIN ]; then
 	echo ''
 	if [ $MY_RESULT -eq 0 ]; then
         echo "#####################################################################"
-        echo "# 	TeamNitro Skin $description $version INSTALLED SUCCESSFULLY  #"
-        echo "#                			BY BIKO - support on                      #"
+        echo "# 	DragonFHD Skin $description $version INSTALLED SUCCESSFULLY                  #"
+        echo "#     BY BIKO - support on                      #"
         echo "#        https://www.tunisia-sat.com/forums/threads/4295976/        #"
         echo "#####################################################################"
-        echo "#             	your Device will RESTART Now             	      #"
-        echo "#####################################################################"		
+        echo "#            	your Device will RESTART Now            	      #"
+        echo "#####################################################################"			
 		if which systemctl > /dev/null 2>&1; then
 			sleep 2; systemctl restart enigma2
 		else
