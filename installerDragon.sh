@@ -7,7 +7,7 @@ description="DragonFHD Multi color" !!!
 
 #########################################################
 PACKAGE_DIR='TeamNitro/main/'
-MY_FILE="DragonFHD_v2.0.tar.gz"
+MY_FILE="DragonFHD.tar.gz"
 #########################################################
 MY_MAIN_URL="https://raw.githubusercontent.com/biko-73/"
 MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_FILE
