@@ -6,7 +6,7 @@ description="BoHLALA_FHD-V" !!!
 #########################################################
 
 #########################################################
-PACKAGE_DIR='TeamNitro/main/'
+PACKAGE_DIR='TeamNitro/main/skins'
 MY_FILE="BoHLALA_FHD.tar.gz"
 #########################################################
 MY_MAIN_URL="https://raw.githubusercontent.com/biko-73/"

@@ -6,7 +6,7 @@ description="BoHLALA_FHD" !!!
 #########################################################
 
 #########################################################
-PACKAGE_DIR='TeamNitro/main/'
+PACKAGE_DIR='TeamNitro/main/skins'
 MY_FILE="BoHLALA_FHD.tar.gz"
 MY_PLUGIN="TeamNitro.tar.gz"
 #########################################################

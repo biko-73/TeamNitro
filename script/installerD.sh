@@ -5,8 +5,8 @@ description="DragonFHD Multi color" !!!
 #########################################################
 
 #########################################################
-PACKAGE_DIR='TeamNitro/main/'
-MY_FILE="DragonFHD_v2.0.tar.gz"
+PACKAGE_DIR='TeamNitro/main/skins'
+MY_FILE="DragonFHD.tar.gz"
 MY_PLUGIN="TeamNitro.tar.gz"
 #########################################################
 MY_MAIN_URL="https://raw.githubusercontent.com/biko-73/"

@@ -6,7 +6,7 @@ description="DesertFHD" !!!
 #########################################################
 
 #########################################################
-PACKAGE_DIR='TeamNitro/main/'
+PACKAGE_DIR='TeamNitro/main/skins'
 MY_FILE="DesertFHD.tar.gz"
 #########################################################
 MY_MAIN_URL="https://raw.githubusercontent.com/biko-73/"
