@@ -1,22 +1,25 @@
 #!/bin/sh
 #########################################################
 version=2.0
-description="DragonFHD Multi color" !!!
+
+description="DragonFHD" !!!
+
 #########################################################
 
 #########################################################
 PACKAGE_DIR='TeamNitro/main/skins'
+PACKAGE_DIR2='TeamNitro/main/'
+
 MY_FILE="DragonFHD.tar.gz"
 MY_PLUGIN="TeamNitro.tar.gz"
 #########################################################
 MY_MAIN_URL="https://raw.githubusercontent.com/biko-73/"
+
 MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_FILE
 MY_TMP_FILE="/tmp/"$MY_FILE
 
-MY_URL_PLUGIN=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_PLUGIN
+MY_URL_PLUGIN=$MY_MAIN_URL$PACKAGE_DIR2'/'$MY_PLUGIN
 MY_TMP_PLUGIN="/tmp/"$MY_PLUGIN
-
-rm -f $MY_TMP_FILE > /dev/null 2>&1
 
 MY_SEP='============================================================='
 echo $MY_SEP
@@ -25,8 +28,11 @@ echo $MY_SEP
 echo 'Downloading '$MY_PLUGIN' ...'
 echo $MY_SEP
 echo ''
-wget -T 2 $MY_URL -P "/tmp/"
 wget -T 2 $MY_URL_PLUGIN -P "/tmp/"
+wget -T 2 $MY_URL -P "/tmp/"
+
+rm -rf "/usr/lib/enigma2/python/Plugins/Extensions/TeamNitro"
+rm -rf "/usr/share/enigma2/RED_DRAGON_FHD"
 
 if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_PLUGIN ]; then
 
@@ -36,22 +42,22 @@ if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_PLUGIN ]; then
 	echo $MY_SEP
 	echo ''
 	tar -xf $MY_TMP_FILE -C /
- tar -xf $MY_TMP_PLUGIN -C /
+	tar -xf $MY_TMP_PLUGIN -C /
 	MY_RESULT=$?
 
 	rm -f $MY_TMP_FILE > /dev/null 2>&1
- rm -f $MY_TMP_PLUGIN > /dev/null 2>&1
+	rm -f $MY_TMP_PLUGIN > /dev/null 2>&1
 
 	echo ''
 	echo ''
 	if [ $MY_RESULT -eq 0 ]; then
-        echo "#####################################################################"
-        echo "# 	DragonFHD Skin $description $version INSTALLED SUCCESSFULLY                  #"
-        echo "#     BY BIKO - support on                      #"
-        echo "#        https://www.tunisia-sat.com/forums/threads/4295976/        #"
-        echo "#####################################################################"
-        echo "#            	your Device will RESTART Now            	      #"
-        echo "#####################################################################"			
+         echo "#####################################################################"
+         echo "#  	TeamNitro Skin $version INSTALLED SUCCESSFULLY   	   #"
+         echo "#                	BY BIKO - support on                       #"
+         echo "#           https://www.tunisia-sat.com/forums/forums               #"
+         echo "#####################################################################"
+         echo "#             	  your Device will RESTART Now                     #"
+         echo "#####################################################################"		
 		if which systemctl > /dev/null 2>&1; then
 			sleep 2; systemctl restart enigma2
 		else
@@ -60,7 +66,6 @@ if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_PLUGIN ]; then
 	else
 		echo "   >>>>   INSTALLATION FAILED !   <<<<"
 	fi;
-	echo ''
 	echo '**************************************************'
 	echo '**                   FINISHED                   **'
 	echo '**************************************************'

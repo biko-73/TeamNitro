@@ -1,7 +1,7 @@
 #!/bin/sh
 #########################################################
-version=2.0
-description="BoHLALA_FHD" !!!
+version=1.0
+description="DesertFHD" !!!
 
 #########################################################
 
@@ -9,7 +9,7 @@ description="BoHLALA_FHD" !!!
 PACKAGE_DIR='TeamNitro/main/skins'
 PACKAGE_DIR2='TeamNitro/main/'
 
-MY_FILE="BoHLALA_FHD.tar.gz"
+MY_FILE="DesertFHD.tar.gz"
 MY_PLUGIN="TeamNitro.tar.gz"
 #########################################################
 MY_MAIN_URL="https://raw.githubusercontent.com/biko-73/"
@@ -31,7 +31,7 @@ wget -T 2 $MY_URL_PLUGIN -P "/tmp/"
 wget -T 2 $MY_URL -P "/tmp/"
 
 rm -rf "/usr/lib/enigma2/python/Plugins/Extensions/TeamNitro"
-rm -rf "/usr/share/enigma2/BoHLALA_FHD"
+rm -rf "/usr/share/enigma2/DesertFHD"
 
 if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_PLUGIN ]; then
 
