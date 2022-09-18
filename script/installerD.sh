@@ -5,7 +5,7 @@ version=2.0
 description="DragonFHD" !!!
 
 #########################################################
-
+# wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerD.sh -O - | /bin/sh
 #########################################################
 PACKAGE_DIR='TeamNitro/main/skins'
 PACKAGE_DIR2='TeamNitro/main/'
