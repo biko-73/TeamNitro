@@ -88,6 +88,8 @@ rm -rf "/media/hdd/PICONS"
 
 rm -rf "/usr/share/enigma2/PICONS"
 
+rm -rf "/etc/enigma2/skin_user_RED_DRAGON_FHD.xml"
+
 
 
 if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_PLUGIN ]; [ -f $MY_TMP_PICON ]; then
@@ -112,20 +114,11 @@ if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_PLUGIN ]; [ -f $MY_TMP_PICON ]; then
 
 	MY_RESULT=$?
 
-	
 
 	if [ -d /media/hdd ]; then
-
-	  mv -f /tmp/PICONS /media/hdd
-
-	elif
-
-	  mv -f /tmp/PICONS /media/usb
-
+		mv -f /tmp/PICONS /media/hdd
 	else
-
-	  mv -f /tmp/PICONS /usr/share/enigma2
-
+		mv -f /tmp/PICONS /usr/share/enigma2
 	fi
 
 
@@ -197,3 +190,7 @@ else
 fi
 
 # ------------------------------------------------------------------------------------------------------------
+
+
+
+
