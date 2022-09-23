@@ -118,7 +118,7 @@ if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_PLUGIN ]; [ -f $MY_TMP_PICON ]; then
 
 	  mv -f /tmp/PICONS /media/hdd
 
-	else
+	elif
 
 	  mv -f /tmp/PICONS /media/usb
 
