@@ -1,18 +1,12 @@
 #!/bin/sh
 
 #########################################################
+# wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerD.sh -O - | /bin/sh
+#########################################################
 
 version=2.0
 
-
-
 description="DragonFHD" !!!
-
-
-
-#########################################################
-
-
 
 #########################################################
 
@@ -21,7 +15,6 @@ PACKAGE_DIR='TeamNitro/main/skins'
 PACKAGE_DIR2='TeamNitro/main/'
 
 PACKAGE_DIR3='TeamNitro/main/picon'
-
 
 
 MY_FILE="DragonFHD.tar.gz"
@@ -35,11 +28,9 @@ MY_PICON="zeldaPicon.tar.gz"
 MY_MAIN_URL="https://raw.githubusercontent.com/biko-73/"
 
 
-
 MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_FILE
 
 MY_TMP_FILE="/tmp/"$MY_FILE
-
 
 
 MY_URL_PLUGIN=$MY_MAIN_URL$PACKAGE_DIR2'/'$MY_PLUGIN
@@ -47,11 +38,9 @@ MY_URL_PLUGIN=$MY_MAIN_URL$PACKAGE_DIR2'/'$MY_PLUGIN
 MY_TMP_PLUGIN="/tmp/"$MY_PLUGIN
 
 
-
 MY_URL_PICON=$MY_MAIN_URL$PACKAGE_DIR3'/'$MY_PICON
 
 MY_TMP_PICON="/tmp/"$MY_PICON
-
 
 
 MY_SEP='============================================================='
