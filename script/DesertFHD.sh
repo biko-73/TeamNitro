@@ -1,3 +1,57 @@
-z="
-";cDz='****';ADz='foru';iDz=' 0';vBz='trac';Vz='$MY_';IBz='live';UDz='ALLA';wz='gz -';TCz=' "##';PBz='BEC5';Rz='r/vo';oDz='fi';nz=' -O ';dCz='CCES';VDz='TION';JCz=' /de';lBz='nigm';BBz='rtif';OBz='E618';pBz='if [';Pz='MP_F';mBz='a2/D';rCz=' htt';fCz='LY  ';SBz='esid';RCz=' the';LCz='ll 2';rz='e/tm';HCz='P_FI';HBz='ive.';GCz='Y_TM';dBz='AxXF';Jz='MY_F';Zz='====';Hz='HD" ';ez=' '\''Do';tBz='then';OCz='ULT ';Kz='ILE=';gBz='rm -';Ez='ript';SCz='n';BDz='ms  ';xBz='tar ';IDz='Plea';vz='tar.';WBz='25E4';UCz='####';rBz='TMP_';jBz='/sha';QDz='else';Tz='le/t';cz=' $MY';hBz='rf "';Fz='"Des';Yz='EP='\''';nBz='eser';hDz='exit';vCz='isia';QBz='025E';EDz='sful';tCz='/www';oBz='tFHD';EBz='ttps';KDz='pply';CDz='   S';Lz='HD.t';eBz='dqR4';FBz='://o';JBz='.com';GBz='nedr';jz=' ...';ACz=' -C ';wCz='-sat';Az='vers';nCz='supp';Cz='1.1';kBz='re/e';Mz='ar.g';bCz='ALLE';oCz='ort ';xCz='/for';KBz='/dow';mCz='o - ';fDz='HED ';aBz='hkey';aDz='fi;';qz='atil';kz=''\''';NCz='_RES';bz='echo';dz='_SEP';ABz='k-ce';UBz='618B';gCz='    ';jCz=' BY ';Iz='!!!';dDz='   F';LBz='nloa';DCz='ESUL';eDz='INIS';oz='/var';iz='ILE'\''';sCz='ps:/';jDz=' "Do';lCz='Nitr';fz='wnlo';YDz='!   ';az='='\''';qCz=' #"';sz='p/De';CCz='MY_R';MDz='m sk';RDz=' "  ';NBz='d=89';bBz='=AAR';BCz='/';uCz='.tun';ODz='elec';DBz='e "h';VBz='EC50';YCz='n De';mz='wget';MBz='d?ci';lz=' '\'''\''';RBz='42&r';gz='adin';yCz='ums/';lDz='aile';yBz='-xf ';FCz='f $M';KCz='v/nu';pz='/vol';sBz=' ]; ';DDz='uces';aCz='INST';iCz=' "# ';GDz='ownl';YBz='1503';Xz='MY_S';Dz='desc';yz='chec';nDz=' 1';kCz='Team';WCz=' "#	';cCz='D SU';cBz='YF2k';Sz='lati';Gz='ertF';TDz='>   ';gDz='  **';XDz='LED ';hCz='   #';HDz='oad ';Wz='FILE';ZCz='FHD ';Uz='mp/"';mDz='d !"';PDz='tion';Bz='ion=';WDz=' FAI';CBz='icat';ECz='T=$?';hz='g '\''$';ZBz='&aut';eCz='SFUL';SDz=' >>>';bDz=' '\''**';tz='sert';wBz='ting';Oz='MY_T';TBz='=89E';NDz='in s';qBz=' -f ';xz='-no-';MCz='>&1';ZDz='<<<<';iBz='/usr';JDz='se a';XCz='	Ski';ICz='LE >';PCz='-eq ';uBz=' '\''Ex';Nz='z"';Qz='"/va';kDz='ad f';QCz='0 ];';uz='FHD.';LDz=' fro';VCz='##"';pCz='on  ';FDz='ly D';XBz='2%21';fBz='"';
-eval "$Az$Bz$Cz$z$Dz$Ez$Bz$Fz$Gz$Hz$Iz$z$Jz$Kz$Fz$Gz$Lz$Mz$Nz$z$Oz$Pz$Kz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$z$Xz$Yz$Zz$Zz$Zz$Zz$Zz$Zz$Zz$Zz$Zz$Zz$Zz$Zz$Zz$Zz$Zz$az$z$bz$cz$dz$z$bz$ez$fz$gz$hz$Jz$iz$jz$kz$z$bz$cz$dz$z$bz$lz$z$mz$nz$oz$pz$qz$rz$sz$tz$uz$vz$wz$xz$yz$ABz$BBz$CBz$DBz$EBz$FBz$GBz$HBz$IBz$JBz$KBz$LBz$MBz$NBz$OBz$PBz$QBz$RBz$SBz$TBz$UBz$VBz$WBz$XBz$YBz$ZBz$aBz$bBz$cBz$dBz$eBz$fBz$z$gBz$hBz$iBz$jBz$kBz$lBz$mBz$nBz$oBz$fBz$z$pBz$qBz$Vz$rBz$Wz$sBz$tBz$z$bz$lz$z$bz$cz$dz$z$bz$uBz$vBz$wBz$jz$kz$z$bz$cz$dz$z$bz$lz$z$xBz$yBz$Vz$rBz$Wz$ACz$BCz$z$CCz$DCz$ECz$z$gBz$FCz$GCz$HCz$ICz$JCz$KCz$LCz$MCz$z$bz$lz$z$pBz$cz$NCz$OCz$PCz$QCz$RCz$SCz$z$bz$TCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$VCz$z$bz$WCz$XCz$YCz$tz$ZCz$aCz$bCz$cCz$dCz$eCz$fCz$gCz$gCz$gCz$hCz$fBz$z$bz$iCz$gCz$gCz$gCz$gCz$gCz$jCz$kCz$lCz$mCz$nCz$oCz$pCz$gCz$gCz$gCz$gCz$gCz$qCz$z$bz$iCz$gCz$gCz$gCz$rCz$sCz$tCz$uCz$vCz$wCz$JBz$xCz$yCz$ADz$BDz$gCz$gCz$gCz$qCz$z$bz$TCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$VCz$z$bz$iCz$gCz$CDz$DDz$EDz$FDz$GDz$HDz$IDz$JDz$KDz$LDz$MDz$NDz$ODz$PDz$gCz$gCz$qCz$z$bz$TCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$UCz$VCz$z$QDz$z$bz$RDz$SDz$TDz$aCz$UDz$VDz$WDz$XDz$YDz$ZDz$fBz$z$aDz$z$bz$bDz$cDz$cDz$cDz$cDz$cDz$cDz$cDz$cDz$cDz$cDz$cDz$cDz$kz$z$bz$bDz$gCz$gCz$gCz$gCz$dDz$eDz$fDz$gCz$gCz$gCz$gCz$gDz$kz$z$bz$bDz$cDz$cDz$cDz$cDz$cDz$cDz$cDz$cDz$cDz$cDz$cDz$cDz$kz$z$bz$lz$z$hDz$iDz$z$QDz$z$bz$lz$z$bz$jDz$fz$kDz$lDz$mDz$z$hDz$nDz$z$oDz"
+#!/bin/sh
+##########################################################
+version=1.1
+description="DesertFHD" !!!
+#########################################################
+
+#########################################################
+MY_FILE="DesertFHD.tar.gz"
+MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
+#########################################################
+
+MY_SEP='============================================================='
+echo $MY_SEP
+echo 'Downloading '$MY_FILE' ...'
+echo $MY_SEP
+echo ''
+
+wget -O /var/volatile/tmp/DesertFHD.tar.gz --no-check-certificate "https://onedrive.live.com/download?cid=89E618BEC5025E42&resid=89E618BEC5025E42%211503&authkey=AARYF2kAxXFdqR4"
+
+rm -rf "/usr/share/enigma2/DesertFHD"
+
+
+if [ -f $MY_TMP_FILE ]; then
+
+	echo ''
+	echo $MY_SEP
+	echo 'Extracting ...'
+	echo $MY_SEP
+	echo ''
+	tar -xf $MY_TMP_FILE -C /
+	MY_RESULT=$?
+
+	rm -f $MY_TMP_FILE > /dev/null 2>&1
+
+	echo ''
+	if [ $MY_RESULT -eq 0 ]; then
+         echo "########################################################################"
+         echo "#		Skin DesertFHD INSTALLED SUCCESSFULLY                 #"
+         echo "#                      BY TeamNitro - support on                       #"
+         echo "#              https://www.tunisia-sat.com/forums/forums               #"
+         echo "########################################################################"
+         echo "#        Sucessfully Download Please apply from skin selection         #"
+         echo "########################################################################"
+	else
+		echo "   >>>>   INSTALLATION FAILED !   <<<<"
+	fi;
+	 echo '**************************************************'
+	 echo '**                   FINISHED                   **'
+	 echo '**************************************************'
+	 echo ''
+	 exit 0
+else
+	 echo ''
+	 echo "Download failed !"
+	 exit 1
+fi
+# ----------------------------------------------------------------------------------------------------------
