@@ -5,7 +5,7 @@ description="add new basic skin !!!"
 #########################################################
 
 #########################################################
-PACKAGE_DIR='main/TeamNitro/skins'
+PACKAGE_DIR='TeamNitro/main/skins'
 MY_FILE="DesertFHD_v-3.0.tar.gz"
 #########################################################
 
