@@ -5,7 +5,7 @@ description="add new basic skin !!!"
 #########################################################
 
 #########################################################
-PACKAGE_DIR='TeamNitro/main/skins'
+PACKAGE_DIR='main/TeamNitro/skins'
 MY_FILE="DesertFHD_v-3.0.tar.gz"
 #########################################################
 
@@ -13,7 +13,7 @@ MY_FILE="DesertFHD_v-3.0.tar.gz"
 ##
 ## Script Purpose: Download and install NitroTeam skin
 ##
-## Command: wget https://raw.githubusercontent.com/biko-73/TeamNitro/script/main/installerDs.sh -O - | /bin/sh
+## Command: wget https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerDs.sh -O - | /bin/sh
 ##
 ##############################################################################################################
 
