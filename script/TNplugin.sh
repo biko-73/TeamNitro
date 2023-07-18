@@ -1,6 +1,6 @@
 #!/bin/sh
 ##########################################################
 version=3.1
-description="TeamNitro Control Center\n Skin download issue fix\n" !!!
+description="TeamNitro Control Center\n 1-Fix Skin downlaod issue\n" !!!
 #########################################################
 # ----------------------------------------------------------------------------------------------------------
