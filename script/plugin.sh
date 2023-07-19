@@ -45,13 +45,13 @@ if [ -f $MY_TMP_FILE ]; then
 	echo ''
 	echo ''
 	if [ $MY_RESULT -eq 0 ]; then
-        echo "#########################################################"
-        echo "#TeamNitro Control Center $version INSTALLED SUCCESSFULLY#"
-        echo "#              BY NitroTeam - support on                #"
-        echo "#  https://www.tunisia-sat.com/forums/threads/4334347/  #"
-        echo "#########################################################"
-        echo "#           your Device will RESTART Now                #"
-        echo "#########################################################"		
+        echo "##############################################################"
+        echo "#  TeamNitro Control Center $version INSTALLED SUCCESSFULLY  #"
+        echo "#                BY NitroTeam - support on                   #"
+        echo "#    https://www.tunisia-sat.com/forums/threads/4334347/     #"
+        echo "##############################################################"
+        echo "#             your Device will RESTART Now                   #"
+        echo "##############################################################"		
 		if which systemctl > /dev/null 2>&1; then
 			sleep 2; systemctl restart enigma2
 		else
