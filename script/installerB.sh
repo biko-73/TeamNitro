@@ -23,7 +23,6 @@ wget -O /var/volatile/tmp/TeamNitro.tar.gz "https://github.com/biko-73/TeamNitro
 wget -O /var/volatile/tmp/Team_Nitro-by_BoHlala-V_1.0.tar.gz "https://github.com/biko-73/TeamNitro/raw/main/skins/Team_Nitro-by_BoHlala-V_1.0.tar.gz"
 rm -f "/usr/lib/enigma2/python/Plugins/Extensions/TeamNitro"
 rm -f "/usr/share/enigma2/BoHLALA_FHD"
-
 if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_FILE1 ]; then
 
 	echo ''
@@ -49,7 +48,7 @@ if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_FILE1 ]; then
          echo "########################################################################"
 	else
 		echo "   >>>>   INSTALLATION FAILED !   <<<<"
-	fi;
+	fi
  	 echo ''
 	 echo '**************************************************'
 	 echo '**                   FINISHED                   **'
