@@ -3,14 +3,12 @@
 version=2.1
 description="*** TEAMNITRO by BoHlala V1.0 ***\n Fix some issues related to xml to work skin faster\n Fix renders and converters\n Upgrade to latest python version\n add new PosterX and Extraevent skins !!!"
 #########################################################
-
 #########################################################
 MY_FILE="TeamNitro.tar.gz"
 MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
 MY_FILE1="Team_Nitro-by_BoHlala-V_1.0.tar.gz"
 MY_TMP_FILE1="/var/volatile/tmp/"$MY_FILE1
 #########################################################
-
 MY_SEP='============================================================='
 echo $MY_SEP
 echo 'Downloading '$MY_FILE' ...'
