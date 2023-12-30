@@ -21,8 +21,8 @@ echo ''
 
 wget -O /var/volatile/tmp/TeamNitro.tar.gz "https://github.com/biko-73/TeamNitro/raw/main/skins/TeamNitro.tar.gz"
 wget -O /var/volatile/tmp/Team_Nitro-by_BoHlala-V_1.0.tar.gz "https://github.com/biko-73/TeamNitro/raw/main/skins/Team_Nitro-by_BoHlala-V_1.0.tar.gz"
-rm -rf "/usr/lib/enigma2/python/Plugins/Extensions/TeamNitro"
-rm -rf "/usr/share/enigma2/BoHLALA_FHD"
+rm -f "/usr/lib/enigma2/python/Plugins/Extensions/TeamNitro"
+rm -f "/usr/share/enigma2/BoHLALA_FHD"
 
 if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_FILE1 ]; then
 
