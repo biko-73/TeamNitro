@@ -21,8 +21,8 @@ echo $MY_SEP
 echo ''
 
 
-wget -O /var/volatile/tmp/TeamNitro.tar.gz "https://github.com/biko-73/TeamNitro/raw/main/skins/TeamNitro.tar.gz"
-wget -O /var/volatile/tmp/Team_Nitro-by_BoHlala-V_1.0.tar.gz "https://github.com/biko-73/TeamNitro/raw/main/skins/Team_Nitro-by_BoHlala-V_1.0.tar.gz"
+wget -O /var/volatile/tmp/TeamNitro.tar.gz --no-check-certificate "https://github.com/biko-73/TeamNitro/raw/main/skins/TeamNitro.tar.gz"
+wget -O /var/volatile/tmp/Team_Nitro-by_BoHlala-V_1.0.tar.gz --no-check-certificate "https://github.com/biko-73/TeamNitro/raw/main/skins/Team_Nitro-by_BoHlala-V_1.0.tar.gz"
 
 rm -rf "/usr/lib/enigma2/python/Plugins/Extensions/TeamNitro"
 rm -rf "/usr/share/enigma2/BoHLALA_FHD"
