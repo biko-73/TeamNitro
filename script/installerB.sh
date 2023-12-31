@@ -6,7 +6,7 @@ description="*** TEAMNITRO by BoHlala V1.0 ***\n Fix some issues related to xml 
 #########################################################
 
 #########################################################
-PACKAGE_DIR='TeamNitro/main/skins'
+PACKAGE_DIR='TeamNitro/main'
 MY_FILE="Team_Nitro-by_BoHlala-V_1.0.tar.gz" "TeamNitro.tar.gz"
 #########################################################
 
