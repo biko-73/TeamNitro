@@ -7,17 +7,18 @@ description="*** TEAMNITRO by BoHlala V1.0 ***\n Fix some issues related to xml 
 
 #########################################################
 PACKAGE_DIR='TeamNitro/skins/main'
-MY_FILE="Team_Nitro-by_BoHlala-V_1.0.tar.gz" "TeamNitro.tar.gz"
+MY_FILE="Team_Nitro-by_BoHlala-V_1.0.tar.gz"
+MY_FILE1="TeamNitro.tar.gz"
 #########################################################
 MY_MAIN_URL="https://raw.githubusercontent.com/biko-73/"
-MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_FILE
-MY_TMP_FILE="/tmp/"$MY_FILE
+MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_FILE $MY_FILE1
+MY_TMP_FILE="/tmp/"$MY_FILE $MY_FILE1
 
-rm -f $MY_TMP_FILE > /dev/null 2>&1
+rm -f $MY_TMP_FILE $MY_FILE1 > /dev/null 2>&1
 
 MY_SEP='============================================================='
 echo $MY_SEP
-echo 'Downloading '$MY_FILE' ...'
+echo 'Downloading '$MY_FILE $MY_FILE1' ...'
 echo $MY_SEP
 echo ''
 wget -T 2 $MY_URL -P "/tmp/"
