@@ -11,8 +11,8 @@ MY_FILE="Team_Nitro-by_BoHlala-V_1.0.tar.gz"
 MY_FILE1="TeamNitro.tar.gz"
 #########################################################
 MY_MAIN_URL="https://raw.githubusercontent.com/biko-73/"
-MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_FILE $MY_FILE1
-MY_TMP_FILE="/tmp/"$MY_FILE $MY_FILE1
+MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_FILE ; $MY_FILE1
+MY_TMP_FILE="/tmp/"$MY_FILE ; $MY_FILE1
 
 rm -f $MY_TMP_FILE $MY_FILE1 > /dev/null 2>&1
 
