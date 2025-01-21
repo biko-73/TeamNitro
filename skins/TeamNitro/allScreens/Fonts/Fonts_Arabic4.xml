@@ -1,0 +1,6 @@
+  <skin>
+  <fonts>
+    <font filename="/usr/lib/enigma2/python/Plugins/Extensions/TeamNitro/fonts/nmsbd.ttf" name="Display" scale="90" />
+    <font filename="/usr/lib/enigma2/python/Plugins/Extensions/TeamNitro/fonts/Arabic UIDDisplay Bold.ttf" name="Regular" scale="95" />
+  </fonts>
+  </skin>
