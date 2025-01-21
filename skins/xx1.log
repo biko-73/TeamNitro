@@ -1,0 +1,1593 @@
+23:02:52.3438 [Enigma] Python path is '/usr/lib/enigma2/python'.
+23:02:52.3440 [Enigma] DVB API version 5, DVB API version minor 12.
+23:02:52.3440 [Enigma] Enigma debug level 4.
+23:02:52.3440 [Enigma] sourcedate 2025-01-21 / master 33985+69eb9df.
+23:02:52.4220 [Avahi] avahi_watch_new(3 0x1)
+23:02:52.4234 [Avahi] client state: 101
+23:02:52.4235 [Avahi] Not running yet, cannot browse for type _e2stream._tcp.
+23:02:52.4236 [eInit] + (1) Background File Eraser
+23:02:52.4236 [eInit] + (5) Tuxtxt
+23:02:52.4237 [eInit] + (8) graphics acceleration manager
+23:02:52.4239 [eInit] + (9) Font Render Class
+23:02:52.4240 [Font] Initializing lib.
+23:02:52.4244 [Font] Loading fonts.
+23:02:52.4244 [Font] Intializing font cache, using max. 4MB.
+23:02:52.4244 [eInit] + (9) gLCD
+23:02:52.4246 [eLCD] m_oled_brightness_proc = 2
+23:02:52.4246 [eLCD] found OLED display!
+23:02:52.4247 [eDboxLCD] xres=132, yres=64, bpp=8 lcd_type=1
+23:02:52.4247 [eLCD] (132x64x8) buffer 0x4b0fa8 8448 bytes, stride 132
+23:02:52.4247 [gLCDDC] resolution: 132x64x8 stride=132
+23:02:52.4247 [eInit] + (9) GFBDC
+23:02:52.4248 [fb] /dev/fb0: 21600k video mem
+23:02:52.4248 [fb] 21600k video mem
+23:02:52.4251 [fb] double buffering available!
+23:02:52.4251 [fb] 2 page(s) available!
+23:02:52.4546 [gFBDC] resolution: 1920 x 1080 x 32 (stride: 7680) pages: 2
+23:02:52.4547 [gFBDC] 5400kB available for acceleration surfaces.
+23:02:52.4547 [eInit] + (10) gRC
+23:02:52.4550 [gRC] Thread created successfully.
+23:02:52.4550 [eInit] + (15) eWindowStyleManager
+23:02:52.4550 [eInit] + (20) AVSwitch Driver
+23:02:52.4551 [eInit] + (20) AVControl Driver
+23:02:52.4558 [eAVControl] Init: ScartSwitch:0 / VideoMode 24:1 50:1 60:1 / HDMIRxMonitor:0
+23:02:52.4559 [eAVControl] Init: VideoMode Choices:pal ntsc 480i 576i 1080i 1080p 720p 480p 1080i50 1080p24 1080p25 1080p30 1080p50 1080p60 720p24 720p50 576p 2160p50 2160p 2160p24 2160p25 2160p30
+23:02:52.4559 [eInit] + (20) misc options
+23:02:52.4559 [eInit] + (20) RC Input layer
+23:02:52.4559 [eInit] + (20) UHF Modulator
+23:02:52.4559 [eRFmod] couldnt open /dev/rfmod0: Function not implemented
+23:02:52.4560 [eInit] + (20) DVB-CI UI
+23:02:52.4560 [eInit] + (21) input device driver
+23:02:52.4561 [eInputDeviceInit] adding device /dev/input/event0
+23:02:52.4561 [eRCInputEventDriver] devicename=dreambox advanced remote control (native)
+23:02:52.4562 [eRCInputEventDriver] devicename=dreambox advanced remote control (native)
+23:02:52.4562 [eRCDeviceInputDev] device "dreambox advanced remote control (native)" is a remotecontrol
+23:02:52.4562 [eInputDeviceInit] Found 1 input devices.
+23:02:52.4563 [eInit] + (22) Hdmi CEC driver
+23:02:52.4571 [eInit] + (30) eActionMap
+23:02:52.4571 [eInit] + (35) CA handler
+23:02:52.4573 [eInit] + (35) CI Slots
+23:02:52.4574 [CI] scanning for common interfaces..
+23:02:52.4579 [CI0] setSource: A
+23:02:52.4580 [CI1] setSource: A
+23:02:52.4633 [CI] eDVBCIInterfaces setInputSource(0, A)
+23:02:52.4633 [CI] eDVBCIInterfaces setInputSource(1, B)
+23:02:52.4634 [CI] done, found 2 common interface slots
+23:02:52.4638 [eInit] + (40) eServiceCenter
+23:02:52.4638 [eServiceCenter] settings instance.
+23:02:52.4638 [eInit] + (41) Stream server
+23:02:52.4639 [Avahi] AvahiServiceEntry (null) (_e2stream._tcp) 8001
+23:02:52.4640 [Avahi] Not running yet, cannot register type _e2stream._tcp.
+23:02:52.4640 [eInit] + (41) RTSP Stream server
+23:02:52.4640 [eInit] + (41) Encoders
+23:02:52.4641 [eInit] + (41) eServiceFactoryDVB
+23:02:52.4641 [eInit] + (41) eServiceFactoryFS
+23:02:52.4641 [eInit] + (41) eServiceFactoryMP3
+23:02:52.4642 [eInit] + (41) eServiceFactoryM2TS
+23:02:52.4643 [eInit] + (41) eServiceFactoryHDMI
+23:02:52.4643 [eInit] + (41) eServiceFactoryTS
+23:02:52.4643 [eInit] + (41) eServiceFactoryWebTS
+23:02:52.4643 [eInit] + (41) eServiceFactoryDVD
+23:02:52.4643 [eInit] reached rl 70
+23:02:52.4644 [eDVBDB] Opening lame channel db.
+23:02:52.4644 [eDVBDB] Opening lcn db.
+23:02:52.4645 [eDVBDB] Reading services (version 4).
+23:02:52.4768 [eDVBDB] Loaded 65 channels/transponders and 989 services.
+23:02:52.4769 [eDVBDB] can't open /etc/enigma2/iptvcache: Function not implemented
+23:02:52.4771 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::clear()
+23:02:52.4773 [eDVBResourceManager] scanning for frontends..
+23:02:52.4775 [eDVBFrontend] opening frontend 0
+23:02:52.4777 [eDVBFrontend] m_need_delivery_system_workaround = 0
+23:02:52.4777 [eDVBFrontend] opening frontend 0
+23:02:52.4907 [eDVBFrontend0] setVoltage FE_ENABLE_HIGH_LNB_VOLTAGE 0 FE_SET_VOLTAGE 2
+23:02:52.5037 [eDVBFrontend] try to close frontend 0
+23:02:52.5167 [eDVBFrontend0] setVoltage FE_ENABLE_HIGH_LNB_VOLTAGE 0 FE_SET_VOLTAGE 2
+23:02:52.5298 [eDVBAdapterLinux] get demux 0
+23:02:52.5298 [eDVBAdapterLinux] get demux 1
+23:02:52.5298 [eDVBAdapterLinux] get demux 2
+23:02:52.5299 [eDVBAdapterLinux] get demux 3
+23:02:52.5299 [eDVBAdapterLinux] get demux 4
+23:02:52.5299 [eDVBAdapterLinux] get demux 5
+23:02:52.5301 [eDVBResourceManager] found 1 adapter, 1 frontends(1 sim) and 6 demux, boxtype 3
+23:02:52.5303 [eDVBLocalTimeHandler] RTC not ready, wait for transponder time!
+23:02:52.5303 [eEPGCache] Initialized EPG cache (wait for setCacheFile).
+23:02:52.5305 [eEPGTransponderDataReader] Initialized
+23:02:52.5307 [Enigma] Loading spinners.
+23:02:52.5356 [Enigma] Found 7 spinners. Position x=50 y=50
+23:02:52.5357 [Enigma] Executing StartEnigma.py
+23:02:52.5365 [setIoPrio] best-effort level 3 ok
+23:02:52.7229 [StartEnigma] Initializing Twisted.
+23:02:54.4552 [gRC] Warning: Main thread is busy, displaying spinner!
+23:02:54.5457 Log opened.
+23:02:54.5846 [International] International component is initializing.
+23:02:54.5853 [International] Initializing locales/languages.
+23:02:55.1013 [MultiBoot] MultiBoot is initializing.
+23:02:55.1045 [Console] Processing command '/bin/mount' with arguments ['/bin/mount', '/dev/mmcblk0p1', '/tmp/MultiBoot_zfpihtjs'].
+23:02:55.1046 [eConsoleAppContainer] Starting /bin/mount
+23:02:55.1858 [Console] Processing command '/bin/umount' with arguments ['/bin/umount', '/tmp/MultiBoot_zfpihtjs'].
+23:02:55.1859 [eConsoleAppContainer] Starting /bin/umount
+23:02:55.1898 [Console] Processing command '/bin/mount' with arguments ['/bin/mount', '/dev/mmcblk0p3', '/tmp/MultiBoot_ther_pqn'].
+23:02:55.1899 [eConsoleAppContainer] Starting /bin/mount
+23:02:55.2697 [Console] Processing command '/bin/umount' with arguments ['/bin/umount', '/tmp/MultiBoot_ther_pqn'].
+23:02:55.2698 [eConsoleAppContainer] Starting /bin/umount
+23:02:55.2733 [Console] Processing command '/bin/mount' with arguments ['/bin/mount', '/dev/mmcblk0p4', '/tmp/MultiBoot_n3j0l62s'].
+23:02:55.2734 [eConsoleAppContainer] Starting /bin/mount
+23:02:55.3795 [Console] Processing command '/bin/umount' with arguments ['/bin/umount', '/tmp/MultiBoot_n3j0l62s'].
+23:02:55.3796 [eConsoleAppContainer] Starting /bin/umount
+23:02:55.3837 [SystemInfo] Enigma information file checksum is correct.
+23:02:55.3894 [SystemInfo] Enigma information file data loaded into BoxInfo.
+23:02:55.3905 [Misc_Options] 12Vdetect cannot open /proc/stb/misc/12V_output: Function not implemented
+23:02:55.3987 [StartEnigma] Receiver name = Vu+ Zero4K
+23:02:55.3988 [StartEnigma] OpenATV version = 7.5.2-devel
+23:02:55.3988 [StartEnigma] OpenATV revision = 20250121
+23:02:55.3989 [StartEnigma] Build Brand = vuplus
+23:02:55.3989 [StartEnigma] Build Model = vuzero4k
+23:02:55.3989 [StartEnigma] Platform = vuzero4k
+23:02:55.3990 [StartEnigma] SoC family = bcm72604
+23:02:55.3990 [StartEnigma] Enigma2 revision = 33985+69eb9df
+23:02:55.4111 [Harddisk] Enumerating hotplug devices.
+23:02:55.4124 [Harddisk] Enumerating block devices.
+23:02:55.4187 [Harddisk] New Harddisk 'sda' -> '/dev/sda'.
+23:02:55.4189 [Console] Processing command 'sdparm' with arguments ('sdparm', '--set=SCT=0', '/dev/sda').
+23:02:55.4190 [eConsoleAppContainer] Starting sdparm
+23:02:55.4249 [Harddisk] Enumerating network mounts.
+23:02:55.4332 [International] Language 'en', locale 'en_US' is already active.
+23:02:55.4453 [InputDevice] Found device 'event0' with name 'dreambox advanced remote control (native)' of type 'Remote'.
+23:02:55.4456 [InputDevice] Error: device='mice' getInputDevices <ERROR: ioctl(EVIOCGNAME): '[Errno 25] Inappropriate ioctl for device'>
+23:02:55.4458 [InputDevice] Error: device='mouse0' getInputDevices <ERROR: ioctl(EVIOCGNAME): '[Errno 25] Inappropriate ioctl for device'>
+23:02:55.4478 [InputDevice] Default keyboard identified as 'English Keyboard (QWERTY)' using 'qwerty.kmap'.
+23:02:55.4480 [InputDevice] Loading selected keyboard 'English Keyboard (QWERTY)' from '/usr/share/keymaps/qwerty.kmap'.
+23:02:55.4481 [Console] Processing command line '/sbin/loadkmap < /usr/share/keymaps/qwerty.kmap'.
+23:02:55.4482 [eConsoleAppContainer] Starting /bin/sh
+23:02:55.4835 [InputDevice] Default remote control identified as 'VU+ Zero 4K'.  (model='vuzero4k', rcName='vu6', rcType='0')
+23:02:55.4838 [InputDevice] Loading remote control '/usr/share/enigma2/hardware/vu6.xml'.
+23:02:55.5202 [NimManager] Reading satellites.xml
+23:02:55.8157 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::clear()
+23:02:55.8159 [NimManager] sec config cleared
+23:02:55.8164 [eDVBFrontend] setSlotInfo for dvb frontend 0 to slotid 0, descr Vuplus DVB-S NIM(SI2166), need rotorworkaround No, enabled Yes, DVB-S2 Yes
+23:02:55.8165 [NimManager] slot: 0 configmode: advanced
+23:02:55.8166 [eDVBSatelliteEquipmentControl::setSlotNotLinked] slot=0
+23:02:55.8191 [NimManager] add 3530 to 1
+23:02:55.8192 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::addLNB(0)
+23:02:55.8193 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::setLNBSatCRpositionnumber(1)
+23:02:55.8193 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::setLNBSatCR(-1)
+23:02:55.8193 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::setLNBSatCRTuningAlgo(0)
+23:02:55.8194 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::setLNBBootupTime(0)
+23:02:55.8194 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::setLNBLOFL(9750000)
+23:02:55.8194 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::setLNBLOFH(10600000)
+23:02:55.8194 eDVBSatelliteEquipmentControl::setLNBThreshold(11700000)
+23:02:55.8195 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::setLNBIncreasedVoltage(0)
+23:02:55.8195 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::setDiSEqcMode(2)
+23:02:55.8196 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::setToneburst(0)
+23:02:55.8196 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::setCommittedCommand(4)
+23:02:55.8197 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::setFastDiSEqc(0)
+23:02:55.8197 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::setSeqRepeat(0)
+23:02:55.8197 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::setUncommittedCommand(240)
+23:02:55.8198 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::setRepeats(0)
+23:02:55.8198 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::setCommandOrder(0)
+23:02:55.8198 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::setLNBSlotMask(1)
+23:02:55.8198 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::setLNBPrio(-1)
+23:02:55.8199 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::addSatellite(3530)
+23:02:55.8199 eDVBSatelliteEquipmentControl::setVoltageMode(0)
+23:02:55.8200 [eDVBSatelliteEquipmentControl] eDVBSatelliteEquipmentControl::setToneMode(0)
+23:02:55.8200 eDVBSatelliteEquipmentControl::setRotorPosNum(0)
+23:02:55.8202 [NimManager] sec config completed
+23:02:55.8203 [NimManager] slotname = A, slotdescription = Vuplus DVB-S NIM(SI2166), multitype = False, current type = DVB-S2X
+23:02:56.0597 [Picon] adding path: /media/hdd/picon/
+23:02:56.1010 [AVSwitch] getAvailableModes: 'pal ntsc 480i 576i 1080i 1080p 720p 480p 1080i50 1080p24 1080p25 1080p30 1080p50 1080p60 720p24 720p50 576p 2160p50 2160p 2160p24 2160p25 2160p30'.
+23:02:56.1014 [AVSwitch] getPreferredModes: ''.
+23:02:56.1016 [AVSwitch] Used default modes: ['pal', 'ntsc', '480i', '576i', '1080i', '1080p', '720p', '480p', '1080i50', '1080p24', '1080p25', '1080p30', '1080p50', '1080p60', '720p24', '720p50', '576p', '2160p50', '2160p', '2160p24', '2160p25', '2160p30'].
+23:02:56.5626 [ePNG] couldn't open extensions/storage.png
+23:02:56.5628 [ePNG] couldn't open extensions/parent.png
+23:02:56.5630 [ePNG] couldn't open extensions/current.png
+23:02:56.6089 [TagEditor] 0 tags read from '/etc/enigma2/movietags'.
+23:02:56.7605 [eDVBDB] Loading bouquet '/etc/enigma2/bouquets.tv'.
+23:02:56.7607 [eDVBDB] Loading bouquet '/etc/enigma2/userbouquet.favourites.tv'.
+23:02:56.7607 [eDVBDB] 0 entries in bouquet 'userbouquet.favourites.tv'.
+23:02:56.7608 [eDVBDB] Loading bouquet '/etc/enigma2/userbouquet.LastScanned.tv'.
+23:02:56.7670 [eDVBDB] 989 entries in bouquet 'userbouquet.LastScanned.tv'.
+23:02:56.7670 [eDVBDB] 2 entries in bouquet 'bouquets.tv'.
+23:02:56.7671 [eDVBDB] Loading bouquet '/etc/enigma2/bouquets.radio'.
+23:02:56.7672 [eDVBDB] Loading bouquet '/etc/enigma2/userbouquet.favourites.radio'.
+23:02:56.7672 [eDVBDB] 0 entries in bouquet 'userbouquet.favourites.radio'.
+23:02:56.7672 [eDVBDB] 1 entries in bouquet 'bouquets.radio'.
+23:02:56.7672 [eDVBDB] Renumbering bouquets.
+23:02:56.7673 [eDVBDB] Renumber 'Bouquets (TV)' starting at 1.
+23:02:56.7673 [eDVBDB] Renumber 'Favourites (TV)' starting at 1.
+23:02:56.7673 [eDVBDB] Renumber 'Last Scanned' starting at 1.
+23:02:56.7674 [eDVBDB] Renumber 'Bouquets (Radio)' starting at 1.
+23:02:56.7675 [eDVBDB] Renumber 'Favourites (Radio)' starting at 1.
+23:02:56.8083 [Wizard] registerWizard DEBUG: wizard=<class 'Screens.VideoWizard.VideoWizard'>, preCondition=False, priority=1.
+23:02:56.8084 [Wizard] registerWizard DEBUG: wizard=<class 'Screens.StartWizard.StartWizard'>, preCondition=False, priority=30.
+23:02:56.8294 [StackTrace] Initializing StackTracePrinter.
+23:02:56.8299 [Skin] Loading skin file '/usr/share/enigma2/skin_default/skin.xml'.
+23:02:56.8308 [Skin] Loading skin file '/usr/share/enigma2/skin_default.xml'.
+23:02:56.8953 [Font] Adding font '/usr/share/fonts/Roboto-Bold.ttf' -> 'Regular'.
+23:02:56.8958 [Font] Adding font '/usr/share/fonts/Roboto-BoldItalic.ttf' -> 'Italic'.
+23:02:56.8961 [Font] Adding font '/usr/share/fonts/Roboto-Black.ttf' -> 'Bold'.
+23:02:56.8963 [Font] Adding font '/usr/share/fonts/Roboto-BlackItalic.ttf' -> 'Boldit'.
+23:02:56.8965 [Font] Adding font '/usr/share/fonts/nmsbd.ttf' -> 'Subtitlefont'.
+23:02:56.8967 [Font] Adding font '/usr/share/fonts/lcd.ttf' -> 'LCD'.
+23:02:56.8969 [Font] Adding font '/usr/share/fonts/ae_AlMateen.ttf' -> 'Replacement'.
+23:02:56.8971 [Font] Adding font '/usr/share/fonts/tuxtxt.ttf' -> 'Console'.
+23:02:56.8972 [Font] Adding font '/usr/share/fonts/andale.ttf' -> 'Fixed'.
+23:02:56.8981 [Font] Adding font '/usr/share/fonts/fallback.font' -> 'Fallback'.
+23:02:56.8991 [Skin] Skin resolution is 0x0 and color depth is 0 bits.
+23:02:56.9054 [Skin] Loading skin file '/usr/share/enigma2/skin_default.xml' complete.
+23:02:56.9059 [Skin] Loading skin file '/usr/share/enigma2/skin.xml'.
+23:02:56.9112 [Skin] Skin resolution is 1280x720 and color depth is 32 bits.
+23:02:56.9114 [Skin] Loading skin file '/usr/share/enigma2/skin.xml' complete.
+23:02:56.9115 [Skin] Skin resolution is 1280x720 and color depth is 32 bits.
+23:02:56.9115 [Skin] Loading skin file '/usr/share/enigma2/skin_default/skin.xml' complete.
+23:02:56.9118 [Skin] Loading skin file '/usr/share/enigma2/skin_subtitles.xml'.
+23:02:56.9130 [Font] Adding font '/usr/share/fonts/LiberationSans-Regular.ttf' -> 'Subs'.
+23:02:56.9135 [Font] Adding font '/usr/share/fonts/LiberationSans-Italic.ttf' -> 'Subsi'.
+23:02:56.9139 [Font] Adding font '/usr/share/fonts/LiberationSans-Bold.ttf' -> 'Subsb'.
+23:02:56.9143 [Font] Adding font '/usr/share/fonts/LiberationSans-BoldItalic.ttf' -> 'Subsz'.
+23:02:56.9147 [Font] Adding font '/usr/share/fonts/fallback.font' -> 'Fallback'.
+23:02:56.9159 [Skin] Skin resolution is 1280x720 and color depth is 32 bits.
+23:02:56.9160 [Skin] Loading skin file '/usr/share/enigma2/skin_subtitles.xml' complete.
+23:02:56.9163 [Skin] Loading skin file '/usr/share/enigma2/AL_AYAM_FHD/skin.xml'.
+23:02:57.1464 [Font] Adding font '/usr/share/enigma2/AL_AYAM_FHD/fonts/TeamNitro-aurar.ttf' -> 'Regular'.
+23:02:57.1470 [Font] Adding font '/usr/share/enigma2/AL_AYAM_FHD/fonts/TeamNitro-aurar.ttf' -> 'Replacement'.
+23:02:57.1473 [Font] Adding font '/usr/share/enigma2/AL_AYAM_FHD/fonts/tiny.ttf' -> 'Subtitlefont'.
+23:02:57.1478 [Font] Adding font '/usr/share/fonts/tuxtxt.ttf' -> 'Console'.
+23:02:57.1481 [Font] Adding font '/usr/share/fonts/fallback.font' -> 'Fallback'.
+23:02:57.1633 [Skin] Skin resolution is 1920x1080 and color depth is 32 bits.
+23:02:57.1866 [Skin] Loading skin file '/usr/share/enigma2/AL_AYAM_FHD/skin.xml' complete.
+23:02:57.1888 [Skin] Loading skin file 'skin_display.xml'.
+23:02:57.1890 [Skin] Warning: File 'skin_display.xml' does not exist!
+23:02:57.1890 [Skin] Error: Adding current display skin 'skin_display.xml' has failed!
+23:02:57.1898 [Skin] Loading skin file 'skin_user.xml'.
+23:02:57.1899 [Skin] Warning: File 'skin_user.xml' does not exist!
+23:02:57.1905 [Skin] Loading XML templates from '/usr/share/enigma2/AL_AYAM_FHD/skinTemplates.xml'.
+23:02:57.1947 [InputDevice] InitInputDevices DEBUG: Creating config entry for device: 'event0' -> 'dreambox advanced remote control (native)'.
+23:02:57.1977 [AVSwitch] getPreferredModes: ''.
+23:02:57.1978 [AVSwitch] Used default modes: ['pal', 'ntsc', '480i', '576i', '1080i', '1080p', '720p', '480p', '1080i50', '1080p24', '1080p25', '1080p30', '1080p50', '1080p60', '720p24', '720p50', '576p', '2160p50', '2160p', '2160p24', '2160p25', '2160p30'].
+23:02:57.2006 [AVSwitch] Setting EDID override to 'False'.
+23:02:57.2060 [eAVControl] setAspect: 16:9
+23:02:57.2062 [eAVControl] setWSS: auto
+23:02:57.2064 [eAVControl] setPolicy43: bestfit
+23:02:57.2065 [eAVControl] setPolicy169: bestfit
+23:02:57.2294 [eAVControl] setInput: encoder
+23:02:57.4372 [AVSwitch] Setting scaler sharpness to '0000000D'.
+23:02:57.4374 [AVSwitch] Setting mode for port 'HDMI', mode '2160p', rate 'auto'.
+23:02:57.4548 [InitHdmiRecord] couldn't read audio_codec_choices.
+23:02:57.4550 [InitHdmiRecord] couldn't read video_codec_choices.
+23:02:57.4699 [UsageConfig] Checking/Creating current movie directory '/media/hdd/movie/'.
+23:02:57.4748 [eTuxttxtApp] enable caching
+23:02:57.4821 [EPGC Load] Poller disabled.
+23:02:57.4823 [EPGC Save] Poller disabled.
+23:02:57.4838 [eEPGCache] EPG setCacheFile read/write data from/to '/etc/enigma2/epg.dat'.
+23:02:57.4963 [StackTrace] Activating StackTracePrinter.
+23:02:57.6646 [UsageConfig] Checking/Creating current time shift directory '/media/hdd/timeshift/'.
+23:02:57.7143 [Timezones] Setting time zone to 'Africa/Cairo'.
+23:02:57.7167 [Timezones] Local time is 'Tue 21-Jan-2025 23:02:57'  -  UTC time is 'Tue 21-Jan-2025 21:02:57'.
+23:02:57.7406 [ActionMap] LoadKeymap '/usr/share/enigma2/keymap.xml' with replace False.
+23:02:57.7947 [Network] DEBUG: Interfaces={'lo': {'ipv6': False, 'dhcp': False}, 'eth0': {'ipv6': True, 'dhcp': True}}
+23:02:57.7948 [Network] DEBUG: 'wlan0' InterfaceData={'up': False, 'dhcp': True, 'preup': False, 'predown': False, 'ip': [0, 0, 0, 0], 'netmask': [0, 0, 0, 0], 'gateway': [0, 0, 0, 0]}
+23:02:57.7991 [Network] DEBUG: Nameservers: [[217, 52, 47, 130], [217, 52, 47, 131]].
+23:02:57.8005 [Network] DEBUG: Interfaces={'lo': {'ipv6': False, 'dhcp': False}, 'eth0': {'ipv6': True, 'dhcp': True}}
+23:02:57.8006 [Network] DEBUG: 'eth0' InterfaceData={'up': True, 'dhcp': True, 'preup': False, 'predown': False, 'ip': [192, 168, 1, 3], 'netmask': [255, 255, 255, 0], 'bcast': [192, 168, 1, 255], 'mac': '00:1d:ec:13:44:f5', 'gateway': [192, 168, 1, 1], 'ipv6': True}
+23:02:57.8010 [Network] DEBUG: Nameservers: [[217, 52, 47, 130], [217, 52, 47, 131]].
+23:02:58.0280 [OSDCalibration] Setting OSD position to (X=0, Y=0) and size to (W=720, H=576).
+23:02:58.0292 [OSDCalibration] Setting OSD alpha to 255.
+23:02:58.0295 [OSDCalibration] Setting 3D mode to auto.
+23:02:58.0295 [OSDCalibration] Setting 3D depth to 0.
+23:02:58.0299 [EPGC Save] Poller disabled.
+23:02:58.0300 [EPGC Load] Poller disabled.
+23:02:58.0715 [ActionMap] LoadKeymap '/usr/lib/enigma2/python/Plugins/Extensions/IMDb/keymap.xml' with replace False.
+23:02:58.0764 [NeoBoot] set language to 
+23:02:58.0830 [NeoBoot] set language to 
+23:02:58.0922 [NeoBoot] set language to 
+23:02:58.1027 [Harddisk] enumerating block devices...
+23:02:58.1160 [NeoBoot] fallback to default translation for
+23:02:58.1190 [Harddisk] Unable to determine structure of /dev
+23:02:58.1203 [Harddisk] new device
+23:02:58.1209 [NeoBoot] fallback to default translation for
+23:02:58.1217 [NeoBoot] fallback to default translation for
+23:02:58.1221 [Console] Processing command 'sdparm' with arguments ('sdparm', '--set=SCT=0', '').
+23:02:58.1222 [eConsoleAppContainer] Starting sdparm
+23:02:58.1266 [NeoBoot] fallback to default translation for
+23:02:58.2050 [NeoBoot] fallback to default translation for
+23:02:58.2058 [NeoBoot] fallback to default translation for
+23:02:58.2066 [NeoBoot] fallback to default translation for
+23:02:58.2073 [NeoBoot] fallback to default translation for
+23:02:58.2080 [NeoBoot] fallback to default translation for
+23:02:58.2087 [NeoBoot] fallback to default translation for
+23:02:58.2094 [NeoBoot] fallback to default translation for
+23:02:58.2101 [NeoBoot] fallback to default translation for
+23:02:58.2108 [NeoBoot] fallback to default translation for
+23:02:58.2115 [NeoBoot] fallback to default translation for
+23:02:58.2122 [NeoBoot] fallback to default translation for
+23:02:58.2130 [NeoBoot] fallback to default translation for
+23:02:58.2137 [NeoBoot] fallback to default translation for
+23:02:58.2146 [Harddisk] enumerating block devices...
+23:02:58.2172 [NeoBoot] fallback to default translation for
+23:02:58.2185 [Harddisk] Unable to determine structure of /dev
+23:02:58.2197 [Harddisk] new device
+23:02:58.2202 [NeoBoot] fallback to default translation for
+23:02:58.2210 [NeoBoot] fallback to default translation for
+23:02:58.2214 [Console] Processing command 'sdparm' with arguments ('sdparm', '--set=SCT=0', '').
+23:02:58.2215 [eConsoleAppContainer] Starting sdparm
+23:02:58.2260 [NeoBoot] fallback to default translation for
+23:02:58.3070 [NeoBoot] fallback to default translation for
+23:02:58.3078 [NeoBoot] fallback to default translation for
+23:02:58.3085 [NeoBoot] fallback to default translation for
+23:02:58.3093 [NeoBoot] fallback to default translation for
+23:02:58.3099 [NeoBoot] fallback to default translation for
+23:02:58.3106 [NeoBoot] fallback to default translation for
+23:02:58.3113 [NeoBoot] fallback to default translation for
+23:02:58.3120 [NeoBoot] fallback to default translation for
+23:02:58.3128 [NeoBoot] fallback to default translation for
+23:02:58.3135 [NeoBoot] fallback to default translation for
+23:02:58.3142 [NeoBoot] fallback to default translation for
+23:02:58.3149 [NeoBoot] fallback to default translation for
+23:02:58.3156 [NeoBoot] fallback to default translation for
+23:02:58.3208 [Font] Adding font '/usr/lib/enigma2/python/Plugins/Extensions/NeoBoot/neoskins/osans.ttf' -> 'genel'.
+23:02:58.3212 [Font] Adding font '/usr/lib/enigma2/python/Plugins/Extensions/NeoBoot/neoskins/sagoe.ttf' -> 'baslk'.
+23:02:58.3214 [Font] Adding font '/usr/lib/enigma2/python/Plugins/Extensions/NeoBoot/neoskins/sagoe.ttf' -> 'tasat'.
+23:02:58.3216 [Font] Adding font '/usr/lib/enigma2/python/Plugins/Extensions/NeoBoot/neoskins/sagoe.ttf' -> 'dugme'.
+23:02:58.3294 [NeoBoot] fallback to default translation for
+23:02:58.5310 Current Picon Path : /media/hdd/picon/
+23:02:59.6584 [ActionMap] LoadKeymap '/usr/lib/enigma2/python/Plugins/Extensions/FileCommander/keymap.xml' with replace False.
+23:02:59.6679 [NeoBoot] fallback to default translation for
+23:02:59.6687 [NeoBoot] fallback to default translation for
+23:02:59.6723 [WebInterface] set language to  en
+23:02:59.6797 [WebInterface] set language to  en
+23:02:59.7919 [ArabicSavior] fallback to default translation for Press OK
+23:02:59.7929 [ArabicSavior] fallback to default translation for Press OK
+23:02:59.7936 [ArabicSavior] fallback to default translation for Press OK
+23:02:59.7943 [ArabicSavior] fallback to default translation for Press OK
+23:02:59.7950 [ArabicSavior] fallback to default translation for Press OK
+23:02:59.7957 [ArabicSavior] fallback to default translation for Press OK
+23:02:59.7965 [ArabicSavior] fallback to default translation for Press OK
+23:02:59.7971 [ArabicSavior] fallback to default translation for Press OK
+23:02:59.7978 [ArabicSavior] fallback to default translation for Press OK
+23:02:59.7985 [ArabicSavior] fallback to default translation for Press OK
+23:02:59.7992 [ArabicSavior] fallback to default translation for Press OK
+23:02:59.7999 [ArabicSavior] fallback to default translation for Press OK
+23:02:59.8006 [ArabicSavior] fallback to default translation for Press OK
+23:02:59.8013 [ArabicSavior] fallback to default translation for Press OK
+23:02:59.8021 [ArabicSavior] fallback to default translation for PLUGIN
+23:02:59.8027 [ArabicSavior] fallback to default translation for MEDIA
+23:02:59.8064 [ArabicSavior] fallback to default translation for TeamNitro Control Center
+23:02:59.8072 [ArabicSavior] fallback to default translation for Access Multiple TeamNitro Options
+23:02:59.8089 [Skin] Loading skin file '/usr/lib/enigma2/python/Plugins/Extensions/EnhancedMovieCenter/CoolSkin/EMCMediaCenter_LCD.xml'.
+23:02:59.8123 [Skin] Skin resolution is 1920x1080 and color depth is 32 bits.
+23:02:59.8125 [Skin] Loading skin file '/usr/lib/enigma2/python/Plugins/Extensions/EnhancedMovieCenter/CoolSkin/EMCMediaCenter_LCD.xml' complete.
+23:03:00.4173 [ActionMap] LoadKeymap '/usr/lib/enigma2/python/Plugins/Extensions/EnhancedMovieCenter/keymap.xml' with replace False.
+23:03:00.5628 [ActionMap] LoadKeymap '/usr/lib/enigma2/python/Plugins/Extensions/AJPan/keymap.xml' with replace False.
+23:03:00.5725 [CutListEditor] import MovieCut failed
+23:03:00.5748 [ActionMap] LoadKeymap '/usr/lib/enigma2/python/Plugins/Extensions/CutListEditor/keymap.xml' with replace False.
+23:03:00.6834 --> setting contrast to: 00008000
+23:03:00.6840 --> setting saturation to: 00008000
+23:03:00.6844 --> setting hue to: 00008000
+23:03:00.6848 --> setting brightness to: 00008000
+23:03:00.6851 --> setting block_noise_reduction to: 00000000
+23:03:00.6854 --> setting mosquito_noise_reduction to: 00000000
+23:03:00.6927 --> setting digital_contour_removal to: 00000000
+23:03:00.6931 --> setting splitmode to: off
+23:03:00.7127 --> setting sharpness to: 00000000
+23:03:00.7132 --> setting auto_flesh to: 00000000
+23:03:00.7135 --> setting green_boost to: 00000000
+23:03:00.7138 --> setting blue_boost to: 00000000
+23:03:00.7141 --> setting dynamic_contrast to: 00000000
+23:03:00.7147 --> setting color_soace to: Edid(Auto)
+23:03:00.7151 --> setting scaler_vertical_dejagging to: disable
+23:03:00.9160 --> setting smooth to: disable
+23:03:00.9166 --> applying pep values
+23:03:01.0843 [RemoteControlCode] Write Remote Control Code : 2
+23:03:01.2275 [AutoTimer] Auto Poll Enabled
+23:03:01.2387 [Hotplug] Starting hotplug handler.
+23:03:01.2402 Factory starting on '/tmp/hotplug.socket'
+23:03:01.2412 Starting factory <twisted.internet.protocol.Factory object at 0xb05dfea0>
+23:03:01.2419 [ABM-Scheduler][Scheduleautostart] reason(0), session None
+23:03:01.2422 [CI_Assignment] activating ci configs:
+23:03:01.2486 [Standby] HDMI-CEC is not enabled or unavailable !!!
+23:03:01.2489 [Timer] Timewarp: Re-evaluating all processed timers.
+23:03:01.2490 [Timer] Timewarp: Re-evaluating all processed timers.
+23:03:01.2505 ====================================================================================================
+23:03:01.2506 [Navigation] Receiver did not start from Deep Standby. Skip wake up detection.
+23:03:01.2506 ====================================================================================================
+23:03:01.2558 [FrontPanelLed] /proc/stb/fp/led_brightness does not exist!
+23:03:01.2560 [FrontPanelLed] /proc/stb/fp/led_color does not exist!
+23:03:01.2563 [ABM-Scheduler][Scheduleautostart] reason(0), session <__main__.Session object at 0xb05407f8>
+23:03:01.2564 [ABM-Scheduler][Scheduleautostart] AutoStart Enabled
+23:03:01.2566 [ABM-Scheduler][AutoScheduleTimer] Schedule Disabled at Tue Jan 21 23:03:01 2025
+23:03:01.2678 EMC: +++ EMC git20210126 startup
+23:03:01.2983 [OpenWebif] loading external plugins...
+23:03:01.2985 [OpenWebif] no plugins to load
+23:03:01.3005 Site starting on 80
+23:03:01.3010 Starting factory <twisted.web.server.Site object at 0xb0277dc8>
+23:03:01.3014 [OpenWebif] started on 80
+23:03:01.3022 [Avahi] AvahiServiceEntry (null) (_http._tcp) 80
+23:03:01.3022 [Avahi] Not running yet, cannot register type _http._tcp.
+23:03:01.3047 [Wizard] getWizards DEBUG: Defined wizard=<class 'Screens.VideoWizard.VideoWizard'>, preCondition=False, priority=1.
+23:03:01.3048 [Wizard] getWizards DEBUG: Defined wizard=<class 'Screens.StartWizard.StartWizard'>, preCondition=False, priority=30.
+23:03:01.3049 [(100, <class 'Screens.InfoBar.InfoBar'>)]
+23:03:01.3062 [ActionMap] Map context 'InfobarActions': Undefined actions 'showFormat', 'showMC', 'toogleTvRadio'.
+23:03:01.3073 [Skin] Processing screen 'Screensaver', from list 'ScreenSaver, Screensaver', position=(0,0), size=(1920,1080) for module 'ScreenSaver'.
+23:03:01.3080 [eWindow] animation mode not supported
+23:03:01.3110 [Skin] Parsing embedded skin '<embedded-in-HideVBILine>'.
+23:03:01.3124 [Skin] Processing screen '<embedded-in-HideVBILine>' position=(0,0), size=(1920,3) for module 'HideVBILine'.
+23:03:01.3139 [ActionMap] Map context '2ndInfobarActions': Undefined actions 'nextEvent', 'nextPage', 'openSimilarList', 'prevEvent', 'prevPage', 'timerAdd'.
+23:03:01.3144 [Skin] Processing screen 'SecondInfoBar' position=(0,0), size=(1920,1080) for module 'SecondInfoBar'.
+23:03:01.3191 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.3238 Traceback (most recent call last):
+23:03:01.3240   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.3241   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.3242 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.3244 
+During handling of the above exception, another exception occurred:
+
+23:03:01.3245 Traceback (most recent call last):
+23:03:01.3246   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.3246   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.3247 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.3254 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.3297 Traceback (most recent call last):
+23:03:01.3298   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.3299   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.3299 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.3300 
+During handling of the above exception, another exception occurred:
+
+23:03:01.3301 Traceback (most recent call last):
+23:03:01.3302   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.3302   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.3303 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.3309 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.3355 Traceback (most recent call last):
+23:03:01.3357   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.3357   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.3358 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.3359 
+During handling of the above exception, another exception occurred:
+
+23:03:01.3359 Traceback (most recent call last):
+23:03:01.3360   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.3361   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.3362 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.3368 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.3411 Traceback (most recent call last):
+23:03:01.3413   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.3413   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.3414 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.3415 
+During handling of the above exception, another exception occurred:
+
+23:03:01.3415 Traceback (most recent call last):
+23:03:01.3416   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.3417   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.3417 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.3423 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.3479 Traceback (most recent call last):
+23:03:01.3481   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.3481   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.3483 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.3483 
+During handling of the above exception, another exception occurred:
+
+23:03:01.3484 Traceback (most recent call last):
+23:03:01.3485   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.3487   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.3488 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.3497 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.3556 Traceback (most recent call last):
+23:03:01.3558   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.3559   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.3560 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.3561 
+During handling of the above exception, another exception occurred:
+
+23:03:01.3562 Traceback (most recent call last):
+23:03:01.3563   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.3563   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.3564 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.3571 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.3614 Traceback (most recent call last):
+23:03:01.3616   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.3616   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.3617 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.3617 
+During handling of the above exception, another exception occurred:
+
+23:03:01.3618 Traceback (most recent call last):
+23:03:01.3619   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.3619   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.3620 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.3626 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.3669 Traceback (most recent call last):
+23:03:01.3670   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.3670   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.3671 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.3672 
+During handling of the above exception, another exception occurred:
+
+23:03:01.3672 Traceback (most recent call last):
+23:03:01.3673   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.3674   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.3674 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.3680 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.3726 Traceback (most recent call last):
+23:03:01.3727   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.3728   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.3728 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.3729 
+During handling of the above exception, another exception occurred:
+
+23:03:01.3730 Traceback (most recent call last):
+23:03:01.3731   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.3731   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.3732 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.3738 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.3782 Traceback (most recent call last):
+23:03:01.3783   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.3784   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.3784 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.3785 
+During handling of the above exception, another exception occurred:
+
+23:03:01.3786 Traceback (most recent call last):
+23:03:01.3786   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.3787   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.3788 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.3793 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.3836 Traceback (most recent call last):
+23:03:01.3837   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.3838   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.3838 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.3839 
+During handling of the above exception, another exception occurred:
+
+23:03:01.3840 Traceback (most recent call last):
+23:03:01.3841   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.3841   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.3842 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.3847 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.3890 Traceback (most recent call last):
+23:03:01.3892   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.3892   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.3893 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.3894 
+During handling of the above exception, another exception occurred:
+
+23:03:01.3894 Traceback (most recent call last):
+23:03:01.3895   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.3896   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.3896 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.3902 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.3951 Traceback (most recent call last):
+23:03:01.3953   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.3954   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.3955 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.3956 
+During handling of the above exception, another exception occurred:
+
+23:03:01.3956 Traceback (most recent call last):
+23:03:01.3957   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.3957   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.3958 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.3967 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.4011 Traceback (most recent call last):
+23:03:01.4012   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.4013   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.4014 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.4015 
+During handling of the above exception, another exception occurred:
+
+23:03:01.4015 Traceback (most recent call last):
+23:03:01.4016   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.4016   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.4017 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.4024 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.4067 Traceback (most recent call last):
+23:03:01.4068   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.4069   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.4069 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.4070 
+During handling of the above exception, another exception occurred:
+
+23:03:01.4071 Traceback (most recent call last):
+23:03:01.4072   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.4072   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.4073 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.4079 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.4127 Traceback (most recent call last):
+23:03:01.4128   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.4129   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.4130 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.4130 
+During handling of the above exception, another exception occurred:
+
+23:03:01.4131 Traceback (most recent call last):
+23:03:01.4132   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.4133   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.4133 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.4140 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.4185 Traceback (most recent call last):
+23:03:01.4186   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.4186   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.4187 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.4188 
+During handling of the above exception, another exception occurred:
+
+23:03:01.4188 Traceback (most recent call last):
+23:03:01.4189   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.4190   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.4190 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.4197 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.4239 Traceback (most recent call last):
+23:03:01.4240   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.4241   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.4241 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.4242 
+During handling of the above exception, another exception occurred:
+
+23:03:01.4243 Traceback (most recent call last):
+23:03:01.4244   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.4244   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.4245 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.4250 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.4294 Traceback (most recent call last):
+23:03:01.4295   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.4295   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.4296 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.4297 
+During handling of the above exception, another exception occurred:
+
+23:03:01.4297 Traceback (most recent call last):
+23:03:01.4298   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.4299   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.4299 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.4305 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.4351 Traceback (most recent call last):
+23:03:01.4353   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.4353   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.4354 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.4355 
+During handling of the above exception, another exception occurred:
+
+23:03:01.4356 Traceback (most recent call last):
+23:03:01.4356   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.4357   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.4358 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.4364 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.4407 Traceback (most recent call last):
+23:03:01.4408   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.4408   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.4409 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.4410 
+During handling of the above exception, another exception occurred:
+
+23:03:01.4410 Traceback (most recent call last):
+23:03:01.4411   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.4412   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.4413 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.4418 [Skin] Error: Screen 'SecondInfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.4460 Traceback (most recent call last):
+23:03:01.4461   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.4462   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.4463 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.4464 
+During handling of the above exception, another exception occurred:
+
+23:03:01.4464 Traceback (most recent call last):
+23:03:01.4465   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.4465   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.4466 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.5895 [Screen] Warning: Skin is missing element 'epg_description' in <class 'Screens.InfoBarGenerics.SecondInfoBar'> item <Components.ScrollLabel.ScrollLabel object at 0xb02866f0>.
+23:03:01.5903 [Screen] Warning: Skin is missing element 'FullDescription' in <class 'Screens.InfoBarGenerics.SecondInfoBar'> item <Components.ScrollLabel.ScrollLabel object at 0xb06e5180>.
+23:03:01.5904 [Screen] Warning: Skin is missing element 'channel' in <class 'Screens.InfoBarGenerics.SecondInfoBar'> item <Components.Label.Label object at 0xb02866d8>.
+23:03:01.5905 [Screen] Warning: Skin is missing element 'key_red' in <class 'Screens.InfoBarGenerics.SecondInfoBar'> item <Components.Label.Label object at 0xb0286780>.
+23:03:01.5906 [Screen] Warning: Skin is missing element 'key_green' in <class 'Screens.InfoBarGenerics.SecondInfoBar'> item <Components.Label.Label object at 0xb0286798>.
+23:03:01.5907 [Screen] Warning: Skin is missing element 'key_yellow' in <class 'Screens.InfoBarGenerics.SecondInfoBar'> item <Components.Label.Label object at 0xb02867b0>.
+23:03:01.5908 [Screen] Warning: Skin is missing element 'key_blue' in <class 'Screens.InfoBarGenerics.SecondInfoBar'> item <Components.Label.Label object at 0xb02867c8>.
+23:03:01.6429 [gAccel] accel alloc failed
+
+23:03:01.6430 [gSurface] ERROR: accelAlloc failed
+23:03:01.6454 [gAccel] accel alloc failed
+
+23:03:01.6455 [gSurface] ERROR: accelAlloc failed
+23:03:01.6506 [gAccel] accel alloc failed
+
+23:03:01.6507 [gSurface] ERROR: accelAlloc failed
+23:03:01.8216 [gAccel] accel alloc failed
+
+23:03:01.8217 [gSurface] ERROR: accelAlloc failed
+23:03:01.8352 [ActionMap] Map context 'ChannelSelectEPGActions': Undefined actions 'epg', 'epg_long', 'info', 'info_long'.
+23:03:01.8368 [Skin] Processing screen 'ChannelSelection' position=(0,0), size=(1920,1080) for module 'ChannelSelection'.
+23:03:01.8601 [Skin] Error: Screen 'ChannelSelection' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.8645 Traceback (most recent call last):
+23:03:01.8647   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.8647   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.8648 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.8649 
+During handling of the above exception, another exception occurred:
+
+23:03:01.8650 Traceback (most recent call last):
+23:03:01.8650   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.8651   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.8652 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.8658 [Skin] Error: Screen 'ChannelSelection' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.8701 Traceback (most recent call last):
+23:03:01.8702   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.8703   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.8704 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.8704 
+During handling of the above exception, another exception occurred:
+
+23:03:01.8705 Traceback (most recent call last):
+23:03:01.8706   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.8706   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.8707 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.8713 [Skin] Error: Screen 'ChannelSelection' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.8758 Traceback (most recent call last):
+23:03:01.8759   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.8760   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.8761 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.8762 
+During handling of the above exception, another exception occurred:
+
+23:03:01.8762 Traceback (most recent call last):
+23:03:01.8763   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.8764   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.8764 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.8771 [Skin] Error: Screen 'ChannelSelection' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.8813 Traceback (most recent call last):
+23:03:01.8814   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.8815   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.8816 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.8816 
+During handling of the above exception, another exception occurred:
+
+23:03:01.8817 Traceback (most recent call last):
+23:03:01.8818   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.8818   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.8819 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.8825 [Skin] Error: Screen 'ChannelSelection' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.8867 Traceback (most recent call last):
+23:03:01.8868   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.8869   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.8869 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.8870 
+During handling of the above exception, another exception occurred:
+
+23:03:01.8871 Traceback (most recent call last):
+23:03:01.8872   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.8872   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.8873 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.8878 [Skin] Error: Screen 'ChannelSelection' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:01.8924 Traceback (most recent call last):
+23:03:01.8925   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:01.8926   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:01.8927 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:01.8927 
+During handling of the above exception, another exception occurred:
+
+23:03:01.8928 Traceback (most recent call last):
+23:03:01.8929   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:01.8929   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:01.8930 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:01.8994 [Skin] Error: Attribute 'halign' with value 'center' in object of type 'ePixmap' ('ePixmap' object has no attribute 'setHAlign')!
+23:03:01.9041 [gAccel] accel alloc failed
+
+23:03:01.9041 [gSurface] ERROR: accelAlloc failed
+23:03:01.9078 [Skin] Error: Attribute 'render' with value 'Listbox' in object of type 'eListbox' ('AttributeParser' object has no attribute 'render')!
+23:03:01.9088 [gAccel] accel alloc failed
+
+23:03:01.9088 [gSurface] ERROR: accelAlloc failed
+23:03:02.0080 [ActionMap] Map context 'ChannelSelectEPGActions': Undefined actions 'epg', 'epg_long', 'info', 'info_long'.
+23:03:02.0131 [Skin] Processing screen 'SlimChannelSelection', from list 'SlimChannelSelection, SimpleChannelSelection, ChannelSelection', position=(0,0), size=(1920,1080) for module 'PiPZapSelection'.
+23:03:02.0195 [gAccel] accel alloc failed
+
+23:03:02.0196 [gSurface] ERROR: accelAlloc failed
+23:03:02.0254 [gAccel] accel alloc failed
+
+23:03:02.0255 [gSurface] ERROR: accelAlloc failed
+23:03:02.0578 [ActionMap] Map context 'InfobarChannelSelection': Undefined actions 'ChannelMinusPressedLong', 'ChannelPlusPressedLong', 'openBouquets', 'openSatellites', 'openServiceList', 'switchChannelDownLong', 'switchChannelUpLong'.
+23:03:02.0582 [ActionMap] Map context 'InfoBarMenuActions': Undefined actions 'showHDMIRecord', 'showSystemSetup'.
+23:03:02.0589 [ActionMap] Map context 'InfobarEPGActions': Undefined actions 'showEventGuidePlugin', 'showInfobarOrEpgWhenInfobarAlreadyVisible'.
+23:03:02.0596 [Skin] Processing screen 'RdsInfoDisplay' position=(0,60), size=(1280,200) for module 'RdsInfoDisplay'.
+23:03:02.0630 [Skin] No skin to read or screen to display.
+23:03:02.0634 [Skin] Processing screen '<embedded-in-RdsInfoDisplaySummary>' position=(?,?), size=(?,?) for module 'RdsInfoDisplaySummary'.
+23:03:02.0636 [eWindowStyleManager] getStyle(style_id=1): NOT FOUND
+23:03:02.0655 [Skin] Processing screen 'UnhandledKey' position=(1780,50), size=(80,80) for module 'UnhandledKey'.
+23:03:02.0726 [Skin] Processing screen 'Dish' position=(20,20), size=(150,270) for module 'Dish'.
+23:03:02.0803 [InfoBarGenerics] 17 subservice groups loaded from '/usr/share/enigma2/groupedservices'.
+23:03:02.0813 [Skin] Processing screen 'BufferIndicator' position=(5,5), size=(300,35) for module 'BufferIndicator'.
+23:03:02.0828 [ActionMap] Map context 'InfobarTimeshiftActions': Undefined actions 'restartTimeshift', 'seekBackManual', 'seekFwdManual', 'seekdef:1', 'seekdef:3', 'seekdef:4', 'seekdef:6', 'seekdef:7', 'seekdef:9'.
+23:03:02.0852 [ActionMap] Map context 'InfobarSeekActions': Undefined actions 'okButton', 'pauseServiceYellow'.
+23:03:02.0856 [ActionMap] Map context 'InfobarSeekActionsPTS': Undefined actions 'seekBackManual', 'seekFwdManual'.
+23:03:02.0869 [Skin] Processing screen 'TimeshiftState' position=(64,0), size=(1831,152) for module 'TimeshiftState'.
+23:03:02.1012 [Screen] Warning: Skin is missing element 'eventname' in <class 'Screens.PVRState.TimeshiftState'> item <Components.Label.Label object at 0xafa62528>.
+23:03:02.1055 [Screen] Warning: Skin is missing element 'PTSSeekBack' in <class 'Screens.PVRState.TimeshiftState'> item <Components.Pixmap.Pixmap object at 0xafa625b8>.
+23:03:02.1056 [Screen] Warning: Skin is missing element 'PTSSeekPointer' in <class 'Screens.PVRState.TimeshiftState'> item <Components.Pixmap.Pixmap object at 0xafa625d0>.
+23:03:02.1058 [gAccel] accel alloc failed
+
+23:03:02.1058 [gSurface] ERROR: accelAlloc failed
+23:03:02.1179 [gAccel] accel alloc failed
+
+23:03:02.1180 [gSurface] ERROR: accelAlloc failed
+23:03:02.1218 [ActionMap] Map context 'InfobarExtensions': Undefined actions 'showDreamPlex', 'showMediaPlayer'.
+23:03:02.1228 [Skin] Processing screen 'SubtitleDisplay' position=(0,0), size=(1920,1080) for module 'SubtitleDisplay'.
+23:03:02.1236 [ActionMap] Map context 'InfobarZoomActions': Undefined actions 'ZoomInOut', 'ZoomOff'.
+23:03:02.1285 [ActionMap] Map context 'ButtonSetupActions': Undefined actions 'end_long', 'skip_back', 'skip_forward'.
+23:03:02.1294 [Skin] Processing screen 'InfoBar' position=(0,0), size=(1920,1081) for module 'InfoBar'.
+23:03:02.1435 [RemainingToText] Error: Converter argument 'InMinutes' is invalid!
+23:03:02.2170 [Skin] Error: Screen 'InfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:02.2215 Traceback (most recent call last):
+23:03:02.2217   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:02.2217   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:02.2218 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:02.2219 
+During handling of the above exception, another exception occurred:
+
+23:03:02.2219 Traceback (most recent call last):
+23:03:02.2220   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:02.2221   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:02.2222 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:02.2228 [Skin] Error: Screen 'InfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:02.2270 Traceback (most recent call last):
+23:03:02.2272   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:02.2272   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:02.2273 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:02.2274 
+During handling of the above exception, another exception occurred:
+
+23:03:02.2274 Traceback (most recent call last):
+23:03:02.2275   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:02.2276   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:02.2276 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:02.2282 [Skin] Error: Screen 'InfoBar' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:02.2328 Traceback (most recent call last):
+23:03:02.2329   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:02.2330   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:02.2330 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:02.2331 
+During handling of the above exception, another exception occurred:
+
+23:03:02.2332 Traceback (most recent call last):
+23:03:02.2333   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:02.2333   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:02.2334 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:02.2573 [Screen] Warning: Skin is missing element 'key_red' in <class 'Screens.InfoBar.InfoBar'> item <Components.Label.Label object at 0xb0286228>.
+23:03:02.2575 [Screen] Warning: Skin is missing element 'key_yellow' in <class 'Screens.InfoBar.InfoBar'> item <Components.Label.Label object at 0xb0286240>.
+23:03:02.2576 [Screen] Warning: Skin is missing element 'key_blue' in <class 'Screens.InfoBar.InfoBar'> item <Components.Label.Label object at 0xb0286258>.
+23:03:02.2577 [Screen] Warning: Skin is missing element 'key_green' in <class 'Screens.InfoBar.InfoBar'> item <Components.Label.Label object at 0xb0286270>.
+23:03:02.2581 [gAccel] accel alloc failed
+
+23:03:02.2581 [gSurface] ERROR: accelAlloc failed
+23:03:02.2691 [gAccel] accel alloc failed
+
+23:03:02.2691 [gSurface] ERROR: accelAlloc failed
+23:03:02.2733 [Skin] Parsing embedded skin '<embedded-in-InfoBarSummary>'.
+23:03:02.2741 [Skin] Processing screen '<embedded-in-InfoBarSummary>' position=(0,0), size=(132,64) for module 'InfoBarSummary'.
+23:03:02.2782 [eWindowStyleManager] getStyle(style_id=1): NOT FOUND
+23:03:02.3626 [eDVBVolumecontrol] Set volume raw: L=100 R=100, -1db: L=0 R=0.
+23:03:02.3884 [Skin] Processing screen 'Mute' position=(4,190), size=(205,190) for module 'Mute'.
+23:03:02.3920 [gAccel] accel alloc failed
+
+23:03:02.3920 [gSurface] ERROR: accelAlloc failed
+23:03:02.3956 [Skin] Processing screen 'Volume' position=(4,190), size=(210,180) for module 'Volume'.
+23:03:02.3973 [Screen] Warning: Skin is missing element 'Volume' in <class 'Screens.VolumeControl.Volume'> item <Components.VolumeBar.VolumeBar object at 0xae0a0ba0>.
+23:03:02.3977 [Volume] Volume set to 100.
+23:03:02.3978 [eDVBVolumecontrol] Set volume raw: L=100 R=100, -1db: L=0 R=0.
+23:03:02.4234 [Skin] Processing screen 'Processing' position=(0,0), size=(900,60) for module 'ProcessingScreen'.
+23:03:02.4264 [Skin] Warning: Skin screen 'MessageBox' rejected as it does not offer all the mandatory widgets 'icon', 'list', 'text'!
+23:03:02.4265 [Skin] Parsing embedded skin '<embedded-in-MessageBox>'.
+23:03:02.4272 [Skin] Processing screen '<embedded-in-MessageBox>', from list 'MessageBoxModal, MessageBox', position=(570,371), size=(780,337) for module 'MessageBox'.
+23:03:02.4384 [Skin] Processing screen 'AutoVideoModeLabel' position=(712,498), size=(500,80) for module 'AutoVideoModeLabel'.
+23:03:02.4445 [VolumeAdjust] Warning: File '/etc/enigma2/volume.xml' does not exist!
+23:03:02.4452 [StartEnigma] Last shutdown=True.  (True = last shutdown was OK.)
+23:03:02.4453 [StartEnigma] NOK shutdown action=normal.
+23:03:02.4454 [StartEnigma] Boot action=normal.
+23:03:02.4635 [LogManager] Trim Poll Started
+23:03:02.4656 [LogManager] Trash Poll Started
+23:03:02.4675 [LogManager] probing folders
+23:03:02.4676 [LogManager] found following log's: ['/home/root/logs/']
+23:03:02.4677 [LogManager] looking in: /home/root/logs/
+23:03:02.4682 [LogManager] /home/root/logs/: bytesToRemove -10438989
+23:03:02.4687 [NetworkTime] Setting time to 'Tue Jan 21 23:03:02 2025' (1737493382.4684572) from 'Transponder Time'.
+23:03:02.5784 [eEPGCache] Time updated, start EPG main loop.
+23:03:02.5794 [Network] NetworkCheck: Done.
+23:03:02.5795 [Harddisk] Enumerating network mounts.
+23:03:02.5816 [ePicLoad] <error in Para>
+23:03:02.5820 [gAccel] accel alloc failed
+
+23:03:02.5820 [gSurface] ERROR: accelAlloc failed
+23:03:02.5852 [eEPGCache] 200 events read from '/etc/enigma2/epg.dat'.
+23:03:02.5856 [eEPGTransponderDataReader] start Mainloop
+23:03:02.5861 [ePicLoad] <error in Para>
+23:03:02.5879 [ePicLoad] <error in Para>
+23:03:02.5887 [gAccel] accel alloc failed
+
+23:03:02.5887 [gSurface] ERROR: accelAlloc failed
+23:03:02.5906 [ePicLoad] <error in Para>
+23:03:02.5912 [gAccel] accel alloc failed
+
+23:03:02.5912 [gSurface] ERROR: accelAlloc failed
+23:03:02.5929 [ePicLoad] <error in Para>
+23:03:02.5934 [gAccel] accel alloc failed
+
+23:03:02.5934 [gSurface] ERROR: accelAlloc failed
+23:03:02.5949 [ChannelSelection] buildTitle DEBUG: Setting title='TV - Channel Selection'.
+23:03:02.6032 [ChannelSelection] getServiceName DEBUG: Service Name Before='Bouquets (TV)', After='Bouquets'.
+23:03:02.6036 [ChannelSelection] getServiceName DEBUG: Service Name Before='Last Scanned', After='Last Scanned'.
+23:03:02.6038 [ChannelSelection] buildTitle DEBUG: Setting title='TV - Last Scanned'.
+23:03:02.6048 [Navigation] Playing ref '1:0:1:2BD:7:800:DCA0000:0:0:0:'.
+23:03:02.6053 [Navigation] Playref is '1:0:1:2BD:7:800:DCA0000:0:0:0:'.
+23:03:02.6135 [gAccel] accel alloc failed
+
+23:03:02.6136 [gSurface] ERROR: accelAlloc failed
+23:03:02.6190 [ePicLoad] <error in Para>
+23:03:02.6292 [eDVBResourceManager] allocate channel.. 0007:0800
+23:03:02.6293 [eDVBSatelliteEquipmentControl] direct_connected 1
+23:03:02.6293 [eDVBSatelliteEquipmentControl] canTune 1
+23:03:02.6293 [eDVBSatelliteEquipmentControl] lnb 0 found
+23:03:02.6294 [eDVBSatelliteEquipmentControl] 1 option(s) at position 3530
+23:03:02.6294 [eDVBSatelliteEquipmentControl] sat 3530 found
+23:03:02.6294 ret1 10000
+23:03:02.6295 [eDVBSatelliteEquipmentControl] ret5 10000
+23:03:02.6295 [eDVBSatelliteEquipmentControl] ret 10000, score old 0
+23:03:02.6295 [eDVBSatelliteEquipmentControl] score new 10000
+23:03:02.6295 [eDVBSatelliteEquipmentControl] final score 10005
+23:03:02.6295 [eDVBFrontend] isCompatibleWith NON MULTISTREAM CHANNEL!!!!
+23:03:02.6296 [eDVBFrontend] m_need_delivery_system_workaround = 0
+23:03:02.6297 [eDVBFrontend] opening frontend 0
+23:03:02.6427 [eDVBFrontend0] setVoltage FE_ENABLE_HIGH_LNB_VOLTAGE 0 FE_SET_VOLTAGE 2
+23:03:02.6565 [eDVBFrontend0] tune
+23:03:02.6566 [eDVBSatelliteEquipmentControl] direct_connected 1
+23:03:02.6566 [eDVBSatelliteEquipmentControl] canTune 1
+23:03:02.6566 [eDVBSatelliteEquipmentControl] lnb 0 found
+23:03:02.6567 [eDVBSatelliteEquipmentControl] 1 option(s) at position 3530
+23:03:02.6567 [eDVBSatelliteEquipmentControl] sat 3530 found
+23:03:02.6567 ret1 10000
+23:03:02.6567 [eDVBSatelliteEquipmentControl] ret5 10000
+23:03:02.6567 [eDVBSatelliteEquipmentControl] ret 10000, score old 0
+23:03:02.6567 [eDVBSatelliteEquipmentControl] score new 10000
+23:03:02.6568 [eDVBSatelliteEquipmentControl] final score 10005
+23:03:02.6568 has_external_rotor /home/root/rotor_0 no
+23:03:02.6568 [eDVBSatelliteEquipmentControl] RotorCmd ffffffff, lastRotorCmd ffffffff
+23:03:02.6569 [eDVBFrontend0] prepare_sat System 0 Freq 12034000 Pol 0 SR 27500000 INV 2 FEC 4 orbpos 3530 system 0 modulation 1 pilot 2, rolloff 0, is_id -1, pls_mode 1, pls_code 0, t2mi_plp_id -1 t2mi_pid 4096
+23:03:02.6569 tuning to 1434 MHz
+23:03:02.6570 [eDVBCIInterfaces] addPMTHandler 1:0:1:2BD:7:800:DCA0000:0:0:0:
+23:03:02.6570 [eDVBResourceManager] allocate demux cap=00
+23:03:02.6571 [eDVBResourceManager] allocating demux adapter=0, demux=0, source=-1 fesource=0
+23:03:02.6586 [ChannelSelection] buildTitle DEBUG: Setting title='TV - Channel Selection'.
+23:03:02.6629 [ChannelSelection] getServiceName DEBUG: Service Name Before='Bouquets (TV)', After='Bouquets'.
+23:03:02.6631 [ChannelSelection] getServiceName DEBUG: Service Name Before='Last Scanned', After='Last Scanned'.
+23:03:02.6633 [ChannelSelection] buildTitle DEBUG: Setting title='TV - Last Scanned'.
+23:03:02.6704 [Console] Command '/bin/mount' finished.
+23:03:02.6706 [Console] Command '/bin/umount' finished.
+23:03:02.6707 [Console] Command '['/bin/mount', '/bin/mount', '/dev/mmcblk0p3', '/tmp/MultiBoot_ther_pqn']@0xb2ab2198' finished.
+23:03:02.6708 [Console] Command '['/bin/umount', '/bin/umount', '/tmp/MultiBoot_ther_pqn']@0xb2ab2108' finished.
+23:03:02.6709 [Console] Command '['/bin/mount', '/bin/mount', '/dev/mmcblk0p4', '/tmp/MultiBoot_n3j0l62s']@0xb2ab21f8' finished.
+23:03:02.6710 [Console] Command '['/bin/umount', '/bin/umount', '/tmp/MultiBoot_n3j0l62s']@0xb2ab21c8' finished.
+23:03:02.6721 job Components.Task.Job name=LogManager #tasks=1 completed with [] in None
+23:03:02.6751 [SEC] set static current limiting
+23:03:02.6783 [eDVBFrontend] [SEC] tuner 0 setVoltage 2
+23:03:02.6784 [eDVBFrontend0] setVoltage FE_ENABLE_HIGH_LNB_VOLTAGE 0 FE_SET_VOLTAGE 1
+23:03:02.6907 [eDVBFrontend] [SEC] tuner 0 sleep 200ms
+23:03:02.8909 [SEC] invalidate current switch params
+23:03:02.9632 [SEC] tuner 0 sendDiseqc: e00000(DiSEqC reset)23:03:02.9633 [eDVBFrontend] [SEC] diseqc ioctl duration: 72 ms23:03:02.9655 [eDVBFrontend] [SEC] tuner 0 sleep 50ms
+23:03:03.0872 [SEC] tuner 0 sendDiseqc: e00003(DiSEqC peripherial power on)23:03:03.0873 [eDVBFrontend] [SEC] diseqc ioctl duration: 71 ms23:03:03.0896 [eDVBFrontend] [SEC] tuner 0 sleep 150ms
+23:03:03.3313 [SEC] tuner 0 sendDiseqc: e01039f023:03:03.3314 [eDVBFrontend] [SEC] diseqc ioctl duration: 91 ms23:03:03.3413 [eDVBFrontend] [SEC] tuner 0 sleep 100ms
+23:03:03.4417 [SEC] tuner 0 setTone 1
+23:03:03.4546 [eDVBFrontend] [SEC] tuner 0 sleep 10ms
+23:03:03.4647 [SEC] update current switch params
+23:03:03.4648 [SEC] tuner 0 startTuneTimeout 5000
+23:03:03.4648 [SEC] tuner 0 setFrontend: events enabled
+23:03:03.4648 setting frontend 0 events: on
+23:03:03.5592 [eDVBFrontend] (0)fe event: status 0, inversion off, m_tuning 1
+23:03:03.5593 [eDVBFrontend] [SEC] tuner 0 sleep 500ms
+23:03:03.6341 [eDVBFrontend] (0)fe event: status 1f, inversion off, m_tuning 2
+23:03:03.6346 [eEPGTransponderDataReader] channel 0x1514bc0 running
+23:03:03.6348 [eDVBResourceManager] stop release channel timer
+23:03:03.6348 [eDVBResourceManager] allocate demux cap=01
+23:03:03.6349 [eDVBResourceManager] allocating shared demux adapter=0, demux=0, source=0
+23:03:03.6349 [eDVBServicePlay] eventNewProgramInfo timeshift_enabled=0 timeshift_active=0
+23:03:03.6349 [eDVBServicePlay] have 1 video stream(s) (0200), and 1 audio stream(s) (028a), and the pcr pid is 0080, and the text pid is ffffffff
+23:03:03.6350 [eDVBResourceManager] allocate demux cap=01
+23:03:03.6350 [eDVBResourceManager] allocating shared demux adapter=0, demux=0, source=0
+23:03:03.6380 [eDVBServicePlay] Setting audio delay: setAC3Delay, 0 + 0
+23:03:03.6381 [eDVBServicePlay] Setting audio delay: setPCMDelay, 0 + 0
+23:03:03.6382 [eTSMPEGDecoder] decoder state: play, vpid=0200, apid=028a
+23:03:03.7196 [eDVBTeletextParser] Starting!
+23:03:03.7196 [eDVBTeletextParser] disable teletext subtitles page ffffffffffffffff (und)
+23:03:03.7197 [eDVBPESReader] Created. Opening demux
+23:03:03.7197 [eDVBTeletextParser] created teletext subtitle PES reader!
+23:03:03.7198 [eDVBPESReader] Created. Opening demux
+23:03:03.7198 [eDVBTeletextParser] starting PES reader on pid=ffffffff
+23:03:03.7401 [VolumeAdjust] Normal volume is 100.
+23:03:03.7463 [eDVBCAService] new service 1:0:1:2BD:7:800:DCA0000:0:0:0:
+23:03:03.7463 [eDVBCAService] add demux 0 to slot 0 service 1:0:1:2BD:7:800:DCA0000:0:0:0:
+23:03:03.9482 [eDVBServicePlay] eventNewProgramInfo timeshift_enabled=0 timeshift_active=0
+23:03:03.9483 [eDVBServicePlay] have 1 video stream(s) (0200), and 1 audio stream(s) (028a), and the pcr pid is 0080, and the text pid is ffffffff
+23:03:03.9485 [eDVBServicePlay] Setting audio delay: setAC3Delay, 0 + 0
+23:03:03.9485 [eDVBServicePlay] Setting audio delay: setPCMDelay, 0 + 0
+23:03:03.9485 [eTSMPEGDecoder] decoder state: play, vpid=0200, apid=028a
+23:03:03.9873 [eDVBCIInterfaces] gotPMT
+23:03:04.0595 [SEC] set dynamic current limiting
+23:03:06.2660 EMC: Setting EPG language: en_US
+23:03:06.2996 [VLC] Checking for buildin servicets ...  no
+23:03:06.3005 [VLC] Checking for existing and usable servicets.so ...  No module named 'servicets'
+23:03:06.3006 [VLC] Checking for usable gstreamer service ...  yes
+23:03:06.3769 EMC: Next trashcan cleanup in 177.0 minutes
+23:03:08.3778 EMC delPathFromCache /media/hdd/movie/trashcan
+23:03:08.3781 EMC: [EMCMS] trashcan cleanup: nothing to delete...
+23:03:27.7910 [eRCDeviceInputDev] 1 18f 1
+23:03:27.7914 [InfoBarGenerics] Key 'KEY_GREEN' (399) Make.
+23:03:28.0223 [eRCDeviceInputDev] 0 18f 1
+23:03:28.0227 [InfoBarGenerics] Key 'KEY_GREEN' (399) Break.
+23:03:28.0301 [ActionMap] Map screen 'InfoBar' context 'InfobarSubserviceSelectionActions' -> Action 'selectSubservices'.
+23:03:28.0354 [Skin] Processing screen 'PluginBrowserGrid', from list 'PluginBrowserGrid, PluginBrowser', position=(0,0), size=(1920,1080) for module 'PluginBrowser'.
+23:03:28.0971 [Skin] Error: Screen 'PluginBrowserGrid' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:28.1016 Traceback (most recent call last):
+23:03:28.1018   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:28.1018   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:28.1019 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:28.1020 
+During handling of the above exception, another exception occurred:
+
+23:03:28.1021 Traceback (most recent call last):
+23:03:28.1022   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:28.1022   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:28.1023 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:28.1029 [Skin] Error: Screen 'PluginBrowserGrid' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:28.1073 Traceback (most recent call last):
+23:03:28.1074   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:28.1075   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:28.1075 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:28.1076 
+During handling of the above exception, another exception occurred:
+
+23:03:28.1077 Traceback (most recent call last):
+23:03:28.1078   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:28.1078   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:28.1079 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:28.1086 [Skin] Error: Screen 'PluginBrowserGrid' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:28.1136 Traceback (most recent call last):
+23:03:28.1138   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:28.1138   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:28.1139 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:28.1141 
+During handling of the above exception, another exception occurred:
+
+23:03:28.1141 Traceback (most recent call last):
+23:03:28.1143   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:28.1144   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:28.1145 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:28.1154 [Skin] Error: Screen 'PluginBrowserGrid' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:28.1199 Traceback (most recent call last):
+23:03:28.1200   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:28.1200   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:28.1201 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:28.1202 
+During handling of the above exception, another exception occurred:
+
+23:03:28.1202 Traceback (most recent call last):
+23:03:28.1203   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:28.1204   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:28.1204 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:28.1211 [Skin] Error: Screen 'PluginBrowserGrid' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:28.1253 Traceback (most recent call last):
+23:03:28.1254   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:28.1255   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:28.1256 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:28.1256 
+During handling of the above exception, another exception occurred:
+
+23:03:28.1257 Traceback (most recent call last):
+23:03:28.1258   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:28.1258   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:28.1259 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:28.1265 [Skin] Error: Screen 'PluginBrowserGrid' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:28.1310 Traceback (most recent call last):
+23:03:28.1311   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:28.1312   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:28.1312 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:28.1313 
+During handling of the above exception, another exception occurred:
+
+23:03:28.1314 Traceback (most recent call last):
+23:03:28.1315   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:28.1315   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:28.1316 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:28.1361 [Skin] Error: Screen 'PluginBrowserGrid' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:28.1407 Traceback (most recent call last):
+23:03:28.1408   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:28.1409   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:28.1409 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:28.1410 
+During handling of the above exception, another exception occurred:
+
+23:03:28.1411 Traceback (most recent call last):
+23:03:28.1412   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:28.1412   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:28.1413 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:28.1419 [Skin] Error: Screen 'PluginBrowserGrid' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:28.1462 Traceback (most recent call last):
+23:03:28.1463   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:28.1464   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:28.1464 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:28.1465 
+During handling of the above exception, another exception occurred:
+
+23:03:28.1466 Traceback (most recent call last):
+23:03:28.1466   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:28.1467   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:28.1468 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:28.1473 [Skin] Error: Screen 'PluginBrowserGrid' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:28.1517 Traceback (most recent call last):
+23:03:28.1521   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:28.1522   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:28.1523 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:28.1523 
+During handling of the above exception, another exception occurred:
+
+23:03:28.1524 Traceback (most recent call last):
+23:03:28.1525   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:28.1525   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:28.1526 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:28.1533 [Skin] Error: Screen 'PluginBrowserGrid' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:28.1576 Traceback (most recent call last):
+23:03:28.1577   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:28.1578   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:28.1578 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:28.1579 
+During handling of the above exception, another exception occurred:
+
+23:03:28.1580 Traceback (most recent call last):
+23:03:28.1580   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:28.1581   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:28.1582 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:28.1587 [Skin] Error: Screen 'PluginBrowserGrid' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:28.1630 Traceback (most recent call last):
+23:03:28.1631   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:28.1632   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:28.1633 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:28.1633 
+During handling of the above exception, another exception occurred:
+
+23:03:28.1634 Traceback (most recent call last):
+23:03:28.1635   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:28.1636   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:28.1636 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:28.1642 [Skin] Error: Screen 'PluginBrowserGrid' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:28.1686 Traceback (most recent call last):
+23:03:28.1687   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:28.1687   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:28.1688 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:28.1689 
+During handling of the above exception, another exception occurred:
+
+23:03:28.1689 Traceback (most recent call last):
+23:03:28.1690   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:28.1691   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:28.1691 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:28.1697 [Skin] Error: Screen 'PluginBrowserGrid' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:28.1744 Traceback (most recent call last):
+23:03:28.1745   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:28.1745   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:28.1746 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:28.1747 
+During handling of the above exception, another exception occurred:
+
+23:03:28.1748 Traceback (most recent call last):
+23:03:28.1748   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:28.1749   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:28.1750 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:28.1756 [Skin] Error: Screen 'PluginBrowserGrid' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:28.1799 Traceback (most recent call last):
+23:03:28.1800   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:28.1800   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:28.1801 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:28.1802 
+During handling of the above exception, another exception occurred:
+
+23:03:28.1802 Traceback (most recent call last):
+23:03:28.1803   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:28.1804   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:28.1804 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:28.1810 [Skin] Error: Screen 'PluginBrowserGrid' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:28.1853 Traceback (most recent call last):
+23:03:28.1854   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:28.1854   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:28.1855 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:28.1856 
+During handling of the above exception, another exception occurred:
+
+23:03:28.1856 Traceback (most recent call last):
+23:03:28.1857   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:28.1858   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:28.1858 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:28.1864 [Skin] Error: Screen 'PluginBrowserGrid' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:28.1908 Traceback (most recent call last):
+23:03:28.1909   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:28.1909   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:28.1910 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:28.1911 
+During handling of the above exception, another exception occurred:
+
+23:03:28.1911 Traceback (most recent call last):
+23:03:28.1913   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:28.1913   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:28.1914 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:28.1923 [Skin] Error: Screen 'PluginBrowserGrid' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:28.1966 Traceback (most recent call last):
+23:03:28.1967   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:28.1968   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:28.1969 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:28.1970 
+During handling of the above exception, another exception occurred:
+
+23:03:28.1970 Traceback (most recent call last):
+23:03:28.1971   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:28.1971   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:28.1972 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:28.1978 [Skin] Error: Screen 'PluginBrowserGrid' widget 'widget' [Skin] Error: Converter 'TN_MSNWeather' not found!!
+23:03:28.2022 Traceback (most recent call last):
+23:03:28.2023   File "/usr/lib/enigma2/python/skin.py", line 2233, in processWidget
+23:03:28.2023   File "/usr/lib/enigma2/python/Tools/Import.py", line 2, in my_import
+23:03:28.2024 ModuleNotFoundError: No module named 'Components.Converter.TN_MSNWeather'
+23:03:28.2025 
+During handling of the above exception, another exception occurred:
+
+23:03:28.2025 Traceback (most recent call last):
+23:03:28.2026   File "/usr/lib/enigma2/python/skin.py", line 2308, in processScreen
+23:03:28.2027   File "/usr/lib/enigma2/python/skin.py", line 2235, in processWidget
+23:03:28.2028 skin.SkinError: [Skin] Error: Converter 'TN_MSNWeather' not found!
+23:03:28.2218 [Skin] Error: Attribute 'itemcornerRadius' with value '15' in object of type 'eListbox' ('AttributeParser' object has no attribute 'itemcornerRadius')!
+23:03:28.2223 [Skin] Error: The gradient 'B2,B4' must be 'startColor[,centerColor],endColor,direction[,alphaBlend]', using '#00000000,#00FFFFFF,vertical' (Black,White,vertical)!
+23:03:28.2238 [gAccel] accel alloc failed
+
+23:03:28.2238 [gSurface] ERROR: accelAlloc failed
+23:03:28.3091 [gAccel] accel alloc failed
+
+23:03:28.3092 [gSurface] ERROR: accelAlloc failed
+23:03:28.3189 [gAccel] accel alloc failed
+
+23:03:28.3190 [gSurface] ERROR: accelAlloc failed
+23:03:28.3290 [Skin] Parsing embedded skin '<embedded-in-PluginBrowserSummary>'.
+23:03:28.3296 [Skin] Processing screen '<embedded-in-PluginBrowserSummary>' position=(0,0), size=(132,64) for module 'PluginBrowserSummary'.
+23:03:28.3306 [eWindowStyleManager] getStyle(style_id=1): NOT FOUND
+23:03:28.5029 [Enigma] getActiveAdapter: Active network interface: eth0.
+23:03:28.5033 [Enigma] checkInternetAccess: Check host:'feeds2.mynonpublic.com' with timeout:2.
+23:03:28.9221 [Enigma] checkInternetAccess: Success.
+23:03:29.5119 [eRCDeviceInputDev] 1 6c 1
+23:03:29.5123 [InfoBarGenerics] Key 'KEY_DOWN' (108) Make.
+23:03:29.5125 [ActionMap] Map screen 'PluginBrowser' context 'NavigationActions' -> Action 'down'.
+23:03:29.7444 [eRCDeviceInputDev] 0 6c 1
+23:03:29.7447 [InfoBarGenerics] Key 'KEY_DOWN' (108) Break.
+23:03:29.9061 [eRCDeviceInputDev] 1 6c 1
+23:03:29.9064 [InfoBarGenerics] Key 'KEY_DOWN' (108) Make.
+23:03:29.9066 [ActionMap] Map screen 'PluginBrowser' context 'NavigationActions' -> Action 'down'.
+23:03:30.1384 [eRCDeviceInputDev] 0 6c 1
+23:03:30.1388 [InfoBarGenerics] Key 'KEY_DOWN' (108) Break.
+23:03:30.3988 [eRCDeviceInputDev] 1 6c 1
+23:03:30.3992 [InfoBarGenerics] Key 'KEY_DOWN' (108) Make.
+23:03:30.3994 [ActionMap] Map screen 'PluginBrowser' context 'NavigationActions' -> Action 'down'.
+23:03:30.6303 [eRCDeviceInputDev] 0 6c 1
+23:03:30.6307 [InfoBarGenerics] Key 'KEY_DOWN' (108) Break.
+23:03:30.8271 [eRCDeviceInputDev] 1 6a 1
+23:03:30.8274 [InfoBarGenerics] Key 'KEY_RIGHT' (106) Make.
+23:03:30.8276 [ActionMap] Map screen 'PluginBrowser' context 'NavigationActions' -> Action 'right'.
+23:03:31.1774 [eRCDeviceInputDev] 0 6a 1
+23:03:31.1777 [InfoBarGenerics] Key 'KEY_RIGHT' (106) Break.
+23:03:31.2776 [eRCDeviceInputDev] 1 6a 1
+23:03:31.2779 [InfoBarGenerics] Key 'KEY_RIGHT' (106) Make.
+23:03:31.2781 [ActionMap] Map screen 'PluginBrowser' context 'NavigationActions' -> Action 'right'.
+23:03:31.5093 [eRCDeviceInputDev] 0 6a 1
+23:03:31.5096 [InfoBarGenerics] Key 'KEY_RIGHT' (106) Break.
+23:03:32.7280 [eRCDeviceInputDev] 1 160 1
+23:03:32.7284 [InfoBarGenerics] Key 'KEY_OK' (352) Make.
+23:03:32.7285 [ActionMap] Map screen 'N/A' context 'HelpActions' -> Unknown action 'select'!  (Typo in map?)
+23:03:32.7286 [ActionMap] Map screen 'PluginBrowser' context 'OkCancelActions' -> Action 'ok'.
+23:03:32.7336 [ArabicSavior] fallback to default translation for Exit
+23:03:32.7345 [ArabicSavior] fallback to default translation for Save Changes
+23:03:32.7386 Starting factory <HTTPClientFactory: b'https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/InstallerN.sh'>
+23:03:32.7423 Starting factory <HTTPClientFactory: b'https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerD.sh'>
+23:03:32.7457 Starting factory <HTTPClientFactory: b'https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerB.sh'>
+23:03:32.7490 Starting factory <HTTPClientFactory: b'https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerDs.sh'>
+23:03:32.7529 Starting factory <HTTPClientFactory: b'https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerAL.sh'>
+23:03:32.7564 Starting factory <HTTPClientFactory: b'https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/plugin.sh'>
+23:03:32.7574 [ArabicSavior] fallback to default translation for Pro. Additional Skins
+23:03:32.7582 [ArabicSavior] fallback to default translation for Change Skin
+23:03:32.7589 [ArabicSavior] fallback to default translation for Delete Skin
+23:03:32.7596 [ArabicSavior] fallback to default translation for WeatherMSN Settings
+23:03:32.7603 [ArabicSavior] fallback to default translation for Download TeamNitro Skins 
+23:03:32.7609 [ArabicSavior] fallback to default translation for Enable/Disable online update Info
+23:03:32.7616 [ArabicSavior] fallback to default translation for Changelog
+23:03:32.7623 [ArabicSavior] fallback to default translation for About TeamNitro
+23:03:32.7628 [Skin] Parsing embedded skin '<embedded-in-TeamNitro>'.
+23:03:32.7644 [Skin] Processing screen '<embedded-in-TeamNitro>' position=(0,0), size=(1920,1080) for module 'TeamNitro'.
+23:03:32.7670 [Skin] Error: The color 'bglist' must be #aarrggbb or valid named color, using #00000000!
+23:03:32.7675 [Screen] Warning: Skin is missing element 'HelpWindow' in <class 'Plugins.Extensions.TeamNitro.plugin.TeamNitro'> item <Components.Pixmap.Pixmap object at 0xacdd72b8>.
+23:03:32.7683 [gAccel] accel alloc failed
+
+23:03:32.7683 [gSurface] ERROR: accelAlloc failed
+23:03:32.7730 [gAccel] accel alloc failed
+
+23:03:32.7731 [gSurface] ERROR: accelAlloc failed
+23:03:32.8620 [gAccel] accel alloc failed
+
+23:03:32.8620 [gSurface] ERROR: accelAlloc failed
+23:03:32.8687 [Skin] Parsing embedded skin '<embedded-in-ScreenSummary>'.
+23:03:32.8693 [Skin] Processing screen '<embedded-in-ScreenSummary>', from list 'TeamNitroSummary, TeamNitro_summary, ScreenSummary', position=(0,0), size=(132,64) for module 'ScreenSummary'.
+23:03:32.8703 [eWindowStyleManager] getStyle(style_id=1): NOT FOUND
+23:03:33.0683 [eRCDeviceInputDev] 0 160 1
+23:03:33.0686 [InfoBarGenerics] Key 'KEY_OK' (352) Break.
+23:03:33.2058 Stopping factory <HTTPClientFactory: b'https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerD.sh'>
+23:03:33.2152 Stopping factory <HTTPClientFactory: b'https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerDs.sh'>
+23:03:33.3414 Stopping factory <HTTPClientFactory: b'https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerB.sh'>
+23:03:33.3496 Stopping factory <HTTPClientFactory: b'https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/InstallerN.sh'>
+23:03:33.3603 Stopping factory <HTTPClientFactory: b'https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/installerAL.sh'>
+23:03:33.4197 Stopping factory <HTTPClientFactory: b'https://raw.githubusercontent.com/biko-73/TeamNitro/main/script/plugin.sh'>
+23:03:39.0412 [eRCDeviceInputDev] 1 160 1
+23:03:39.0416 [InfoBarGenerics] Key 'KEY_OK' (352) Make.
+23:03:39.0417 [ActionMap] Map screen 'N/A' context 'SetupActions' -> Action 'ok'.
+23:03:39.0447 [ArabicSavior] fallback to default translation for Exit
+23:03:39.0456 [ArabicSavior] fallback to default translation for Save Changes
+23:03:39.0465 [ArabicSavior] fallback to default translation for DesertFHD 
+23:03:39.0471 [ArabicSavior] fallback to default translation for RED_DRAGON_FHD
+23:03:39.0478 [ArabicSavior] fallback to default translation for NitroAdvanceFHD
+23:03:39.0485 [ArabicSavior] fallback to default translation for BoHLALA_FHD
+23:03:39.0491 [ArabicSavior] fallback to default translation for AL_AYAM_FHD
+23:03:39.0498 [ArabicSavior] fallback to default translation for TNFonts 
+23:03:39.0505 [ArabicSavior] fallback to default translation for Download TeamNitro Picon 
+23:03:39.0511 [ArabicSavior] fallback to default translation for Select Path of Picons Folder
+23:03:39.0519 [ArabicSavior] fallback to default translation for Select mount device
+23:03:39.0526 [Skin] Parsing embedded skin '<embedded-in-TeamNitro_Config>'.
+23:03:39.0535 [Skin] Processing screen '<embedded-in-TeamNitro_Config>' position=(0,0), size=(1920,1080) for module 'TeamNitro_Config'.
+23:03:39.0560 [Skin] Error: The color 'bglist' must be #aarrggbb or valid named color, using #00000000!
+23:03:39.0565 [Screen] Warning: Skin is missing element 'HelpWindow' in <class 'Plugins.Extensions.TeamNitro.plugin.TeamNitro_Config'> item <Components.Pixmap.Pixmap object at 0xabd64e70>.
+23:03:39.0595 [Skin] Parsing embedded skin '<embedded-in-ScreenSummary>'.
+23:03:39.0600 [Skin] Processing screen '<embedded-in-ScreenSummary>', from list 'TeamNitro_ConfigSummary, TeamNitro_Config_summary, ScreenSummary', position=(0,0), size=(132,64) for module 'ScreenSummary'.
+23:03:39.0610 [eWindowStyleManager] getStyle(style_id=1): NOT FOUND
+23:03:39.3816 [eRCDeviceInputDev] 0 160 1
+23:03:39.3818 [InfoBarGenerics] Key 'KEY_OK' (352) Break.
+23:03:42.1220 [eRCDeviceInputDev] 1 160 1
+23:03:42.1223 [InfoBarGenerics] Key 'KEY_OK' (352) Make.
+23:03:42.1225 [ActionMap] Map screen 'N/A' context 'SetupActions' -> Action 'ok'.
+23:03:42.1240 [ArabicSavior] fallback to default translation for PRO SKINS Setup
+23:03:42.1247 [31mself.skin_base_dir=/usr/share/enigma2/AL_AYAM_FHD/, skin=AL_AYAM_FHD/skin.xml, currentSkin=AL_AYAM_FHD[m
+23:03:42.1251 [ArabicSavior] fallback to default translation for Default
+23:03:42.1263 [ArabicSavior] fallback to default translation for Default
+23:03:42.1273 [ArabicSavior] fallback to default translation for Default
+23:03:42.1288 [ArabicSavior] fallback to default translation for Default
+23:03:42.1307 [ArabicSavior] fallback to default translation for Default
+23:03:42.1317 [ArabicSavior] fallback to default translation for Default
+23:03:42.1347 [ArabicSavior] fallback to default translation for Cancel
+23:03:42.1356 [ArabicSavior] fallback to default translation for Save Changes
+23:03:42.1364 [ArabicSavior] fallback to default translation for AL_AYAM_FHD:
+23:03:42.1371 [ArabicSavior] fallback to default translation for Interface:
+23:03:42.1378 [ArabicSavior] fallback to default translation for TNPosterX:
+23:03:42.1385 [ArabicSavior] fallback to default translation for xtraEvent:
+23:03:42.1391 [ArabicSavior] fallback to default translation for PluginBrowser:
+23:03:42.1398 [ArabicSavior] fallback to default translation for skyTeamNitro:
+23:03:42.1404 [ArabicSavior] fallback to default translation for Enable %s pro:
+23:03:42.1409 [Skin] Parsing embedded skin '<embedded-in-AL_AYAM_FHD>'.
+23:03:42.1418 [Skin] Processing screen '<embedded-in-AL_AYAM_FHD>' position=(0,0), size=(1920,1080) for module 'AL_AYAM_FHD'.
+23:03:42.1441 [Skin] Error: The color 'bglist' must be #aarrggbb or valid named color, using #00000000!
+23:03:42.1448 [Screen] Warning: Skin is missing element 'HelpWindow' in <class 'Plugins.Extensions.TeamNitro.plugin.AL_AYAM_FHD'> item <Components.Pixmap.Pixmap object at 0xabd7b9c0>.
+23:03:42.1477 [Skin] Parsing embedded skin '<embedded-in-ScreenSummary>'.
+23:03:42.1483 [Skin] Processing screen '<embedded-in-ScreenSummary>', from list 'AL_AYAM_FHDSummary, AL_AYAM_FHD_summary, ScreenSummary', position=(0,0), size=(132,64) for module 'ScreenSummary'.
+23:03:42.1493 [eWindowStyleManager] getStyle(style_id=1): NOT FOUND
+23:03:42.4613 [eRCDeviceInputDev] 0 160 1
+23:03:42.4616 [InfoBarGenerics] Key 'KEY_OK' (352) Break.
+23:03:43.5876 [eRCDeviceInputDev] 1 6c 1
+23:03:43.5880 [InfoBarGenerics] Key 'KEY_DOWN' (108) Make.
+23:03:43.5882 [ActionMap] Map screen 'N/A' context 'SetupActions' -> Unknown action 'down'!  (Typo in map?)
+23:03:43.5882 [ActionMap] Map screen 'AL_AYAM_FHD' context 'NavigationActions' -> Action 'down'.
+23:03:43.9273 [eRCDeviceInputDev] 0 6c 1
+23:03:43.9277 [InfoBarGenerics] Key 'KEY_DOWN' (108) Break.
+23:03:44.3525 [eRCDeviceInputDev] 1 69 1
+23:03:44.3529 [InfoBarGenerics] Key 'KEY_LEFT' (105) Make.
+23:03:44.3531 [ActionMap] Map screen 'N/A' context 'SetupActions' -> Action 'left'.
+23:03:44.3544 [ArabicSavior] fallback to default translation for AL_AYAM_FHD:
+23:03:44.3552 [ArabicSavior] fallback to default translation for Interface:
+23:03:44.3558 [ArabicSavior] fallback to default translation for TNPosterX:
+23:03:44.3565 [ArabicSavior] fallback to default translation for xtraEvent:
+23:03:44.3571 [ArabicSavior] fallback to default translation for PluginBrowser:
+23:03:44.3578 [ArabicSavior] fallback to default translation for skyTeamNitro:
+23:03:44.3585 [ArabicSavior] fallback to default translation for Enable %s pro:
+23:03:44.6923 [eRCDeviceInputDev] 0 69 1
+23:03:44.6927 [InfoBarGenerics] Key 'KEY_LEFT' (105) Break.
+23:03:45.4346 [eRCDeviceInputDev] 1 6a 1
+23:03:45.4350 [InfoBarGenerics] Key 'KEY_RIGHT' (106) Make.
+23:03:45.4351 [ActionMap] Map screen 'N/A' context 'SetupActions' -> Action 'right'.
+23:03:45.4359 [gAccel] accel alloc failed
+
+23:03:45.4359 [gSurface] ERROR: accelAlloc failed
+23:03:45.4439 [ArabicSavior] fallback to default translation for AL_AYAM_FHD:
+23:03:45.4447 [ArabicSavior] fallback to default translation for Interface:
+23:03:45.4454 [ArabicSavior] fallback to default translation for TNPosterX:
+23:03:45.4460 [ArabicSavior] fallback to default translation for xtraEvent:
+23:03:45.4467 [ArabicSavior] fallback to default translation for PluginBrowser:
+23:03:45.4474 [ArabicSavior] fallback to default translation for skyTeamNitro:
+23:03:45.4481 [ArabicSavior] fallback to default translation for Enable %s pro:
+23:03:45.7743 [eRCDeviceInputDev] 0 6a 1
+23:03:45.7746 [InfoBarGenerics] Key 'KEY_RIGHT' (106) Break.
+23:03:45.9233 [eRCDeviceInputDev] 1 6a 1
+23:03:45.9236 [InfoBarGenerics] Key 'KEY_RIGHT' (106) Make.
+23:03:45.9238 [ActionMap] Map screen 'N/A' context 'SetupActions' -> Action 'right'.
+23:03:45.9245 [gAccel] accel alloc failed
+
+23:03:45.9245 [gSurface] ERROR: accelAlloc failed
+23:03:45.9321 [ArabicSavior] fallback to default translation for AL_AYAM_FHD:
+23:03:45.9330 [ArabicSavior] fallback to default translation for Interface:
+23:03:45.9337 [ArabicSavior] fallback to default translation for TNPosterX:
+23:03:45.9344 [ArabicSavior] fallback to default translation for xtraEvent:
+23:03:45.9350 [ArabicSavior] fallback to default translation for PluginBrowser:
+23:03:45.9357 [ArabicSavior] fallback to default translation for skyTeamNitro:
+23:03:45.9364 [ArabicSavior] fallback to default translation for Enable %s pro:
+23:03:46.2748 [eRCDeviceInputDev] 0 6a 1
+23:03:46.2751 [InfoBarGenerics] Key 'KEY_RIGHT' (106) Break.
+23:03:48.1069 [eRCDeviceInputDev] 1 18f 1
+23:03:48.1072 [InfoBarGenerics] Key 'KEY_GREEN' (399) Make.
+23:03:48.1073 [ActionMap] Map screen 'AL_AYAM_FHD' context 'ConfigListActions' -> Unknown action 'save'!  (Typo in map?)
+23:03:48.1074 [ActionMap] Map screen 'AL_AYAM_FHD' context 'ConfigListActions' -> Unknown action 'save'!  (Typo in map?)
+23:03:48.4476 [eRCDeviceInputDev] 0 18f 1
+23:03:48.4479 [InfoBarGenerics] Key 'KEY_GREEN' (399) Break.
+23:03:48.4481 [ActionMap] Map screen 'N/A' context 'SetupActions' -> Unknown action 'save'!  (Typo in map?)
+23:03:48.4481 [ActionMap] Map screen 'N/A' context 'ColorActions' -> Action 'green'.
+23:03:48.4836 [31mupdate_user_skin.self.TeamNitro_active.value[m
+23:03:48.5911 [31mupdate_user_skin.self.TeamNitro_active.value write myFile[m
+23:03:48.6011 [31mFound render:
+[m23:03:48.6012 
+23:03:48.6013 ['MSNWeatherPixmap', 'xtraNextEvents', 'xtraParental', 'VolumeText', 'ChamaeleonRunningText', 'Canvas', 'Label', 'ChannelNumber', 'TNWatches', 'Progress', 'TNPiconUni', 'TNRunningText', 'TNPosterX', 'Pig', 'TNRUN', 'TNEmptyEpg', 'Listbox', 'xtraBanner', 'xtraBackdrop', 'PositionGauge', 'Picon', 'TNPicEmuF', 'TNScrollLabel', 'Pixmap', 'xtraPoster']
+23:03:48.6015 [31mMissing component found:MSNWeatherPixmap
+[m23:03:48.6015 
+23:03:48.6016 [31mMissing component found:xtraNextEvents
+[m23:03:48.6017 
+23:03:48.6019 [31mMissing component found:xtraParental
+[m23:03:48.6019 
+23:03:48.6020 [31mMissing component found:ChamaeleonRunningText
+[m23:03:48.6020 
+23:03:48.6026 [31mMissing component found:TNRUN
+[m23:03:48.6026 
+23:03:48.6028 [31mMissing component found:xtraBanner
+[m23:03:48.6028 
+23:03:48.6030 [31mMissing component found:xtraBackdrop
+[m23:03:48.6030 
+23:03:48.6034 [31mMissing component found:xtraPoster
+[m23:03:48.6034 
+23:03:48.6077 [31mFound Convert:
+[m23:03:48.6078 
+23:03:48.6078 []
+23:03:48.6137 [31mFound pixmap:
+[m23:03:48.6138 
+23:03:48.6141 ['AL_AYAM_FHD/biko/smartcard.png', 'AL_AYAM_FHD/icons/meter_1.png', 'AL_AYAM_FHD/background/chbg/vbar.png', 'AL_AYAM_FHD/menu/buttons/info.png', 'AL_AYAM_FHD/icons/resolution/ico_format_on.png', 'AL_AYAM_FHD/biko/positioner.png', 'AL_AYAM_FHD/biko/progressmovie.png', 'AL_AYAM_FHD/menu/epg.png', 'AL_AYAM_FHD/background/backProgress.png', 'AL_AYAM_FHD/background/chbg/sf.png', 'icons/input_question.png', 'AL_AYAM_FHD/icons/mm/ic_menu.png', 'AL_AYAM_FHD/icons/nactive.png', 'AL_AYAM_FHD/wizard2.png', 'AL_AYAM_FHD/icons/starbars.png', 'AL_AYAM_FHD/background/chbg/nz.png', 'AL_AYAM_FHD/icons/resolution/ico_crypt_on.png', 'AL_AYAM_FHD/media/bar/play_small.png', 'icons/input_error.png', 'AL_AYAM_FHD/icons/mm/cpu.png', 'AL_AYAM_FHD/infobar/key_blue.png', 'AL_AYAM_FHD/buttons/epg_b.png', 'AL_AYAM_FHD/icons/resolution/ico_hd_on.png', 'AL_AYAM_FHD/icons/ico_crypt_off1.png', 'AL_AYAM_FHD/background/SecondInfoBar.png', 'AL_AYAM_FHD/icons/moni.png', 'AL_AYAM_FHD/icons/input_error.png', 'AL_AYAM_FHD/icons/agreen.png', 'AL_AYAM_FHD/icons/resolution/ico_txt_off.png', 'AL_AYAM_FHD/icons/keyboard.png', 'AL_AYAM_FHD/icons/ared.png', 'AL_AYAM_FHD/icons/resolution/ico_txt_on.png', 'AL_AYAM_FHD/infobar/20.png', 'AL_AYAM_FHD/Tim/mp_buttons.png', 'AL_AYAM_FHD/biko/snron.png', 'AL_AYAM_FHD/media/bp_deko.png', 'AL_AYAM_FHD/media/mp_buttons.png', 'AL_AYAM_FHD/biko/startcam_4s.png', 'AL_AYAM_FHD/icons/lock_off.png', 'AL_AYAM_FHD/menu/exit.png', 'AL_AYAM_FHD/icons/nostarbars.png', 'AL_AYAM_FHD/infobar/key_red.png', 'AL_AYAM_FHD/background/bkscanps.png', 'AL_AYAM_FHD/icons/ayellow.png', 'AL_AYAM_FHD/infobar/fs1.png', 'AL_AYAM_FHD/background/chbg/bg.png', 'AL_AYAM_FHD/infobar/fs3.png', 'AL_AYAM_FHD/icons/usb.png', 'AL_AYAM_FHD/background/chbg/42.png', 'AL_AYAM_FHD/infobar/bar_snr.png', 'icons/input_info.png', 'AL_AYAM_FHD/icons/input_info.png', 'AL_AYAM_FHD/buttons/keyboard.png', 'AL_AYAM_FHD/y.png', 'AL_AYAM_FHD/icons/smartcard.png', 'AL_AYAM_FHD/background/chbg/sel.png', 'AL_AYAM_FHD/icons/meter_2.png', 'AL_AYAM_FHD/infobar/mnbg.png', 'AL_AYAM_FHD/icons/wifi_on.png', 'AL_AYAM_FHD/icons/wifi.png', 'AL_AYAM_FHD/biko/device1.png', 'AL_AYAM_FHD/biko/starsbar_empty.png', 'AL_AYAM_FHD/icons/input_question.png', 'AL_AYAM_FHD/infobar/sndinfobar.png', 'AL_AYAM_FHD/background/chbg/2.png', 'AL_AYAM_FHD/background/chbg/pig.png', 'AL_AYAM_FHD/background/bar_snr.png', 'AL_AYAM_FHD/icons/swap.png', 'AL_AYAM_FHD/icons/ram.png', 'AL_AYAM_FHD/scan1.png', 'AL_AYAM_FHD/biko/posterbg1.png', 'AL_AYAM_FHD/icons/resolution/ico_format_off.png', 'AL_AYAM_FHD/infobar/key_green.png', 'AL_AYAM_FHD/background/chbg/mwnd.png', 'AL_AYAM_FHD/icons/IPTV.png', 'AL_AYAM_FHD/background/chbg/mute.png', 'AL_AYAM_FHD/Tim/ico_rec_on.png', 'AL_AYAM_FHD/background/psscan.png', 'AL_AYAM_FHD/biko/snron1.png', 'AL_AYAM_FHD/biko/scroll.png', 'AL_AYAM_FHD/icons/resolution/ico_dolby_on.png', 'AL_AYAM_FHD/skin_default/vkey_icon.png', 'AL_AYAM_FHD/background/Progress.png', 'AL_AYAM_FHD/background/progress.png', 'AL_AYAM_FHD/infobar/17.png', 'AL_AYAM_FHD/icons/unhandled_key.png', 'AL_AYAM_FHD/background/chbg/vbg.png', 'AL_AYAM_FHD/icons/hdd.png', 'AL_AYAM_FHD/background/chbg/button.png', 'AL_AYAM_FHD/positioner.png', 'AL_AYAM_FHD/background/backMSNWeather.png', 'AL_AYAM_FHD/biko/progress_c.png', 'AL_AYAM_FHD/icons/resolution/ico_sd_on.png', 'AL_AYAM_FHD/icons/ico_crypt_on1.png', 'AL_AYAM_FHD/menu/menubutton.png', 'AL_AYAM_FHD/biko/mp_buttons.png', 'AL_AYAM_FHD/icons/mm/temp2.png', 'AL_AYAM_FHD/Tim/ico_rec_off.png', 'AL_AYAM_FHD/buttons/monibutton_g.png', 'AL_AYAM_FHD/background/chbg/eview.png', 'AL_AYAM_FHD/background/chbg/kb.png', 'AL_AYAM_FHD/icons/resolution/ico_uhd_on.png', 'AL_AYAM_FHD/infobar/25.png', 'AL_AYAM_FHD/icons/resolution/ico_dolby_off.png', 'AL_AYAM_FHD/icons/flash.png', 'AL_AYAM_FHD/background/chbg/epgbg.png', 'AL_AYAM_FHD/icons/lock_on.png', 'AL_AYAM_FHD/biko/epgbar.png', 'AL_AYAM_FHD/background/chbg/1.png', 'AL_AYAM_FHD/icons/wifi_off.png', 'AL_AYAM_FHD/menu/buttons/ex.png', 'AL_AYAM_FHD/menu/buttons/mu.png', 'AL_AYAM_FHD/icons/lan.png', 'AL_AYAM_FHD/buttons/monibutton.png', 'AL_AYAM_FHD/infobar/key_yellow.png', 'EURO2020/skin_default/vkey_icon.png', 'AL_AYAM_FHD/biko/starsbar_filled.png', 'AL_AYAM_FHD/background/chbg/epgbg1.png', 'AL_AYAM_FHD/background/chbg/731.png', 'AL_AYAM_FHD/infobar/infobar2.png', 'AL_AYAM_FHD/icons/aoff.png', 'AL_AYAM_FHD/icons/ninactive.png', 'AL_AYAM_FHD/infobar/ayam.png', 'AL_AYAM_FHD/epg/EPG.png', 'AL_AYAM_FHD/icons/resolution/ico_crypt_off.png']
+23:03:48.6145 [31mMissing component found:AL_AYAM_FHD/icons/meter_1.png
+[m23:03:48.6145 
+23:03:48.6148 [31mMissing component found:icons/input_question.png
+[m23:03:48.6148 
+23:03:48.6149 [31mMissing component found:AL_AYAM_FHD/wizard2.png
+[m23:03:48.6149 
+23:03:48.6151 [31mMissing component found:icons/input_error.png
+[m23:03:48.6151 
+23:03:48.6158 [31mMissing component found:icons/input_info.png
+[m23:03:48.6158 
+23:03:48.6160 [31mMissing component found:AL_AYAM_FHD/icons/meter_2.png
+[m23:03:48.6160 
+23:03:48.6164 [31mMissing component found:AL_AYAM_FHD/scan1.png
+[m23:03:48.6164 
+23:03:48.6167 [31mMissing component found:AL_AYAM_FHD/skin_default/vkey_icon.png
+[m23:03:48.6167 
+23:03:48.6168 [31mMissing component found:AL_AYAM_FHD/background/progress.png
+[m23:03:48.6169 
+23:03:48.6176 [31mMissing component found:EURO2020/skin_default/vkey_icon.png
+[m23:03:48.6176 
+23:03:50.5853 [eRCDeviceInputDev] 1 18f 1
+23:03:50.5856 [InfoBarGenerics] Key 'KEY_GREEN' (399) Make.
+23:03:50.5857 [ActionMap] Map screen 'TeamNitro_Config' context 'ConfigListActions' -> Unknown action 'save'!  (Typo in map?)
+23:03:50.5858 [ActionMap] Map screen 'TeamNitro_Config' context 'ConfigListActions' -> Unknown action 'save'!  (Typo in map?)
+23:03:50.9126 [eRCDeviceInputDev] 0 18f 1
+23:03:50.9130 [InfoBarGenerics] Key 'KEY_GREEN' (399) Break.
+23:03:50.9131 [ActionMap] Map screen 'N/A' context 'SetupActions' -> Unknown action 'save'!  (Typo in map?)
+23:03:50.9132 [ActionMap] Map screen 'N/A' context 'ColorActions' -> Action 'green'.
+23:03:50.9316 [ArabicSavior] fallback to default translation for Restart necessary, restart GUI now?
+23:03:50.9341 [Skin] Warning: Skin screen 'MessageBox' rejected as it does not offer all the mandatory widgets 'icon', 'list', 'text'!
+23:03:50.9343 [Skin] Parsing embedded skin '<embedded-in-MessageBox>'.
+23:03:50.9350 [Skin] Processing screen '<embedded-in-MessageBox>' position=(570,371), size=(780,337) for module 'MessageBox'.
+23:03:50.9395 [Skin] Parsing embedded skin '<embedded-in-MessageBoxSummary>'.
+23:03:50.9401 [Skin] Processing screen '<embedded-in-MessageBoxSummary>', from list 'MessageBoxSummary, MessageBox_summary, ScreenSummary', position=(0,0), size=(132,64) for module 'MessageBoxSummary'.
+23:03:50.9411 [eWindowStyleManager] getStyle(style_id=1): NOT FOUND
+23:03:50.9438 [ArabicSavior] fallback to default translation for Message
+23:03:50.9616 [ArabicSavior] fallback to default translation for Restart necessary, restart GUI now?
+23:03:50.9635 [Skin] Warning: Skin screen 'MessageBox' rejected as it does not offer all the mandatory widgets 'icon', 'list', 'text'!
+23:03:50.9636 [Skin] Parsing embedded skin '<embedded-in-MessageBox>'.
+23:03:50.9644 [Skin] Processing screen '<embedded-in-MessageBox>' position=(570,371), size=(780,337) for module 'MessageBox'.
+23:03:50.9689 [Skin] Parsing embedded skin '<embedded-in-MessageBoxSummary>'.
+23:03:50.9695 [Skin] Processing screen '<embedded-in-MessageBoxSummary>', from list 'MessageBoxSummary, MessageBox_summary, ScreenSummary', position=(0,0), size=(132,64) for module 'MessageBoxSummary'.
+23:03:50.9704 [eWindowStyleManager] getStyle(style_id=1): NOT FOUND
+23:03:50.9733 [ArabicSavior] fallback to default translation for Message
+23:03:50.9907 [ArabicSavior] fallback to default translation for Restart necessary, restart GUI now?
+23:03:50.9928 [Skin] Warning: Skin screen 'MessageBox' rejected as it does not offer all the mandatory widgets 'icon', 'list', 'text'!
+23:03:50.9929 [Skin] Parsing embedded skin '<embedded-in-MessageBox>'.
+23:03:50.9937 [Skin] Processing screen '<embedded-in-MessageBox>' position=(570,371), size=(780,337) for module 'MessageBox'.
+23:03:50.9981 [Skin] Parsing embedded skin '<embedded-in-MessageBoxSummary>'.
+23:03:50.9987 [Skin] Processing screen '<embedded-in-MessageBoxSummary>', from list 'MessageBoxSummary, MessageBox_summary, ScreenSummary', position=(0,0), size=(132,64) for module 'MessageBoxSummary'.
+23:03:50.9996 [eWindowStyleManager] getStyle(style_id=1): NOT FOUND
+23:03:51.0079 [ArabicSavior] fallback to default translation for Message
+23:03:51.0256 [ArabicSavior] fallback to default translation for Restart necessary, restart GUI now?
+23:03:51.0275 [Skin] Warning: Skin screen 'MessageBox' rejected as it does not offer all the mandatory widgets 'icon', 'list', 'text'!
+23:03:51.0276 [Skin] Parsing embedded skin '<embedded-in-MessageBox>'.
+23:03:51.0284 [Skin] Processing screen '<embedded-in-MessageBox>' position=(570,371), size=(780,337) for module 'MessageBox'.
+23:03:51.0336 [Skin] Parsing embedded skin '<embedded-in-MessageBoxSummary>'.
+23:03:51.0342 [Skin] Processing screen '<embedded-in-MessageBoxSummary>', from list 'MessageBoxSummary, MessageBox_summary, ScreenSummary', position=(0,0), size=(132,64) for module 'MessageBoxSummary'.
+23:03:51.0352 [eWindowStyleManager] getStyle(style_id=1): NOT FOUND
+23:03:51.0379 [ArabicSavior] fallback to default translation for Message
+23:04:10.0289 [eRCDeviceInputDev] 1 160 1
+23:04:10.0293 [InfoBarGenerics] Key 'KEY_OK' (352) Make.
+23:04:10.0295 [ActionMap] Map screen 'N/A' context 'HelpActions' -> Unknown action 'select'!  (Typo in map?)
+23:04:10.0295 [ActionMap] Map screen 'MessageBox' context 'MsgBoxActions' -> Action 'select'.
+23:04:10.0582 [eDVBCAService] free slot 0 demux 0 for service 1:0:1:2BD:7:800:DCA0000:0:0:0:
+23:04:10.0583 [eDVBCAService] free service 1:0:1:2BD:7:800:DCA0000:0:0:0:
+23:04:10.0699 [eTSMPEGDecoder] decoder state: play, vpid=ffffffff, apid=ffffffff
+23:04:10.1128 [eDVBResourceManager] start release channel timer
+23:04:10.1140 [Skin] Processing screen 'QuitMainloopScreen' position=(0,0), size=(1920,1080) for module 'QuitMainloopScreen'.
+23:04:10.1157 [gAccel] accel alloc failed
+
+23:04:10.1158 [gSurface] ERROR: accelAlloc failed
+23:04:10.2065 [Standby] quitMainloop #1
+23:04:10.2068 [Skin] Parsing embedded skin '<embedded-in-TryQuitMainloop>'.
+23:04:10.2073 [Skin] Processing screen '<embedded-in-TryQuitMainloop>' position=(1310,0), size=(0,0) for module 'TryQuitMainloop'.
+23:04:10.2080 [Skin] Parsing embedded skin '<embedded-in-ScreenSummary>'.
+23:04:10.2085 [Skin] Processing screen '<embedded-in-ScreenSummary>', from list 'TryQuitMainloopSummary, TryQuitMainloop_summary, ScreenSummary', position=(0,0), size=(132,64) for module 'ScreenSummary'.
+23:04:10.2096 [eWindowStyleManager] getStyle(style_id=1): NOT FOUND
+23:04:10.2176 Main loop terminated.
+23:04:10.2187 [FrontPanelLed] /proc/stb/fp/led_fade does not exist!
+23:04:10.2191 [FrontPanelLed] /proc/stb/fp/led_brightness does not exist!
+23:04:10.2194 [FrontPanelLed] /proc/stb/fp/led_color does not exist!
+23:04:10.2195 [FrontPanelLed] /proc/stb/fp/led_blink does not exist!
+23:04:10.2196 [StartEnigma] Normal shutdown.
+23:04:10.2210 [AutoBouquetsMaker] next wake up due -1
+23:04:10.2215 ====================================================================================================
+23:04:10.3315 [StartEnigma] No next wakeup time set.
+23:04:10.3317 ====================================================================================================
+23:04:10.3584 [ABM-Scheduler][Scheduleautostart] reason(1), session None
+23:04:10.3585 [ABM-Scheduler][Scheduleautostart] Stop
+23:04:10.3606 [eDVBDB] Saving lame channel db.
+23:04:10.3704 [eDVBDB] Saved 65 channels and 989 services.
+23:04:10.3791 [eDVBResourceManager] release cached channel (timer timeout)
+23:04:10.3793 [eEPGTransponderDataReader] remove channel 0x1514bc0
+23:04:10.3796 [eDVBResourceManager] stop release channel timer
+23:04:10.3803 [Avahi] avahi_watch_free
+23:04:10.3916 [eDVBLocalTimeHandler] Set RTC to previous valid time.
+23:04:10.5013 [eInit] - (41) Stream server
+23:04:10.5014 [eInit] - (41) RTSP Stream server
+23:04:10.5015 [eInit] - (41) Encoders
+23:04:10.5015 [eInit] - (41) eServiceFactoryDVB
+23:04:10.5015 [eInit] - (41) eServiceFactoryFS
+23:04:10.5015 [eInit] - (41) eServiceFactoryMP3
+23:04:10.5015 [eInit] - (41) eServiceFactoryM2TS
+23:04:10.5016 [eInit] - (41) eServiceFactoryHDMI
+23:04:10.5016 [eInit] - (41) eServiceFactoryTS
+23:04:10.5016 [eInit] - (41) eServiceFactoryWebTS
+23:04:10.5016 [eInit] - (41) eServiceFactoryDVD
+23:04:10.5016 [eInit] - (40) eServiceCenter
+23:04:10.5016 [eInit] - (35) CA handler
+23:04:10.5017 [eInit] - (35) CI Slots
+23:04:10.5020 [eInit] - (30) eActionMap
+23:04:10.5020 [eInit] - (22) Hdmi CEC driver
+23:04:10.5020 [eInit] - (21) input device driver
+23:04:10.5213 [eInit] - (20) AVSwitch Driver
+23:04:10.5213 [eInit] - (20) AVControl Driver
+23:04:10.5213 [eInit] - (20) misc options
+23:04:10.5214 [eInit] - (20) RC Input layer
+23:04:10.5214 [eInit] - (20) UHF Modulator
+23:04:10.5214 [eInit] - (20) DVB-CI UI
+23:04:10.5215 [eInit] - (15) eWindowStyleManager
+23:04:10.5215 [eInit] - (10) gRC
+23:04:10.5215 [gRC] Waiting for gRC thread shutdown.
+23:04:10.5218 [gRC] Thread has finished.
+23:04:10.5218 [eInit] - (9) Font Render Class
+23:04:10.5219 [eInit] - (9) gLCD
+23:04:10.5219 [eInit] - (9) GFBDC
+23:04:10.5228 [eInit] - (8) graphics acceleration manager
+23:04:10.5230 [eInit] - (5) Tuxtxt
+23:04:10.5230 [eInit] - (1) Background File Eraser
+23:04:10.5231 [eInit] reached rl -1
