@@ -1,0 +1,980 @@
+<skin>
+  <!--
+AL_AYAM_FHD
+skin author: TeamNitro ( BoHLALA; Kimoo; biko)
+-->
+  <output id="0">
+    <resolution xres="1920" yres="1080" bpp="32" />
+  </output>
+  <colors>
+    <color name="#030106" value="#00030106" />
+    <color name="#0f85a5" value="#000f85a5" />
+    <color name="#10000000" value="#10000000" />
+    <color name="#10004386" value="#10004386" />
+    <color name="#1001213e" value="#1001213e" />
+    <color name="#1004101f" value="#1004101f" />
+    <color name="#100d2241" value="#100d2241" />
+    <color name="#101010" value="#00101010" />
+    <color name="#10101010" value="#10101010" />
+    <color name="#109dcb" value="#00109dcb" />
+    <color name="#14649b" value="#0014649b" />
+    <color name="#16102042" value="#16102042" />
+    <color name="#161616" value="#00161616" />
+    <color name="#1a27408b" value="#1a27408b" />
+    <color name="#1e3c" value="#00001e3c" />
+    <color name="#1edb76" value="#001edb76" />
+    <color name="#202124" value="#00202124" />
+    <color name="#20ffffff" value="#20ffffff" />
+    <color name="#222222" value="#00222222" />
+    <color name="#252525" value="#00252525" />
+    <color name="#2852b4" value="#002852b4" />
+    <color name="#2b74ab" value="#002b74ab" />
+    <color name="#2f5894" value="#002f5894" />
+    <color name="#303030" value="#00303030" />
+    <color name="#35000000" value="#35000000" />
+    <color name="#353d3f" value="#00353d3f" />
+    <color name="#363b38" value="#00363b38" />
+    <color name="#372113" value="#00372113" />
+    <color name="#46a8" value="#000046a8" />
+    <color name="#4c042c" value="#004c042c" />
+    <color name="#4d5375" value="#004d5375" />
+    <color name="#4f4f4f" value="#004f4f4f" />
+    <color name="#551c1d" value="#00551c1d" />
+    <color name="#6102042" value="#06102042" />
+    <color name="#6161616" value="#06161616" />
+    <color name="#777777" value="#00777777" />
+    <color name="#787878" value="#00787878" />
+    <color name="#80808" value="#00080808" />
+    <color name="#80ff80" value="#0080ff80" />
+    <color name="#82baf7" value="#0082baf7" />
+    <color name="#8b8b8b" value="#008b8b8b" />
+    <color name="#8cff" value="#00008cff" />
+    <color name="#92f1fc" value="#0092f1fc" />
+    <color name="#999999" value="#00999999" />
+    <color name="#9f1313" value="#009f1313" />
+    <color name="#b0b0b0" value="#00b0b0b0" />
+    <color name="#c400" value="#0000c400" />
+    <color name="#cccccc" value="#00cccccc" />
+    <color name="#cd853f" value="#00cd853f" />
+    <color name="#d1c1c1c" value="#0d1c1c1c" />
+    <color name="#d1d1d" value="#000d1d1d" />
+    <color name="#d4680" value="#000d4680" />
+    <color name="#e1ab06" value="#00e1ab06" />
+    <color name="#e4e3e1" value="#00e4e3e1" />
+    <color name="#f3fc92" value="#00f3fc92" />
+    <color name="#f4f4f4" value="#00f4f4f4" />
+    <color name="#fcfdfd" value="#00fcfdfd" />
+    <color name="#fecb16" value="#00fecb16" />
+    <color name="#fefb03" value="#00fefb03" />
+    <color name="#ffa500" value="#00ffa500" />
+    <color name="#ffba00" value="#00ffba00" />
+    <color name="#ffbb00" value="#00ffbb00" />
+    <color name="#fff000" value="#00fff000" />
+    <color name="ayam1" value="#00242f35" />
+    <color name="ayam2" value="#00263238" />
+    <color name="b" value="#000089fa" />
+    <color name="b2" value="#005d5d5d" />
+    <color name="b3" value="#007bc9f3" />
+    <color name="b6" value="#00b4dafa" />
+    <color name="b7" value="#0000ffff" />
+    <color name="background" value="#19101215" />
+    <color name="backselect" value="#003e0000" />
+    <color name="black" value="#00000000" />
+    <color name="blue" value="#00008cec" />
+    <color name="clock" value="#00b0d9f7" />
+    <color name="dark" value="#00383838" />
+    <color name="dark_black" value="#00171717" />
+    <color name="dark_blue" value="#00000240" />
+    <color name="description" value="#0021a2fb" />
+    <color name="e2" value="#00a3b016" />
+    <color name="foreground" value="#00dcdcdc" />
+    <color name="g" value="#0000ff00" />
+    <color name="g2" value="#00009d00" />
+    <color name="g3" value="#00d0ff1f" />
+    <color name="gr" value="#005a5a5a" />
+    <color name="green" value="#00389416" />
+    <color name="grey" value="#00b3b3b9" />
+    <color name="ice" value="#00ceebf4" />
+    <color name="light-green" value="#0026c826" />
+    <color name="line" value="#00282828" />
+    <color name="listboxselback" value="#05101214" />
+    <color name="mediatitle" value="#00269ceb" />
+    <color name="naranja" value="#00ff4b2a" />
+    <color name="r" value="#00ff0000" />
+    <color name="red" value="#00fa5000" />
+    <color name="redzelda" value="#00dc091f" />
+    <color name="Rzelda" value="#0016232b" />
+    <color name="servicefor" value="#008fc6ec" />
+    <color name="tb" value="#50000000" />
+    <color name="title" value="#0054a7e2" />
+    <color name="transparent" value="#ff000000" />
+    <color name="transpBlack" value="#80000000" />
+    <color name="transpWhite" value="#80ffffff" />
+    <color name="vdback" value="#75000000" />
+    <color name="vdbord" value="#55000000" />
+    <color name="vdphone" value="#45000000" />
+    <color name="w" value="#00ffffff" />
+    <color name="white" value="#00ffffff" />
+    <color name="y" value="#00d5ff45" />
+    <color name="y2" value="#00ffcc00" />
+    <color name="yellow" value="#00ffc435" />
+  </colors>
+  <fonts>
+    <font filename="/usr/share/enigma2/AL_AYAM_FHD/fonts/TeamNitro-aurar.ttf" name="Regular" scale="100" />
+    <font filename="/usr/share/enigma2/AL_AYAM_FHD/fonts/TeamNitro-aurar.ttf" name="Replacement" scale="100" replacement="1" />
+    <font filename="/usr/share/enigma2/AL_AYAM_FHD/fonts/tiny.ttf" name="Subtitlefont" scale="100" />
+    <font filename="tuxtxt.ttf" name="Console" scale="100" />
+    <alias name="ChoiceList" font="Regular" size="30" height="35" />
+    <alias name="Body" font="Regular" size="30" height="35" />
+    <alias name="FileList" font="Regular" size="28" height="37" />
+    <alias name="PlayList" font="Regular" size="28" height="37" />
+    <alias name="PluginBrowser0" font="Regular" size="28" height="32" />
+    <alias name="PluginBrowser1" font="Regular" size="24" height="30" />
+    <alias name="ServiceInfo" font="Regular" size="28" height="32" />
+    <alias name="TextNormal" font="Regular" size="30" height="40" />
+    <alias name="SelectionList" font="Regular" size="28" height="32" />
+    <alias name="FileListMulti" font="Regular" size="30" height="40" />
+    <alias name="HelpMenuList" font="Regular" size="30" height="50" />
+    <alias name="HelpMenuListExt0" font="Regular" size="30" height="75" />
+    <alias name="HelpMenuListExt1" font="Regular" size="30" />
+    <alias name="VirtualKeyBoard" font="Regular" size="40" height="72" />
+    <alias name="iptvupdatelistitem_0" font="Regular" size="24" height="28" />
+    <alias name="iptvupdatelistitem_1" font="Regular" size="30" height="50" />
+    <alias name="iptvdwnlistitem_0" font="Regular" size="36" height="42" />
+    <alias name="iptvdwnlistitem_1" font="Regular" size="26" height="32" />
+    <alias name="iptvlistitem" font="Regular" size="26" height="32" />
+    <alias name="iptvdwnlistitem_2" font="Regular" size="32" height="40" />
+    <alias name="TimerListFont1" font="Regular" size="30" height="90" />
+    <alias name="TimerListFont2" font="Regular" size="24" />
+    <alias name="fstabMenuList" font="Regular" size="28" height="50" />
+    <alias name="PiconManagerList" font="Regular" size="28" height="50" />
+    <alias name="RSList" font="Regular" size="28" height="50" />
+    <alias name="EPGList0" font="Regular" size="28" />
+    <alias name="EPGList1" font="Regular" size="26" />
+    <alias name="entrylist" font="Regular" size="28" height="50" />
+    <alias name="SimpleListFont" font="Regular" size="32" height="45" />
+    <alias name="StringList" font="Regular" size="30" height="50" />
+    <alias name="ZapHistoryBrowserList" font="Regular" size="28" height="60" />
+    <alias name="MultiQuickButtonListFont" font="Regular" size="50" height="145" />
+    <alias name="GMultiEPGTimelineFont" font="Regular" size="27" />
+    <alias name="ParentalControlList" font="Regular" size="28" height="40" />
+    <alias name="ConfigMenu" font="Regular" size="28" height="45" />
+  </fonts>
+  <parameters>
+    <parameter name="FileListMultiLock" value="2,0,25,25" />
+    <parameter name="FileListMultiIcon" value="45,0,25,25" />
+    <parameter name="FileListMultiName" value="80,0,700,40" />
+    <parameter name="FileListIcon" value="10,7,30,37" />
+    <parameter name="FileListName" value="40,2,800,37" />
+    <parameter name="PlayListIcon" value="10,7,30,37" />
+    <parameter name="PlayListName" value="40,0,800,37" />
+    <parameter name="PluginBrowserIcon" value="10,8,150,60" />
+    <parameter name="PluginBrowserName" value="180,0,35" />
+    <parameter name="PluginBrowserDescr" value="180,34,30" />
+    <parameter name="PluginBrowserDownloadIcon" value="10,5,80,60" />
+    <parameter name="PluginBrowserDownloadName" value="90,0,32" />
+    <parameter name="PluginBrowserDownloadDescr" value="90,30,30" />
+    <parameter name="SelectionListLock" value="10,2,35,35" />
+    <parameter name="SelectionListLockOff" value="10,2,35,35" />
+    <parameter name="SelectionListDescr" value="60,2,820,32" />
+    <parameter name="HelpMenuListHlp" value="0,0,840,42" />
+    <parameter name="HelpMenuListExtHlp0" value="0,0,840,39" />
+    <parameter name="HelpMenuListExtHlp1" value="0,42,840,30" />
+    <parameter name="ConfigListSeperator" value="500" />
+    <parameter name="ChoicelistIcon" value="2,4,35,35" />
+    <parameter name="ChoicelistDash" value="0,0,850,35" />
+    <parameter name="ChoicelistName" value="45,0,850,35" />
+    <parameter name="ServiceInfoLeft" value="0,0,450,40" />
+    <parameter name="ServiceInfoRight" value="460,0,660,40" />
+    <parameter name="VirtualKeyBoard" value="76,72" />
+    <parameter name="AutotimerEnabledIcon" value="2,1,25,25" />
+    <parameter name="AutotimerRecordIcon" value="30,1,25,25" />
+    <parameter name="AllowUserDatesAndTimes" value="2,2" />
+  </parameters>
+  <windowstyle type="skinned" id="0">
+    <title offset="33,17" font="Regular;52" />
+    <scrolllabel scrollbarWidth="8" scrollbarBorderWidth="1" />
+    <configList entryFont="Regular;28" valueFont="Regular;28" blackFont="Regular;28" />
+    <color name="Background" color="ayam2" />
+    <color name="LabelForeground" color="w" />
+    <color name="ListboxBackground" color="ayam2" />
+    <color name="ListboxForeground" color="w" />
+    <color name="ListboxSelectedBackground" color="b2" />
+    <color name="ListboxSelectedForeground" color="#fefb03" />
+    <color name="ListboxMarkedBackground" color="w" />
+    <color name="ListboxMarkedForeground" color="w" />
+    <color name="ListboxMarkedAndSelectedBackground" color="b2" />
+    <color name="ListboxMarkedAndSelectedForeground" color="#030106" />
+    <color name="WindowTitleForeground" color="w" />
+    <color name="WindowTitleBackground" color="w" />
+    <listfont type="Bigger" font="Regular" size="34" />
+    <listfont type="Big" font="Regular" size="32" />
+    <listfont type="Medium" font="Regular" size="30" />
+    <listfont type="Small" font="Regular" size="28" />
+    <listfont type="Smaller" font="Regular" size="28" />
+    <!-- Main screen border -->
+    <borderset name="bsWindow">
+      <pixmap pos="bpTopLeft" filename="AL_AYAM_FHD/bg_design/bs_tl.png" />
+      <pixmap pos="bpTop" filename="AL_AYAM_FHD/bg_design/bs_t.png" />
+      <pixmap pos="bpTopRight" filename="AL_AYAM_FHD/bg_design/bs_tr.png" />
+      <pixmap pos="bpLeft" filename="AL_AYAM_FHD/bg_design/bs_l.png" />
+      <pixmap pos="bpRight" filename="AL_AYAM_FHD/bg_design/bs_r.png" />
+      <pixmap pos="bpBottomLeft" filename="AL_AYAM_FHD/bg_design/bs_bl.png" />
+      <pixmap pos="bpBottom" filename="AL_AYAM_FHD/bg_design/bs_b.png" />
+      <pixmap pos="bpBottomRight" filename="AL_AYAM_FHD/bg_design/bs_br.png" />
+    </borderset>
+  </windowstyle>
+  <!--InfoBar-->
+  <screen name="InfoBar" position="0,0" size="1920,1080" title="InfoBar" flags="wfNoBorder" backgroundColor="transparent">
+    <ePixmap pixmap="AL_AYAM_FHD/biko/infobar3s.png" position="2,768" size="1920,320" zPosition="-1" alphatest="on" />
+    <ePixmap pixmap="AL_AYAM_FHD/biko/infopiconbg.png" scale="1" position="783,786" size="349,289" zPosition="0" alphatest="blend" transparent="1" />
+    <widget source="session.CurrentService" borderColor="black" borderWidth="2" render="Label" position="127,879" size="624,46" font="Regular; 37" foregroundColor="#fecb16" backgroundColor="background" transparent="1">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget source="global.CurrentTime" borderColor="black" borderWidth="1" render="Label" position="1738,879" size="159,45" font="Regular; 29" valign="center" halign="right" foregroundColor="#fcfdfd" backgroundColor="background" transparent="1" noWrap="1" zPosition="12">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/icons/resolution/ico_dolby_off.png" position="1281,891" size="50,18" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="AL_AYAM_FHD/icons/resolution/ico_dolby_on.png" position="1281,891" size="50,18" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">IsMultichannel</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/icons/resolution/ico_format_off.png" position="1338,891" size="50,18" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="AL_AYAM_FHD/icons/resolution/ico_format_on.png" position="1338,891" size="50,18" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">IsWidescreen</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/icons/resolution/ico_txt_off.png" position="1245,891" size="30,18" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="AL_AYAM_FHD/icons/resolution/ico_txt_on.png" position="1245,891" size="30,18" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">HasTelext</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/icons/resolution/ico_crypt_off.png" position="1210,891" size="30,18" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="AL_AYAM_FHD/icons/resolution/ico_crypt_on.png" position="1210,891" size="30,18" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">IsCrypted</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="Pixmap" position="1175,891" size="30,18" zPosition="1" pixmap="AL_AYAM_FHD/icons/resolution/ico_sd_on.png" alphatest="blend">
+      <convert type="ServiceInfoEX">VideoWidth</convert>
+      <convert type="ValueRange">0,720</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="Pixmap" position="1175,891" size="30,18" zPosition="2" pixmap="AL_AYAM_FHD/icons/resolution/ico_hd_on.png" alphatest="blend">
+      <convert type="ServiceInfo">VideoWidth</convert>
+      <convert type="ValueRange">721,1980</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="Pixmap" position="1175,891" size="30,18" zPosition="3" pixmap="AL_AYAM_FHD/icons/resolution/ico_uhd_on.png" alphatest="blend">
+      <convert type="ServiceInfo">VideoWidth</convert>
+      <convert type="ValueRange">1921,3840</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="Picon" position="883,872" size="150,92" zPosition="10" transparent="1" alphatest="blend">
+      <convert type="ServiceName">Reference</convert>
+    </widget>
+    <widget source="session.Event_Now" borderColor="black" borderWidth="1" render="Label" position="11,979" size="108,40" halign="center" font="Regular; 26" foregroundColor="#999999" backgroundColor="background" transparent="1" noWrap="1" zPosition="4">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="session.Event_Now" borderColor="black" borderWidth="1" render="Label" position="738,979" size="108,40" halign="left" font="Regular; 26" foregroundColor="#999999" backgroundColor="background" transparent="1" noWrap="1" zPosition="4">
+      <convert type="EventTime">EndTime</convert>
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="session.Event_Now" borderColor="black" borderWidth="1" position="122,979" size="614,40" halign="left" font="Regular; 26" foregroundColor="white" backgroundColor="background" transparent="1" noWrap="1" zPosition="4" render="Label">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget source="session.Event_Now" borderColor="black" borderWidth="1" render="Label" position="706,948" size="90,28" halign="left" font="Regular; 20" foregroundColor="#fefb03" backgroundColor="#d1d1d" transparent="1" noWrap="1" zPosition="4">
+      <convert type="EventTime">Remaining</convert>
+      <convert type="RemainingToText">InMinutes</convert>
+    </widget>
+    <ePixmap position="14,959" size="686,6" zPosition="1" pixmap="AL_AYAM_FHD/background/backProgress.png" scale="1" alphatest="blend" />
+    <widget source="session.Event_Now" render="Progress" pixmap="AL_AYAM_FHD/biko/progressmovie.png" scale="1" position="14,959" size="686,6" zPosition="2" transparent="1">
+      <convert type="EventTime">Progress</convert>
+    </widget>
+    <widget source="session.Event_Next" borderColor="black" borderWidth="1" render="Label" position="11,1025" size="108,40" halign="center" font="Regular; 26" foregroundColor="#999999" backgroundColor="Rzelda" transparent="1" noWrap="1" zPosition="4">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="session.Event_Next" borderColor="black" borderWidth="1" render="Label" position="771,1025" size="108,40" halign="left" font="Regular; 26" foregroundColor="#999999" backgroundColor="Rzelda" transparent="1" noWrap="1" zPosition="4">
+      <convert type="EventTime">EndTime</convert>
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="session.Event_Next" borderColor="black" borderWidth="1" render="Label" position="122,1025" size="647,40" halign="left" font="Regular; 27" foregroundColor="#cccccc" backgroundColor="Rzelda" transparent="1" noWrap="1" zPosition="4">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget source="session.CurrentService" borderColor="black" borderWidth="1" render="Label" halign="center" position="1276,988" size="419,32" foregroundColor="#fcfdfd" backgroundColor="background" transparent="1" noWrap="1" font="Regular; 26" zPosition="11">
+      <convert type="PliExtraInfo">CryptoBar</convert>
+    </widget>
+    <widget source="session.CurrentService" borderColor="black" borderWidth="1" render="Label" font="Regular; 23" position="1281,1030" size="524,31" halign="left" zPosition="11" foregroundColor="white" transparent="1" valign="center" backgroundColor="black">
+      <convert type="TNServName2">%S %F %p %Y %f </convert>
+    </widget>
+    <widget source="session.CurrentService" render="TNPicEmuF" text="PiconEmu" path="/AL_AYAM_FHD/icons/emu/emu2/" position="925,970" size="68,63" alphatest="blend" zPosition="1" scale="1" />
+    <widget source="global.CurrentTime" borderColor="black" borderWidth="1" render="Label" position="1565,941" size="339,37" font="Regular; 26" halign="right" foregroundColor="#fcfdfd" backgroundColor="background" transparent="1">
+      <convert type="ClockToText">Date</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Pixmap" position="1394,887" size="60,27" zPosition="4" pixmap="AL_AYAM_FHD/icons/IPTV+1.png" alphatest="blend">
+      <convert type="ServiceInfo">IsStream</convert>
+      <convert type="ConditionalShowHide">Blink</convert>
+    </widget>
+    <eLabel text="IP:" borderColor="black" borderWidth="1" position="1683,992" size="33,27" font="Regular; 24" backgroundColor="black" transparent="1" zPosition="0" halign="left" />
+    <widget source="session.CurrentService" borderColor="black" borderWidth="1" render="Label" position="1751,990" size="155,29" font="Regular; 25" zPosition="1" backgroundColor="background" transparent="1" foregroundColor="white" halign="left">
+      <convert type="TNTemp">Iplocal</convert>
+    </widget>
+    <widget render="ChannelNumber" source="session.CurrentService" position="15,882" size="107,46" font="Regular; 30" valign="center" halign="center" noWrap="1" backgroundColor="black" foregroundColor="white" transparent="1" borderWidth="2" borderColor="black" />
+    <widget source="session.CurrentService" scale="1" render="Pixmap" pixmap="AL_AYAM_FHD/icons/lan.png" position="1715,992" zPosition="4" size="31,27" transparent="1" alphatest="blend">
+      <convert type="TNRouteInfo">Lan</convert>
+      <convert type="ConditionalShowHide">Blink</convert>
+    </widget>
+    <widget source="session.CurrentService" scale="1" render="Pixmap" pixmap="AL_AYAM_FHD/icons/wifi.png" position="1715,992" zPosition="5" size="31,27" transparent="1" alphatest="blend">
+      <convert type="TNRouteInfo">Wifi</convert>
+      <convert type="ConditionalShowHide">Blink</convert>
+    </widget>
+    <ePixmap alphatest="blend" pixmap="AL_AYAM_FHD/icons/smartcard.png" scale="1" position="1157,950" size="32,21" />
+    <widget source="session.CurrentService" borderColor="black" borderWidth="1" render="Label" position="1196,945" size="458,28" halign="left" font="Regular;25" zPosition="4" transparent="1" valign="center" backgroundColor="black">
+      <convert type="CryptoInfo">VerboseInfo</convert>
+    </widget>
+    <widget render="TNPiconUni" path="/usr/lib/enigma2/python/Plugins/Extensions/TeamNitro/ICONS/weather" position="1828,723" size="86,80" source="session.CurrentService" alphatest="blend" transparent="1" zPosition="8" scale="1">
+      <convert type="TN_MSNWeather">Picon</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="black" borderColor="black" borderWidth="1" font="Regular; 32" render="Label" position="1627,707" size="192,43" source="session.CurrentService" transparent="1" zPosition="8" halign="right" foregroundColor="#ffba00" valign="center">
+      <convert type="TN_MSNWeather">Temp</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="black" borderColor="black" borderWidth="1" font="Regular; 25" render="Label" position="1540,756" size="279,43" source="session.CurrentService" zPosition="8" halign="right" transparent="1" foregroundColor="white">
+      <convert type="TN_MSNWeather">Location</convert>
+    </widget>
+    <widget source="session.Event_Now" render="xtraBanner" position="1321,497" size="595,110" zPosition="2" transparent="1" borderWidth="2" borderColor="B5" />
+    <widget source="session.CurrentService" nexts="0" render="TNPosterX" position="1280,604" size="637,272" zPosition="4" scale="1" />
+    <widget source="session.Event_Now" render="xtraParental" position="1858,825" size="50,50" alphatest="blend" zPosition="50" transparent="1" />
+    <widget source="session.Event_Now" render="Progress" pixmap="AL_AYAM_FHD/icons/starbars.png" scale="1" position="1652,844" size="198,28" zPosition="33" alphatest="blend" transparent="1">
+      <convert type="xtraInfo">imdbRatingValue</convert>
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/icons/nostarbars.png" scale="1" position="1652,844" size="198,28" alphatest="blend" zPosition="22" transparent="1" />
+    <!-- <ePixmap pixmap="AL_AYAM_FHD/biko/cover4.png" scale="1" position="1550,414" size="294,421" zPosition="6" alphatest="blend" transparent="1" /> -->
+    <!-- <ePixmap pixmap="AL_AYAM_FHD/infobar/no-cover3.png" scale="1" position="1551,418" size="285,408" zPosition="2" /> -->
+    <!-- Progress SNR AGC -->
+    <widget source="session.FrontendStatus" borderColor="black" borderWidth="1" render="Label" foregroundColor="#ffba00" backgroundColor="background" position="1493,877" size="136,27" transparent="1" zPosition="10" font="Regular; 22" halign="center" valign="top">
+      <convert type="TNFrontendInfo2">SNRdB</convert>
+    </widget>
+    <ePixmap name="new ePixmap" position="1495,908" size="134,6" pixmap="AL_AYAM_FHD/biko/snron1.png" zPosition="90" alphatest="blend" />
+    <eLabel text="S" borderColor="black" borderWidth="2" position="1460,891" size="26,29" font="Regular; 24" halign="right" foregroundColor="white" backgroundColor="transpBlack" transparent="1" zPosition="100" valign="top" />
+    <widget source="session.FrontendStatus" render="Progress" position="1495,908" size="135,6" zPosition="100" pixmap="AL_AYAM_FHD/biko/snron.png" transparent="1">
+      <convert type="FrontendInfo">SNR</convert>
+    </widget>
+    <widget source="session.FrontendStatus" borderColor="black" borderWidth="2" render="Label" position="1638,891" size="84,29" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="transpBlack" transparent="1" zPosition="100" valign="top">
+      <convert type="FrontendInfo">SNR</convert>
+    </widget>
+    <eLabel text="FPS :" borderColor="black" borderWidth="2" position="1806,1030" size="68,30" font="Regular; 20" foregroundColor="light-green" halign="left" valign="center" transparent="1" backgroundColor="black" />
+    <widget source="session.CurrentService" borderColor="black" borderWidth="2" render="Label" position="1853,1030" size="52,30" font="Regular; 21" halign="left" backgroundColor="black" transparent="1" foregroundColor="#fecb16" valign="top">
+      <convert type="TNFPS">Framerate</convert>
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/biko/EPGbg2.png" position="1280,606" size="647,271" zPosition="7" alphatest="blend" transparent="1" />
+    <widget source="session.FrontendInfo" render="Pixmap" scale="1" position="1246,1030" zPosition="2" size="30,33" pixmap="AL_AYAM_FHD/icons/ico_dvb-s.png" alphatest="blend">
+      <convert type="FrontendInfo">TYPE</convert>
+      <convert type="ValueRange">0,0</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="black" font="Regular; 23" render="Label" position="1432,808" size="409,27" source="session.MSNWeather" zPosition="11" halign="right" transparent="1" borderColor="black" borderWidth="2" valign="center" foregroundColor="#e1ab06">
+      <convert type="MSNWeather">city</convert>
+    </widget>
+    <eLabel text="Video :" position="1045,1028" size="77,33" font="Regular; 21" borderWidth="2" backgroundColor="transpBlack" transparent="1" zPosition="4" halign="left" foregroundColor="#e1ab06" noWrap="1" borderColor="black" />
+    <widget font="Regular; 21" position="1117,1028" size="123,33" render="Label" borderWidth="2" source="session.CurrentService" valign="center" halign="left" zPosition="2" backgroundColor="transpBlack" transparent="1" noWrap="1" borderColor="black">
+      <convert type="TN_Bitrate3">%V kbit/s</convert>
+    </widget>
+    <eLabel text="Audio :" position="1080,987" size="77,33" font="Regular; 21" backgroundColor="transpBlack" transparent="1" zPosition="4" halign="left" foregroundColor="#e1ab06" noWrap="1" borderColor="black" borderWidth="2" />
+    <widget font="Regular; 21" position="1149,987" size="123,33" render="Label" source="session.CurrentService" valign="center" halign="left" zPosition="2" backgroundColor="transpBlack" transparent="1" noWrap="1" borderColor="black" borderWidth="2">
+      <convert type="TN_Bitrate3">%A kbit/s</convert>
+    </widget>
+  </screen>
+  <screen name="SecondInfoBar" position="0,0" size="1920,1080" title="InfoBarExt" flags="wfNoBorder" backgroundColor="transparent">
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/SecondInfoBar.png" scale="1" position="9,0" size="1923,820" zPosition="-4" alphatest="blend" />
+    <ePixmap pixmap="AL_AYAM_FHD/icons/infoHR.png" scale="1" position="1871,467" size="45,272" zPosition="2" alphatest="blend" transparent="1" />
+    <ePixmap position="762,481" size="540,301" pixmap="AL_AYAM_FHD/biko/backdrop_dark_70p.png" alphatest="blend" zPosition="3" />
+    <ePixmap position="768,88" size="540,301" pixmap="AL_AYAM_FHD/biko/backdrop_dark_70p.png" alphatest="blend" zPosition="9" />
+    <ePixmap pixmap="AL_AYAM_FHD/background/vkeybg.png" scale="1" cornerRadius="10" position="95,435" size="305,346" zPosition="0" alphatest="blend" transparent="1" />
+    <!-- Weather -->
+    <widget source="session.Event_Next" borderColor="black" borderWidth="2" render="xtraBackdrop" position="762,481" size="540,301" zPosition="1" />
+    <widget source="session.Event_Now" borderColor="black" borderWidth="2" render="xtraBackdrop" position="768,88" size="540,301" zPosition="7" />
+    <widget source="session.CurrentService" borderColor="black" borderWidth="2" render="Label" position="1375,262" size="115,43" font="Regular; 19" halign="center" foregroundColor="#fecb16" backgroundColor="black" transparent="1" noWrap="1" zPosition="1">
+      <convert type="TN_MSNWeather">Shortday1</convert>
+    </widget>
+    <widget source="session.CurrentService" render="TNPiconUni" path="/usr/lib/enigma2/python/Plugins/Extensions/TeamNitro/ICONS/weather" position="1375,313" size="115,115" alphatest="blend" scale="on" zPosition="1">
+      <convert type="TN_MSNWeather">Picon1</convert>
+    </widget>
+    <widget source="session.CurrentService" borderColor="black" borderWidth="2" render="Label" position="1375,211" size="115,43" font="Regular; 20" halign="center" foregroundColor="#cccccc" backgroundColor="black" transparent="1" noWrap="1" zPosition="1">
+      <convert type="TN_MSNWeather">Lowtemp1</convert>
+    </widget>
+    <widget source="session.CurrentService" borderColor="black" borderWidth="2" render="Label" position="1375,162" size="115,43" font="Regular; 20" halign="center" foregroundColor="#fecb16" backgroundColor="black" transparent="1" noWrap="1" zPosition="1">
+      <convert type="TN_MSNWeather">Hightemp1</convert>
+    </widget>
+    <widget source="session.CurrentService" borderColor="black" borderWidth="2" render="Label" position="1490,262" size="115,43" font="Regular; 19" halign="center" foregroundColor="#fecb16" backgroundColor="black" transparent="1" noWrap="1" zPosition="1">
+      <convert type="TN_MSNWeather">Shortday2</convert>
+    </widget>
+    <widget source="session.CurrentService" render="TNPiconUni" path="/usr/lib/enigma2/python/Plugins/Extensions/TeamNitro/ICONS/weather" position="1490,313" size="115,115" alphatest="blend" scale="on" zPosition="1">
+      <convert type="TN_MSNWeather">Picon1</convert>
+    </widget>
+    <widget source="session.CurrentService" borderColor="black" borderWidth="2" render="Label" position="1490,211" size="115,43" font="Regular; 20" halign="center" foregroundColor="#cccccc" backgroundColor="black" transparent="1" noWrap="1" zPosition="1">
+      <convert type="TN_MSNWeather">Lowtemp2</convert>
+    </widget>
+    <widget source="session.CurrentService" borderColor="black" borderWidth="2" render="Label" position="1490,162" size="115,43" font="Regular; 20" halign="center" foregroundColor="#fecb16" backgroundColor="black" transparent="1" noWrap="1" zPosition="1">
+      <convert type="TN_MSNWeather">Hightemp2</convert>
+    </widget>
+    <widget source="session.CurrentService" borderColor="black" borderWidth="2" render="Label" position="1605,262" size="115,43" font="Regular; 19" halign="center" foregroundColor="#fecb16" backgroundColor="black" transparent="1" noWrap="1" zPosition="1">
+      <convert type="TN_MSNWeather">Shortday3</convert>
+    </widget>
+    <widget source="session.CurrentService" render="TNPiconUni" path="/usr/lib/enigma2/python/Plugins/Extensions/TeamNitro/ICONS/weather" position="1605,313" size="115,115" alphatest="blend" scale="on" zPosition="1">
+      <convert type="TN_MSNWeather">Picon3</convert>
+    </widget>
+    <widget source="session.CurrentService" borderColor="black" borderWidth="2" render="Label" position="1605,211" size="115,43" font="Regular; 20" halign="center" foregroundColor="#cccccc" backgroundColor="black" transparent="1" noWrap="1" zPosition="1">
+      <convert type="TN_MSNWeather">Lowtemp3</convert>
+    </widget>
+    <widget source="session.CurrentService" borderColor="black" borderWidth="2" render="Label" position="1605,162" size="115,43" font="Regular; 20" halign="center" foregroundColor="#fecb16" backgroundColor="black" transparent="1" noWrap="1" zPosition="1">
+      <convert type="TN_MSNWeather">Hightemp3</convert>
+    </widget>
+    <widget source="session.CurrentService" borderColor="black" borderWidth="2" render="Label" position="1720,262" size="115,43" font="Regular; 19" halign="center" foregroundColor="#fecb16" backgroundColor="black" transparent="1" noWrap="1" zPosition="1">
+      <convert type="TN_MSNWeather">Shortday4</convert>
+    </widget>
+    <widget source="session.CurrentService" render="TNPiconUni" path="/usr/lib/enigma2/python/Plugins/Extensions/TeamNitro/ICONS/weather" position="1720,313" size="115,115" alphatest="blend" scale="on" zPosition="1">
+      <convert type="TN_MSNWeather">Picon4</convert>
+    </widget>
+    <widget source="session.CurrentService" borderColor="black" borderWidth="2" render="Label" position="1720,211" size="115,43" font="Regular; 20" halign="center" foregroundColor="#cccccc" backgroundColor="black" transparent="1" noWrap="1" zPosition="1">
+      <convert type="TN_MSNWeather">Lowtemp4</convert>
+    </widget>
+    <widget source="session.CurrentService" borderColor="black" borderWidth="2" render="Label" position="1720,162" size="115,43" font="Regular; 20" halign="center" foregroundColor="#fecb16" backgroundColor="black" transparent="1" noWrap="1" zPosition="1">
+      <convert type="TN_MSNWeather">Hightemp4</convert>
+    </widget>
+    <widget source="session.Event_Now" borderColor="black" borderWidth="3" render="Label" zPosition="4" position="443,31" size="850,50" halign="left" font="Regular; 32" backgroundColor="background" transparent="1" noWrap="1" foregroundColor="#ffba00">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget source="session.Event_Now" borderColor="black" borderWidth="2" render="TNRunningText" position="780,89" size="528,297" font="Regular; 26" zPosition="71" foregroundColor="white" transparent="1" valing="top" halign="center" options="movetype=running,startpoint=0,direction=top,steptime=130,repeat=50,startdelay=1000,wrap" backgroundColor="black">
+      <convert type="EventName">FullDescription</convert>
+    </widget>
+    <widget source="session.Event_Next" borderColor="black" borderWidth="2" render="Label" zPosition="4" position="443,425" size="850,50" halign="left" font="Regular; 33" foregroundColor="#ffba00" backgroundColor="black" transparent="1" noWrap="1">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget source="session.Event_Next" render="TNRunningText" borderColor="black" borderWidth="2" position="769,485" size="534,292" font="Regular; 26" zPosition="4" foregroundColor="grey" transparent="1" valing="top" halign="center" options="movetype=running,startpoint=0,direction=top,steptime=130,repeat=50,startdelay=1000,wrap" backgroundColor="black">
+      <convert type="EventName">FullDescription</convert>
+    </widget>
+    <!-- xtrainfobar -->
+    <ePixmap pixmap="AL_AYAM_FHD/background/vkeybg.png" scale="1" cornerRadius="10" position="95,40" size="305,346" zPosition="0" alphatest="blend" transparent="1" />
+    <widget source="session.CurrentService" nexts="0" render="TNPosterX" position="134,72" size="228,300" zPosition="3" scale="1" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/cover3.png" scale="1" position="130,49" size="238,329" zPosition="7" alphatest="blend" transparent="1" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/no-cover3.png" position="130,49" size="238,329" zPosition="2" />
+    <widget render="xtraParental" source="session.Event_Now" position="636,328" size="50,48" zPosition="8" alphatest="blend" />
+    <widget source="session.CurrentService" nexts="0" render="TNPosterX" position="134,465" size="228,302" zPosition="4" scale="1" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/cover3.png" scale="1" position="130,443" size="238,329" zPosition="7" alphatest="blend" transparent="1" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/no-cover3.png" position="130,443" size="238,329" zPosition="2" />
+    <widget render="xtraParental" source="session.Event_Next" position="642,712" size="50,50" zPosition="8" alphatest="blend" />
+    <!-- Progress SNR AGC -->
+    <widget source="session.FrontendStatus" borderColor="black" borderWidth="2" render="Label" position="1359,841" size="236,30" font="Regular; 30" halign="center" foregroundColor="#999999" backgroundColor="black" transparent="1" zPosition="4">
+      <convert type="TNFrontendInfo2">SNR</convert>
+    </widget>
+    <widget source="session.FrontendStatus" render="Progress" pixmap="AL_AYAM_FHD/infobar/progress1.png" position="1359,762" size="236,118" zPosition="2" alphatest="blend" transparent="1">
+      <convert type="TNFrontendInfo2">SNR</convert>
+    </widget>
+    <ePixmap position="1359,762" size="236,118" zPosition="1" pixmap="AL_AYAM_FHD/infobar/progress2.png" alphatest="blend" />
+    <eLabel name="snr" text="SNR" borderColor="black" borderWidth="2" position="1440,809" size="70,25" zPosition="4" font="Regular;20" halign="center" transparent="1" foregroundColor="#cccccc" backgroundColor="black" />
+    <widget source="session.FrontendStatus" render="Progress" pixmap="AL_AYAM_FHD/infobar/progress1.png" position="1663,762" size="236,118" zPosition="2" alphatest="blend" transparent="1">
+      <convert type="TNFrontendInfo2">AGC</convert>
+    </widget>
+    <ePixmap position="1663,762" size="236,118" zPosition="1" pixmap="AL_AYAM_FHD/infobar/progress2.png" alphatest="blend" />
+    <eLabel name="agc" borderColor="black" borderWidth="2" text="AGC" position="1744,809" size="70,25" zPosition="4" font="Regular;20" halign="center" transparent="1" foregroundColor="#cccccc" backgroundColor="black" />
+    <widget source="session.FrontendStatus" borderColor="black" borderWidth="2" render="Label" position="1663,841" size="236,30" font="Regular; 30" halign="center" foregroundColor="#999999" backgroundColor="black" transparent="1" zPosition="4">
+      <convert type="TNFrontendInfo2">AGC</convert>
+    </widget>
+    <widget source="session.Event_Next" borderColor="black" borderWidth="2" render="Label" position="438,479" size="316,294" font="Regular; 26" halign="left" transparent="1" zPosition="10" backgroundColor="black" valign="top" foregroundColor="#fecb16">
+      <convert type="xtraInfo">Title,Year,Rated,Genre,Type,Country,Duration,SE</convert>
+    </widget>
+    <widget source="session.Event_Now" borderColor="black" borderWidth="2" render="Label" position="438,88" size="325,292" font="Regular; 26" halign="left" transparent="1" zPosition="2" backgroundColor="black" valign="top" foregroundColor="#fecb16">
+      <convert type="xtraInfo">Title,Year,Rated,Genre,Type,Country,Duration,SE</convert>
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/icons/nostarbars.png" position="440,726" size="198,36" alphatest="blend" zPosition="11" transparent="1" />
+    <widget source="session.Event_Now" render="Progress" pixmap="AL_AYAM_FHD/icons/starbars.png" position="433,339" size="198,36" zPosition="31" alphatest="blend" transparent="1">
+      <convert type="xtraInfo">imdbRatingValue</convert>
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/icons/nostarbars.png" position="433,339" size="198,36" alphatest="blend" zPosition="2" transparent="1" />
+    <widget source="session.Event_Next" render="Progress" pixmap="AL_AYAM_FHD/icons/starbars.png" position="440,726" size="198,36" zPosition="31" alphatest="blend" transparent="1">
+      <convert type="xtraInfo">imdbRatingValue</convert>
+    </widget>
+    <!-- info hardware ram -->
+    <!-- info hardware Flesh -->
+    <!-- info hardware Swap-->
+    <!-- info hardware Usb -->
+    <!-- info hardware Hdd -->
+    <ePixmap pixmap="AL_AYAM_FHD/biko/infopiconbg.png" scale="1" position="783,786" size="349,289" zPosition="0" alphatest="blend" transparent="1" />
+    <ePixmap position="0,0" size="1920,1080" pixmap="AL_AYAM_FHD/biko/backdrop_dark_70p.png" alphatest="blend" zPosition="-30" />
+    <ePixmap pixmap="AL_AYAM_FHD/biko/infobar3s.png" position="2,772" size="1923,320" zPosition="-2" alphatest="blend" />
+    <widget source="session.CurrentService" borderColor="black" borderWidth="2" render="Label" position="122,883" size="633,46" font="Regular; 37" foregroundColor="#fecb16" backgroundColor="background" transparent="1">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget source="global.CurrentTime" borderColor="black" borderWidth="1" render="Label" position="1373,46" size="196,57" font="Regular; 39" valign="center" halign="center" foregroundColor="#fcfdfd" backgroundColor="background" transparent="1" noWrap="1" zPosition="12">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/icons/resolution/ico_dolby_off.png" position="1286,896" size="50,18" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="AL_AYAM_FHD/icons/resolution/ico_dolby_on.png" position="1286,896" size="50,18" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">IsMultichannel</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/icons/resolution/ico_format_off.png" position="1343,896" size="50,18" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="AL_AYAM_FHD/icons/resolution/ico_format_on.png" position="1343,896" size="50,18" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">IsWidescreen</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/icons/resolution/ico_txt_off.png" position="1250,896" size="30,18" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="AL_AYAM_FHD/icons/resolution/ico_txt_on.png" position="1250,896" size="30,18" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">HasTelext</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/icons/resolution/ico_crypt_off.png" position="1215,896" size="30,18" zPosition="1" alphatest="blend" />
+    <widget source="session.CurrentService" render="Pixmap" pixmap="AL_AYAM_FHD/icons/resolution/ico_crypt_on.png" position="1215,896" size="30,18" zPosition="2" alphatest="blend">
+      <convert type="ServiceInfo">IsCrypted</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="Pixmap" position="1180,896" size="30,18" zPosition="1" pixmap="AL_AYAM_FHD/icons/resolution/ico_sd_on.png" alphatest="blend">
+      <convert type="ServiceInfoEX">VideoWidth</convert>
+      <convert type="ValueRange">0,720</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="Pixmap" position="1180,896" size="30,18" zPosition="2" pixmap="AL_AYAM_FHD/icons/resolution/ico_hd_on.png" alphatest="blend">
+      <convert type="ServiceInfo">VideoWidth</convert>
+      <convert type="ValueRange">721,1980</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="Pixmap" position="1180,896" size="30,18" zPosition="3" pixmap="AL_AYAM_FHD/icons/resolution/ico_uhd_on.png" alphatest="blend">
+      <convert type="ServiceInfo">VideoWidth</convert>
+      <convert type="ValueRange">1921,3840</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="Picon" position="884,882" size="148,101" zPosition="10" transparent="1" alphatest="blend">
+      <convert type="ServiceName">Reference</convert>
+    </widget>
+    <widget source="session.CurrentService" render="TNPiconUni" path="piconProv" position="760,873" size="55,33" alphatest="on" scale="1" zPosition="11">
+      <convert type="TNServName2">Provider</convert>
+    </widget>
+    <widget source="session.CurrentService" render="TNPiconUni" path="piconSat" position="1102,873" size="55,33" alphatest="on" scale="1" zPosition="11">
+      <convert type="TNServName2">OrbitalPos</convert>
+    </widget>
+    <widget source="session.Event_Now" borderColor="black" borderWidth="1" render="Label" position="11,979" size="110,40" halign="center" font="Regular; 26" foregroundColor="#999999" backgroundColor="background" transparent="1" noWrap="1" zPosition="4">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="session.Event_Now" borderColor="black" borderWidth="1" render="Label" position="743,979" size="108,40" halign="left" font="Regular; 26" foregroundColor="#999999" backgroundColor="background" transparent="1" noWrap="1" zPosition="4">
+      <convert type="EventTime">EndTime</convert>
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="session.Event_Now" borderColor="black" borderWidth="1" position="124,979" size="617,40" halign="left" font="Regular; 26" foregroundColor="white" backgroundColor="background" transparent="1" noWrap="1" zPosition="4" render="Label">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget source="session.Event_Now" borderColor="black" borderWidth="1" render="Label" position="700,947" size="90,28" halign="left" font="Regular; 20" foregroundColor="#fefb03" backgroundColor="#d1d1d" transparent="1" noWrap="1" zPosition="4">
+      <convert type="EventTime">Remaining</convert>
+      <convert type="RemainingToText">InMinutes</convert>
+    </widget>
+    <ePixmap position="12,959" size="680,6" zPosition="1" pixmap="AL_AYAM_FHD/background/backProgress.png" scale="1" alphatest="blend" />
+    <widget source="session.Event_Now" render="Progress" pixmap="AL_AYAM_FHD/biko/progressmovie.png" scale="1" position="12,959" size="680,6" zPosition="2" transparent="1">
+      <convert type="EventTime">Progress</convert>
+    </widget>
+    <widget source="session.Event_Next" borderColor="black" borderWidth="1" render="Label" position="11,1025" size="110,40" halign="center" font="Regular; 26" foregroundColor="#999999" backgroundColor="Rzelda" transparent="1" noWrap="1" zPosition="4">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="session.Event_Next" borderColor="black" borderWidth="1" render="Label" position="775,1025" size="108,40" halign="left" font="Regular; 26" foregroundColor="#999999" backgroundColor="Rzelda" transparent="1" noWrap="1" zPosition="4">
+      <convert type="EventTime">EndTime</convert>
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="session.Event_Next" borderColor="black" borderWidth="1" render="Label" position="124,1025" size="649,40" halign="left" font="Regular; 27" foregroundColor="#cccccc" backgroundColor="Rzelda" transparent="1" noWrap="1" zPosition="4">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget source="session.CurrentService" borderColor="black" borderWidth="1" render="Label" halign="center" position="1325,992" size="419,32" foregroundColor="#fcfdfd" backgroundColor="background" transparent="1" noWrap="1" font="Regular; 26" zPosition="11">
+      <convert type="PliExtraInfo">CryptoBar</convert>
+    </widget>
+    <widget source="session.CurrentService" borderColor="black" borderWidth="1" render="Label" font="Regular; 23" position="1303,1036" size="524,31" halign="left" zPosition="11" foregroundColor="white" transparent="1" valign="center" backgroundColor="black">
+      <convert type="TNServName2">%S %F %p %Y %f </convert>
+    </widget>
+    <widget source="session.CurrentService" render="TNPicEmuF" path="/AL_AYAM_FHD/icons/emu/emu_R/" scale="1" position="1812,975" size="87,86" alphatest="blend" zPosition="1" />
+    <widget source="global.CurrentTime" borderColor="black" borderWidth="1" render="Label" position="1363,115" size="316,37" font="Regular; 23" halign="left" foregroundColor="#fcfdfd" backgroundColor="background" transparent="1">
+      <convert type="ClockToText">Date</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Pixmap" position="929,993" size="60,27" zPosition="4" pixmap="AL_AYAM_FHD/icons/IPTV+1.png" alphatest="blend">
+      <convert type="ServiceInfo">IsStream</convert>
+      <convert type="ConditionalShowHide">Blink</convert>
+    </widget>
+    <eLabel text="IP:" borderColor="black" borderWidth="1" position="1403,891" size="33,27" font="Regular; 24" backgroundColor="black" transparent="1" zPosition="0" halign="left" />
+    <widget source="session.CurrentService" borderColor="black" borderWidth="1" render="Label" position="1476,891" size="197,29" font="Regular; 25" zPosition="1" backgroundColor="background" transparent="1" foregroundColor="white" halign="left">
+      <convert type="TNTemp">Iplocal</convert>
+    </widget>
+    <widget render="ChannelNumber" source="session.CurrentService" position="11,883" size="107,46" font="Regular; 30" valign="center" halign="center" noWrap="1" backgroundColor="black" foregroundColor="white" transparent="1" borderWidth="2" borderColor="black" />
+    <widget source="session.CurrentService" scale="1" render="Pixmap" pixmap="AL_AYAM_FHD/icons/lan.png" position="1440,892" zPosition="4" size="31,27" transparent="1" alphatest="blend">
+      <convert type="TNRouteInfo">Lan</convert>
+      <convert type="ConditionalShowHide">Blink</convert>
+    </widget>
+    <widget source="session.CurrentService" scale="1" render="Pixmap" pixmap="AL_AYAM_FHD/icons/wifi.png" position="1440,892" zPosition="5" size="31,27" transparent="1" alphatest="blend">
+      <convert type="TNRouteInfo">Wifi</convert>
+      <convert type="ConditionalShowHide">Blink</convert>
+    </widget>
+    <ePixmap alphatest="blend" pixmap="AL_AYAM_FHD/icons/smartcard.png" scale="1" position="1271,955" size="32,21" />
+    <widget source="session.CurrentService" borderColor="black" borderWidth="1" render="Label" position="1317,952" size="458,28" halign="left" font="Regular;25" zPosition="4" transparent="1" valign="center" backgroundColor="black">
+      <convert type="CryptoInfo">VerboseInfo</convert>
+    </widget>
+    <widget render="TNPiconUni" path="/usr/lib/enigma2/python/Plugins/Extensions/TeamNitro/ICONS/weather" position="1766,21" size="103,100" source="session.CurrentService" alphatest="blend" transparent="1" zPosition="8" scale="1">
+      <convert type="TN_MSNWeather">Picon</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="black" borderColor="black" borderWidth="1" font="Regular; 32" render="Label" position="1632,27" size="126,43" source="session.CurrentService" transparent="1" zPosition="8" halign="center" foregroundColor="#ffba00">
+      <convert type="TN_MSNWeather">Temp</convert>
+    </widget>
+    <widget noWrap="1" backgroundColor="black" borderColor="black" borderWidth="1" font="Regular; 25" render="Label" position="1632,77" size="126,43" source="session.CurrentService" zPosition="8" halign="center" transparent="1" foregroundColor="white">
+      <convert type="TN_MSNWeather">Location</convert>
+    </widget>
+    <!-- <ePixmap pixmap="AL_AYAM_FHD/biko/cover4.png" scale="1" position="1550,414" size="294,421" zPosition="6" alphatest="blend" transparent="1" /> -->
+    <!-- <ePixmap pixmap="AL_AYAM_FHD/infobar/no-cover3.png" scale="1" position="1551,418" size="285,408" zPosition="2" /> -->
+    <!-- Progress SNR AGC -->
+    <eLabel text="FPS :" borderColor="black" borderWidth="2" position="1147,952" size="68,30" font="Regular; 20" foregroundColor="light-green" halign="left" valign="center" transparent="1" backgroundColor="black" />
+    <widget source="session.CurrentService" borderColor="black" borderWidth="2" render="Label" position="1199,952" size="52,30" font="Regular; 21" halign="left" backgroundColor="black" transparent="1" foregroundColor="#fecb16" valign="top">
+      <convert type="TNFPS">Framerate</convert>
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" scale="1" position="1263,1035" zPosition="2" size="30,33" pixmap="AL_AYAM_FHD/icons/ico_dvb-s.png" alphatest="blend">
+      <convert type="FrontendInfo">TYPE</convert>
+      <convert type="ValueRange">0,0</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="black" font="Regular; 23" render="Label" position="1581,128" size="285,25" source="session.MSNWeather" zPosition="1" halign="right" transparent="1" borderColor="black" borderWidth="2" valign="center" foregroundColor="#e1ab06">
+      <convert type="MSNWeather">city</convert>
+    </widget>
+    <eLabel text="Video :" position="1040,1033" size="77,33" font="Regular; 21" borderWidth="2" backgroundColor="transpBlack" transparent="1" zPosition="4" halign="left" foregroundColor="#e1ab06" noWrap="1" borderColor="black" />
+    <widget font="Regular; 21" position="1112,1033" size="123,33" render="Label" borderWidth="2" source="session.CurrentService" valign="center" halign="left" zPosition="2" backgroundColor="transpBlack" transparent="1" noWrap="1" borderColor="black">
+      <convert type="TN_Bitrate3">%V kbit/s</convert>
+    </widget>
+    <eLabel text="Audio :" position="1090,992" size="77,33" font="Regular; 21" backgroundColor="transpBlack" transparent="1" zPosition="4" halign="left" foregroundColor="#e1ab06" noWrap="1" borderColor="black" borderWidth="2" />
+    <widget font="Regular; 21" position="1161,992" size="123,33" render="Label" source="session.CurrentService" valign="center" halign="left" zPosition="2" backgroundColor="transpBlack" transparent="1" noWrap="1" borderColor="black" borderWidth="2">
+      <convert type="TN_Bitrate3">%A kbit/s</convert>
+    </widget>
+    <!-- info hardware ram -->
+    <widget source="session.CurrentService" borderColor="black" borderWidth="1" render="Label" zPosition="6" position="1362,468" size="505,26" halign="center" valign="center" font="Regular; 17" transparent="1" backgroundColor="tb" foregroundColor="#fcfdfd">
+      <convert type="TNInfo">MemTotal,Full</convert>
+    </widget>
+    <widget source="session.Event_Now" scale="1" render="Progress" pixmap="AL_AYAM_FHD/icons/hardware2.png" position="1466,502" size="294,18" zPosition="3" transparent="1">
+      <convert type="TNInfo">MemTotal</convert>
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/icons/hardware1.png" scale="1" position="1466,502" size="294,18" zPosition="2" alphatest="blend" transparent="1" />
+    <!-- info hardware Flesh -->
+    <widget source="session.CurrentService" borderColor="black" borderWidth="1" render="Label" zPosition="6" position="1362,534" size="505,26" halign="center" valign="center" font="Regular; 17" transparent="1" backgroundColor="tb" foregroundColor="#fcfdfd">
+      <convert type="TNInfo">Flesh,Full</convert>
+    </widget>
+    <widget source="session.Event_Now" scale="1" render="Progress" pixmap="AL_AYAM_FHD/icons/hardware2.png" position="1466,568" size="294,18" zPosition="3" transparent="1">
+      <convert type="TNInfo">FleshInfo</convert>
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/icons/hardware1.png" scale="1" position="1466,568" size="294,18" zPosition="2" alphatest="blend" transparent="1" />
+    <!-- info hardware Swap-->
+    <widget source="session.CurrentService" borderColor="black" borderWidth="1" render="Label" zPosition="6" position="1362,594" size="505,26" halign="center" valign="center" font="Regular; 17" transparent="1" backgroundColor="tb" foregroundColor="#fcfdfd">
+      <convert type="TNInfo">SwapTotal,Full</convert>
+    </widget>
+    <widget source="session.Event_Now" scale="1" render="Progress" pixmap="AL_AYAM_FHD/icons/hardware2.png" position="1466,629" size="294,18" zPosition="3" transparent="1">
+      <convert type="TNInfo">SwapTotal</convert>
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/icons/hardware1.png" scale="1" position="1466,629" size="294,18" zPosition="2" alphatest="blend" transparent="1" />
+    <!-- info hardware Usb -->
+    <widget source="session.CurrentService" borderColor="black" borderWidth="2" render="Label" zPosition="6" position="1362,654" size="505,26" halign="center" valign="center" font="Regular; 17" transparent="1" backgroundColor="tb" foregroundColor="#fcfdfd">
+      <convert type="TNInfo">UsbInfo,Full</convert>
+    </widget>
+    <widget source="session.Event_Now" scale="1" render="Progress" pixmap="AL_AYAM_FHD/icons/hardware2.png" position="1466,685" size="294,18" zPosition="3" transparent="1">
+      <convert type="TNInfo">UsbInfo</convert>
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/icons/hardware1.png" scale="1" position="1466,685" size="294,18" zPosition="2" alphatest="blend" transparent="1" />
+    <!-- info hardware Hdd -->
+    <widget source="session.CurrentService" borderColor="black" borderWidth="1" render="Label" zPosition="6" position="1362,711" size="505,26" halign="center" valign="center" font="Regular; 17" transparent="1" backgroundColor="tb" foregroundColor="#fcfdfd">
+      <convert type="TNInfo">HddInfo,Full</convert>
+    </widget>
+    <widget source="session.Event_Now" scale="1" render="Progress" pixmap="AL_AYAM_FHD/icons/hardware2.png" position="1466,742" size="294,18" zPosition="3" transparent="1">
+      <convert type="TNInfo">HddInfo</convert>
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/icons/hardware1.png" scale="1" position="1466,742" size="294,18" zPosition="2" alphatest="blend" transparent="1" />
+  </screen>
+  <screen name="ChannelSelection" position="0,0" size="1920,1080" title="Channel Selection" flags="wfNoBorder" backgroundColor="transparent">
+    <widget name="list" position="38,153" size="779,750" scrollbarMode="showLeft" scrollbarWidth="0" enableWrapAround="1" colorServiceDescription="#fefb03" colorServiceDescriptionSelected="lightwhite" picServiceEventProgressbar="AL_AYAM_FHD/background/msgselectbar.png" backgroundColor="black" foregroundColorSelected="#fecb16" backgroundColorSelected="B5" foregroundColorMarked="white" backgroundColorMarked="background" foregroundColorMarkedSelected="red" backgroundColorMarkedSelected="skyblue" foregroundColorServiceNotAvail="grey" foregroundColorEvent="yellow2" foregroundColorEventSelected="yellow2" colorEventProgressbar="lightblue" colorEventProgressbarSelected="lightblue" colorEventProgressbarBorder="lightblue" colorEventProgressbarBorderSelected="lightblue" colorServiceRecorded="red" serviceItemHeight="45" serviceNumberFont="Regular;30" serviceNameFont="Regular;30" serviceInfoFont="Regular;30" progressbarHeight="9" progressbarBorderWidth="2" progressBarWidth="75" transparent="1" zPosition="5" render="Listbox" />
+    <ePixmap pixmap="AL_AYAM_FHD/background/listm.png" scale="1" position="8,0" size="843,1085" zPosition="-1" />
+    <ePixmap pixmap="AL_AYAM_FHD/biko/EPGbg1.png" position="100,0" size="1174,195" zPosition="-2" alphatest="blend" transparent="1" />
+    <ePixmap pixmap="AL_AYAM_FHD/biko/t3.png" scale="1" position="862,1020" size="1014,52" zPosition="3" alphatest="blend" transparent="1" />
+    <ePixmap pixmap="AL_AYAM_FHD/biko/t2.png" scale="1" position="862,975" size="1014,35" zPosition="0" alphatest="blend" transparent="1" />
+    <widget source="key_red" render="Label" position="55,1025" size="159,39" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="red" borderWidth="2" borderColor="black" backgroundColor="black" />
+    <widget source="key_green" render="Label" position="251,1025" size="159,39" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="g" backgroundColor="black" borderWidth="2" borderColor="black" />
+    <widget source="key_yellow" render="Label" position="458,1025" size="167,39" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="#fecb16" backgroundColor="black" borderWidth="2" borderColor="black" />
+    <widget source="key_blue" render="Label" position="675,1025" size="150,39" valign="center" halign="left" zPosition="3" font="Regular; 25" transparent="1" foregroundColor="b" backgroundColor="black" borderWidth="2" borderColor="black" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_red.png" position="11,1025" size="41,39" alphatest="blend" zPosition="3" />
+    <ePixmap position="36,151" size="782,834" pixmap="AL_AYAM_FHD/biko/backdrop_dark_70p.png" alphatest="black" zPosition="3" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_green.png" position="207,1025" size="41,39" alphatest="blend" zPosition="3" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_yellow.png" position="413,1025" size="41,39" alphatest="blend" zPosition="3" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_blue.png" position="631,1025" size="41,39" alphatest="blend" zPosition="3" />
+    <ePixmap pixmap="AL_AYAM_FHD/biko/backProgress.png" scale="1" position="1004,991" size="740,12" zPosition="1" alphatest="blend" transparent="1" />
+    <widget source="ServiceEvent" render="Picon" position="855,6" size="219,128" alphatest="blend" scale="aspect" zPosition="-3">
+      <convert type="ServiceName">Reference</convert>
+    </widget>
+    <widget source="global.CurrentTime" borderColor="black" borderWidth="2" render="Label" position="845,141" size="147,54" font="Regular; 38" valign="center" halign="left" foregroundColor="#fcfdfd" backgroundColor="background" transparent="1" noWrap="1">
+      <convert type="ClockToText">Default</convert>
+    </widget>
+    <widget source="global.CurrentTime" borderColor="black" borderWidth="2" render="Label" position="999,152" size="169,36" font="Regular; 25" halign="left" foregroundColor="#fcfdfd" backgroundColor="background" transparent="1" zPosition="100">
+      <convert type="ClockToText">Format:%d.%m.%Y</convert>
+    </widget>
+    <widget source="Title" render="Label" position="38,28" size="770,52" halign="left" font="Regular; 30" foregroundColor="#fecb16" backgroundColor="black" transparent="1" zPosition="12" borderWidth="2" borderColor="black" />
+    <widget source="ServiceEvent" render="TNRunningText" borderColor="black" borderWidth="2" position="33,903" size="778,84" font="Regular; 23" zPosition="7" foregroundColor="white" transparent="1" valing="top" halign="center" options="movetype=running,startpoint=0,direction=top,steptime=120,repeat=50,startdelay=1000,wrap" backgroundColor="black">
+      <convert type="EventName">FullDescription</convert>
+    </widget>
+    <widget source="ServiceEvent" render="Progress" position="1004,991" size="740,12" pixmap="AL_AYAM_FHD/biko/device1.png" foregroundColor="white" backgroundColor="black" zPosition="2" transparent="1" borderWidth="1" borderColor="white">
+      <convert type="EventTime">Progress</convert>
+    </widget>
+    <widget source="ServiceEvent" borderColor="black" borderWidth="2" render="Label" position="910,981" zPosition="110" size="90,26" font="Regular;20" foregroundColor="#fecb16" backgroundColor="black" halign="right" transparent="1">
+      <convert type="EventTime">StartTime</convert>
+      <convert type="ClockToText">
+      </convert>
+    </widget>
+    <widget source="ServiceEvent" borderColor="black" borderWidth="2" render="Label" position="1750,981" zPosition="1" size="90,26" font="Regular;20" halign="left" foregroundColor="#fecb16" backgroundColor="black" transparent="1">
+      <convert type="EventTime">EndTime</convert>
+      <convert type="ClockToText">Format:%H:%M</convert>
+    </widget>
+    <widget source="ServiceEvent" render="xtraBanner" position="505,26" size="300,60" nexts="0" zPosition="4" scale="1" alphatest="blend" borderWidth="1" borderColor="black" />
+    <widget source="ServiceEvent" nexts="0" render="TNPosterX" position="873,610" size="256,351" zPosition="20" scale="1" />
+    <widget source="ServiceEvent" nexts="1" render="TNPosterX" position="1121,697" size="185,253" zPosition="18" scale="1" />
+    <widget source="ServiceEvent" nexts="2" render="TNPosterX" position="1283,693" size="185,253" zPosition="16" scale="1" />
+    <widget source="ServiceEvent" nexts="3" render="TNPosterX" position="1458,685" size="185,253" zPosition="14" scale="1" />
+    <widget source="sServiceEvent" nexts="4" render="TNPosterX" position="1625,678" size="185,253" zPosition="12" scale="1" />
+    <widget source="ServiceEvent" render="xtraNextEvents" nextEvent="0" usedImage="backdrop" delayPic="500" position="36,151" size="787,834" zPosition="0" borderWidth="2" borderColor="tb" backgroundColor="black" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/multicover.png" position="856,548" size="962,457" zPosition="22" alphatest="blend" transparent="1" />
+    <widget source="session.CurrentService" render="TNPicEmuF" text="PiconEmu" path="/AL_AYAM_FHD/icons/emu/emu_R/" position="1826,877" size="87,89" alphatest="blend" zPosition="200" scale="1" />
+    <widget source="ServiceEvent" borderColor="black" borderWidth="2" render="Label" font="Regular; 25" position="1240,1032" size="680,36" halign="left" zPosition="11" foregroundColor="#fff000" transparent="1" backgroundColor="black">
+      <convert type="TNServName2">%S %F %p %Y %f </convert>
+    </widget>
+    <widget source="ServiceEvent" render="TNPiconUni" scale="aspect" path="piconProv" position="1084,53" size="80,40" zPosition="5" transparent="1" halign="center" alphatest="blend">
+      <convert type="TNServName2">Provider</convert>
+    </widget>
+    <widget source="ServiceEvent" render="TNPiconUni" scale="aspect" path="piconSat" position="1084,103" size="80,40" zPosition="5" alphatest="blend">
+      <convert type="TNServName2">OrbitalPos</convert>
+    </widget>
+    <widget source="ServiceEvent" render="TNPiconUni" path="piconCrypt" position="1084,7" size="80,40" zPosition="51" scale="1" alphatest="blend">
+      <convert type="TNCaidInfo2">CryptInfo2</convert>
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/no-cover.png" position="872,610" size="256,351" zPosition="19" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/no-cover2.png" position="1122,700" size="185,253" zPosition="17" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/no-cover2.png" position="1285,693" size="185,253" zPosition="15" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/no-cover2.png" position="1455,685" size="185,253" zPosition="13" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/no-cover2.png" position="1625,678" size="185,253" zPosition="11" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/ayam.png" scale="1" position="777,977" size="69,83" zPosition="2300" alphatest="blend" transparent="1" />
+    <ePixmap name="new ePixmap" position="961,1046" size="134,6" pixmap="AL_AYAM_FHD/biko/snron1.png" zPosition="90" alphatest="blend" />
+    <eLabel text="SNR" borderColor="black" borderWidth="2" position="874,1035" size="76,26" font="Regular; 24" halign="right" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="100" />
+    <widget source="session.FrontendStatus" render="Progress" position="961,1046" size="135,6" zPosition="100" pixmap="AL_AYAM_FHD/biko/snron.png" transparent="1">
+      <convert type="FrontendInfo">SNR</convert>
+    </widget>
+    <widget source="session.FrontendStatus" borderColor="black" borderWidth="2" render="Label" position="1107,1035" size="84,30" font="Regular; 24" halign="left" foregroundColor="white" backgroundColor="black" transparent="1" zPosition="100">
+      <convert type="FrontendInfo">SNR</convert>
+    </widget>
+    <widget source="session.FrontendInfo" render="Pixmap" scale="1" position="1195,1029" zPosition="29" size="35,45" pixmap="AL_AYAM_FHD/icons/ico_dvb-s.png" alphatest="blend">
+      <convert type="FrontendInfo">TYPE</convert>
+      <convert type="ValueRange">0,0</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+  </screen>
+  <!-- EPG  -->
+  <screen flags="wfNoBorder" name="EventView" position="0,0" size="1920,1080" title="EPG Selection" backgroundColor="transparent">
+    <ePixmap position="0,0" size="1920,1080" zPosition="-4" pixmap="AL_AYAM_FHD/epg/EPG.png" alphatest="off" transparent="1" />
+    <widget source="session.VideoPicture" render="Pig" position="1301,24" size="499,290" backgroundColor="transparent" zPosition="4" />
+    <widget name="epg_description" position="21,343" size="1027,652" transparent="1" font="Regular; 35" halign="center" backgroundColor="tb" foregroundColor="w" />
+    <widget source="session.Event_Now" position="1092,348" size="800,50" halign="left" font="Regular;30" foregroundColor="#ffba00" backgroundColor="background" transparent="1" noWrap="1" zPosition="4" render="Label">
+      <convert type="EventName">Name</convert>
+    </widget>
+    <widget name="datetime" position="1105,928" size="313,34" transparent="1" font="Regular; 29" halign="center" backgroundColor="tb" foregroundColor="#fff000" />
+    <widget name="duration" position="1105,966" size="313,34" transparent="1" font="Regular; 29" halign="center" backgroundColor="tb" foregroundColor="#fefb03" valign="center" />
+    <widget source="session.CurrentService" render="Label" position="18,261" size="1253,64" font="Regular; 50" foregroundColor="#fecb16" backgroundColor="background" transparent="1" zPosition="4">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <ePixmap pixmap="AL_AYAM_FHD/icons/nostarbars.png" position="1167,885" size="198,36" alphatest="blend" zPosition="2" transparent="1" />
+    <widget source="Event" render="Progress" pixmap="AL_AYAM_FHD/icons/starbars.png" position="1167,885" size="198,36" zPosition="3" alphatest="blend" transparent="1">
+      <convert type="xtraInfo">imdbRatingValue</convert>
+    </widget>
+    <widget source="Event" render="xtraParental" position="417,192" size="60,60" alphatest="blend" zPosition="9" transparent="1" />
+    <widget source="Event" render="xtraBackdrop" position="0,0" size="625,326" alphatest="blend" zPosition="-1" />
+    <ePixmap pixmap="AL_AYAM_FHD/epg/EPGbg.png" position="0,0" size="1920,330" zPosition="1" alphatest="blend" transparent="1" />
+    <widget source="Event" render="xtraPoster" scale="1" position="1094,407" size="332,470" zPosition="1" borderWidth="1" cornerRadius="14" borderColor="Nitro2" />
+    <widget source="Event" render="Label" position="1432,404" size="461,516" font="Regular; 28" halign="left" transparent="1" zPosition="44" backgroundColor="background" valign="top">
+      <convert type="xtraInfo">Title,Year,Rated,Genre,Type,Country,Duration,SE</convert>
+    </widget>
+    <widget source="Event" render="TNScrollLabel" zPosition="4" position="521,7" size="749,255" transparent="1" font="Regular; 20" halign="center" backgroundColor="tb" foregroundColor="white">
+      <convert type="EventName">FullDescription</convert>
+    </widget>
+    <widget name="key_red" position="97,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" objectTypes="key_red,Button,Label" />
+    <widget source="key_red" render="Label" position="97,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_red.png" position="51,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <widget source="key_red" render="Pixmap" pixmap="AL_AYAM_FHD/infobar/key_red.png" position="51,1035" size="41,39" alphatest="blend" objectTypes="key_red,StaticText" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget name="key_green" position="251,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" objectTypes="key_green,Button,Label" />
+    <widget source="key_green" render="Label" position="251,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_green.png" position="207,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <widget source="key_green" render="Pixmap" pixmap="AL_AYAM_FHD/infobar/key_green.png" position="207,1035" size="41,39" alphatest="blend" objectTypes="key_green,StaticText" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget name="key_yellow" position="418,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" objectTypes="key_yellow,Button,Label" />
+    <widget source="key_yellow" render="Label" position="418,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_yellow.png" position="373,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <widget source="key_yellow" render="Pixmap" pixmap="AL_AYAM_FHD/infobar/key_yellow.png" position="375,1035" size="41,39" alphatest="blend" objectTypes="key_yellow,StaticText" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget name="key_blue" position="593,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" objectTypes="key_blue,Button,Label" />
+    <widget source="key_blue" render="Label" position="593,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_blue.png" position="548,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <widget source="key_blue" render="Pixmap" pixmap="AL_AYAM_FHD/infobar/key_blue.png" position="548,1035" size="41,39" alphatest="blend" objectTypes="key_blue,StaticText" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+  </screen>
+  <screen flags="wfNoBorder" name="EPGSelection" position="center,center" size="1920,1080" title="EPG Selection" backgroundColor="transparent">
+    <ePixmap position="0,0" size="1920,1080" zPosition="-3" pixmap="AL_AYAM_FHD/epg/EPG.png" alphatest="off" transparent="1" />
+    <widget source="session.VideoPicture" render="Pig" position="1301,24" size="499,290" backgroundColor="transparent" zPosition="4" />
+    <widget name="list" selectionPixmap="RED-DRAGON-FHD/background/sellist.png" itemHeight="40" position="28,350" etEventItemFont="Regular;32" setColWidths="140,220" setIconDistance="10" scrollbarMode="showNever" setColGap="40" size="1019,639" transparent="1" />
+    <widget source="Event" render="Label" position="1106,348" size="788,641" transparent="1" font="Regular; 25" halign="center" backgroundColor="tb" foregroundColor="b6">
+      <convert type="EventName">FullDescription</convert>
+    </widget>
+    <widget source="session.CurrentService" render="Label" position="17,262" size="879,64" font="Regular; 50" foregroundColor="#fecb16" backgroundColor="background" transparent="1" zPosition="4">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget source="Event" render="xtraBackdrop" position="0,0" size="625,326" alphatest="blend" zPosition="-1" />
+    <ePixmap pixmap="AL_AYAM_FHD/epg/EPGbg.png" position="0,0" size="1920,330" zPosition="1" alphatest="blend" transparent="1" />
+    <widget source="Event" render="xtraPoster" scale="1" position="1049,9" size="215,311" zPosition="4" cornerRadius="14" borderWidth="1" />
+    <widget source="Event" render="xtraParental" position="417,192" size="60,60" alphatest="blend" zPosition="9" transparent="1" />
+    <widget source="Event" render="Label" position="527,2" size="677,257" font="Regular; 28" halign="left" transparent="1" zPosition="44" backgroundColor="background" valign="top">
+      <convert type="xtraInfo">Title,Year,Rated,Genre,Type,Country,Duration,SE</convert>
+    </widget>
+    <widget name="key_red" position="97,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" objectTypes="key_red,Button,Label" />
+    <widget source="key_red" render="Label" position="97,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_red.png" position="51,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <widget source="key_red" render="Pixmap" pixmap="AL_AYAM_FHD/infobar/key_red.png" position="51,1035" size="41,39" alphatest="blend" objectTypes="key_red,StaticText" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget name="key_green" position="251,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" objectTypes="key_green,Button,Label" />
+    <widget source="key_green" render="Label" position="251,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_green.png" position="207,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <widget source="key_green" render="Pixmap" pixmap="AL_AYAM_FHD/infobar/key_green.png" position="207,1035" size="41,39" alphatest="blend" objectTypes="key_green,StaticText" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget name="key_yellow" position="418,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" objectTypes="key_yellow,Button,Label" />
+    <widget source="key_yellow" render="Label" position="418,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_yellow.png" position="373,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <widget source="key_yellow" render="Pixmap" pixmap="AL_AYAM_FHD/infobar/key_yellow.png" position="375,1035" size="41,39" alphatest="blend" objectTypes="key_yellow,StaticText" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget name="key_blue" position="593,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" objectTypes="key_blue,Button,Label" />
+    <widget source="key_blue" render="Label" position="593,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_blue.png" position="548,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <widget source="key_blue" render="Pixmap" pixmap="AL_AYAM_FHD/infobar/key_blue.png" position="548,1035" size="41,39" alphatest="blend" objectTypes="key_blue,StaticText" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+  </screen>
+  <screen name="GraphMultiEPG" position="0,0" size="1920,1080" title="Electronic Program Guide" flags="wfNoBorder" backgroundColor="transparent">
+    <widget name="timeline_text" position="25,343" size="1869,35" transparent="1" font="Regular; 26" />
+    <widget name="list" backgroundPixmap="AL_AYAM_FHD/epg/OtherEvent.png" position="25,381" size="1865,622" itemHeight="30" ServiceFont="Regular;26" EventNamePadding="6" ServiceNamePadding="6" EntryFont="Regular;26" ServiceBorderVerWidth="3" EventBorderVerWidth="3" RecIconSize="32" IconXPadding="6" IconYPadding="4" EntryBorderColor="#071930" EntryBackgroundColor="#2f4964" EntryBackgroundColorSelected="ice" EntryForegroundColorSelected="ice" EntryActiveBackgroundColorSelected="ice" ServiceNameForegroundColor="foreground" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="7" scrollbarSliderBorderColor="#fecb16" scrollbarSliderForegroundColor="#fecb16" transparent="1" />
+    <widget name="timeline_now" position="24,379" zPosition="2" size="19,621" pixmap="AL_AYAM_FHD/epg/timeline-now.png" alphatest="on" />
+    <ePixmap position="0,0" size="1920,1080" zPosition="-3" pixmap="AL_AYAM_FHD/epg/GraphMultiEPG.png" alphatest="blend" transparent="1" />
+    <widget source="session.VideoPicture" render="Pig" position="1301,24" size="499,290" backgroundColor="transparent" zPosition="4" />
+    <widget source="session.CurrentService" render="Label" position="17,262" size="879,64" font="Regular; 50" foregroundColor="#fecb16" backgroundColor="background" transparent="1" zPosition="4">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget source="Event" render="xtraBackdrop" position="0,0" size="625,326" alphatest="blend" zPosition="-1" />
+    <ePixmap pixmap="AL_AYAM_FHD/epg/EPGbg.png" position="0,0" size="1920,330" zPosition="1" alphatest="blend" transparent="1" />
+    <widget source="Event" render="xtraPoster" scale="1" position="1049,9" size="215,311" zPosition="4" cornerRadius="14" borderWidth="1" />
+    <widget source="Event" render="xtraParental" position="417,192" size="60,60" alphatest="blend" zPosition="9" transparent="1" />
+    <widget source="Event" render="TNScrollLabel" zPosition="4" position="521,7" size="518,255" transparent="1" cornerRadius="10" font="Regular; 30" halign="center" backgroundColor="tb" foregroundColor="white">
+      <convert type="EventName">FullDescription</convert>
+    </widget>
+    <widget name="key_red" position="97,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" objectTypes="key_red,Button,Label" />
+    <widget source="key_red" render="Label" position="97,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_red.png" position="51,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <widget source="key_red" render="Pixmap" pixmap="AL_AYAM_FHD/infobar/key_red.png" position="51,1035" size="41,39" alphatest="blend" objectTypes="key_red,StaticText" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget name="key_green" position="251,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" objectTypes="key_green,Button,Label" />
+    <widget source="key_green" render="Label" position="251,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_green.png" position="207,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <widget source="key_green" render="Pixmap" pixmap="AL_AYAM_FHD/infobar/key_green.png" position="207,1035" size="41,39" alphatest="blend" objectTypes="key_green,StaticText" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget name="key_yellow" position="418,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" objectTypes="key_yellow,Button,Label" />
+    <widget source="key_yellow" render="Label" position="418,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_yellow.png" position="373,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <widget source="key_yellow" render="Pixmap" pixmap="AL_AYAM_FHD/infobar/key_yellow.png" position="375,1035" size="41,39" alphatest="blend" objectTypes="key_yellow,StaticText" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget name="key_blue" position="593,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" objectTypes="key_blue,Button,Label" />
+    <widget source="key_blue" render="Label" position="593,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_blue.png" position="548,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <widget source="key_blue" render="Pixmap" pixmap="AL_AYAM_FHD/infobar/key_blue.png" position="548,1035" size="41,39" alphatest="blend" objectTypes="key_blue,StaticText" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+  </screen>
+  <!-- skin author: TeamNitro  -->
+  <screen name="NewScreen" position="0, 0" flags="wfNoBorders" transparent="0" backgroundColor="transparent" size="1920, 1080" />
+  <screen flags="wfNoBorder" name="EPGSelectionMulti" position="center,center" size="1920,1080" title="EPG Selection" backgroundColor="transparent">
+    <ePixmap position="0,0" size="1920,1080" zPosition="-3" pixmap="AL_AYAM_FHD/epg/EPG.png" alphatest="blend" transparent="1" />
+    <widget source="key_red" render="Label" position="97,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <widget source="key_green" render="Label" position="251,1042" size="123,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <widget source="key_yellow" render="Label" position="418,1042" size="128,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <widget source="key_blue" render="Label" position="593,1042" size="150,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_red.png" position="51,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_green.png" position="207,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_yellow.png" position="373,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_blue.png" position="548,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <widget source="session.VideoPicture" render="Pig" position="1301,24" size="499,290" backgroundColor="transparent" zPosition="4" />
+    <widget name="list" position="26,378" size="1018,624" itemHeight="40" scrollbarMode="showOnDemand" progressbarHeight="5" backgroundColor="tb" transparent="1" />
+    <widget source="Event" render="Label" position="1097,354" size="796,635" transparent="1" font="Regular; 25" halign="center" backgroundColor="tb" foregroundColor="#ffba00">
+      <convert type="EventName">FullDescription</convert>
+    </widget>
+    <widget font="Regular; 25" halign="center" name="now_text" position="26,346" size="200,25" text="NOW" transparent="1" zPosition="3" backgroundColor="tb" />
+    <widget font="Regular; 25" halign="center" name="next_text" position="287,346" size="200,25" text="NEXT" transparent="1" zPosition="3" backgroundColor="tb" />
+    <widget font="Regular; 25" halign="center" name="more_text" position="551,346" size="200,25" text="MORE" transparent="1" zPosition="3" backgroundColor="tb" />
+    <widget font="Regular; 22" halign="right" name="date" position="822,346" size="224,25" zPosition="3" transparent="1" valign="center" backgroundColor="tb" foregroundColor="#fefb03" />
+    <widget source="session.CurrentService" render="Label" position="17,262" size="879,64" font="Regular; 50" foregroundColor="#fecb16" backgroundColor="background" transparent="1" zPosition="4">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget source="Event" render="xtraBackdrop" position="0,0" size="625,326" alphatest="blend" zPosition="-1" />
+    <ePixmap pixmap="AL_AYAM_FHD/epg/EPGbg.png" position="0,0" size="1920,330" zPosition="1" alphatest="blend" transparent="1" />
+    <widget source="Event" render="xtraPoster" scale="1" position="1049,9" size="215,311" zPosition="4" cornerRadius="14" borderWidth="1" />
+    <widget source="Event" render="xtraParental" position="417,192" size="60,60" alphatest="blend" zPosition="9" transparent="1" />
+    <widget source="Event" render="Label" position="527,2" size="677,257" font="Regular; 28" halign="left" transparent="1" zPosition="44" backgroundColor="background" valign="top">
+      <convert type="xtraInfo">Title,Year,Rated,Genre,Type,Country,Duration,SE</convert>
+    </widget>
+  </screen>
+  <screen name="GraphicalEPG" position="0,0" size="1920,1080" title="GraphicalEPG" flags="wfNoBorder" backgroundColor="transparent">
+    <widget name="timeline_text" position="25,343" size="1869,35" transparent="1" font="Regular; 26" />
+    <widget name="list" backgroundPixmap="AL_AYAM_FHD/epg/OtherEvent.png" position="25,381" size="1865,622" itemHeight="30" ServiceFont="Regular;26" EventNamePadding="6" ServiceNamePadding="6" EntryFont="Regular;26" ServiceBorderVerWidth="3" EventBorderVerWidth="3" RecIconSize="32" IconXPadding="6" IconYPadding="4" EntryBorderColor="#071930" EntryBackgroundColor="#2f4964" EntryBackgroundColorSelected="ice" EntryForegroundColorSelected="ice" EntryActiveBackgroundColorSelected="ice" ServiceNameForegroundColor="foreground" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarWidth="7" scrollbarSliderBorderColor="#fecb16" scrollbarSliderForegroundColor="#fecb16" transparent="1" />
+    <widget name="timeline_now" position="24,379" zPosition="2" size="19,621" pixmap="AL_AYAM_FHD/epg/timeline-now.png" alphatest="on" />
+    <ePixmap position="0,0" size="1920,1080" zPosition="-3" pixmap="AL_AYAM_FHD/epg/GraphMultiEPG.png" alphatest="blend" transparent="1" />
+    <widget source="session.VideoPicture" render="Pig" position="1301,24" size="499,290" backgroundColor="transparent" zPosition="4" />
+    <widget source="session.CurrentService" render="Label" position="17,262" size="879,64" font="Regular; 50" foregroundColor="#fecb16" backgroundColor="background" transparent="1" zPosition="4">
+      <convert type="ServiceName">Name</convert>
+    </widget>
+    <widget source="Event" render="xtraBackdrop" position="0,0" size="625,326" alphatest="blend" zPosition="-1" />
+    <ePixmap pixmap="AL_AYAM_FHD/epg/EPGbg.png" position="0,0" size="1920,330" zPosition="1" alphatest="blend" transparent="1" />
+    <widget source="Event" render="xtraPoster" scale="1" position="1049,9" size="215,311" zPosition="4" borderWidth="1" />
+    <widget source="Event" render="xtraParental" position="417,192" size="60,60" alphatest="blend" zPosition="9" transparent="1" />
+    <widget source="Event" render="TNScrollLabel" zPosition="4" position="521,7" size="518,255" transparent="1" font="Regular; 20" halign="center" backgroundColor="tb" foregroundColor="white">
+      <convert type="EventName">FullDescription</convert>
+    </widget>
+    <widget name="key_red" position="97,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" objectTypes="key_red,Button,Label" />
+    <widget source="key_red" render="Label" position="97,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_red.png" position="51,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <widget source="key_red" render="Pixmap" pixmap="AL_AYAM_FHD/infobar/key_red.png" position="51,1035" size="41,39" alphatest="blend" objectTypes="key_red,StaticText" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget name="key_green" position="251,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" objectTypes="key_green,Button,Label" />
+    <widget source="key_green" render="Label" position="251,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_green.png" position="207,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <widget source="key_green" render="Pixmap" pixmap="AL_AYAM_FHD/infobar/key_green.png" position="207,1035" size="41,39" alphatest="blend" objectTypes="key_green,StaticText" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget name="key_yellow" position="418,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" objectTypes="key_yellow,Button,Label" />
+    <widget source="key_yellow" render="Label" position="418,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_yellow.png" position="373,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <widget source="key_yellow" render="Pixmap" pixmap="AL_AYAM_FHD/infobar/key_yellow.png" position="375,1035" size="41,39" alphatest="blend" objectTypes="key_yellow,StaticText" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget name="key_blue" position="593,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" objectTypes="key_blue,Button,Label" />
+    <widget source="key_blue" render="Label" position="593,1042" size="109,25" valign="center" halign="left" zPosition="3" font="Regular; 20" transparent="1" foregroundColor="w" />
+    <ePixmap pixmap="AL_AYAM_FHD/infobar/key_blue.png" position="548,1035" size="41,39" alphatest="blend" zPosition="3" />
+    <widget source="key_blue" render="Pixmap" pixmap="AL_AYAM_FHD/infobar/key_blue.png" position="548,1035" size="41,39" alphatest="blend" objectTypes="key_blue,StaticText" transparent="1">
+      <convert type="ConditionalShowHide" />
+    </widget>
+  </screen>
+</skin>
