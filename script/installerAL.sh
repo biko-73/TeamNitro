@@ -35,6 +35,7 @@ echo 'Downloading '$MY_FILE1' ...'
 echo $MY_SEP
 echo ''
 rm -rf "/usr/lib/enigma2/python/Plugins/Extensions/TeamNitro"
+rm -rf "/usr/share/enigma2/skin_user_AL_AYAM_FHD.xml"
 rm -rf "/usr/share/enigma2/AL_AYAM_FHD"
 rm -rf "/usr/lib/enigma2/python/Components/Converter/TN_Bitrate3.pyc"
 rm -rf "/usr/lib/enigma2/python/Components/Converter/DRNextEvents.pyc"
