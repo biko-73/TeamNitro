@@ -34,12 +34,12 @@ echo $MY_SEP
 echo 'Downloading '$MY_FILE1' ...'
 echo $MY_SEP
 echo ''
-wget -O /var/volatile/tmp/TeamNitro.tar.gz --no-check-certificate "https://github.com/biko-73/TeamNitro/raw/main/skins/TeamNitro.tar.gz"
-wget -O /var/volatile/tmp/AL_AYAM_FHD_v-1.1.tar.gz --no-check-certificate "https://github.com/biko-73/TeamNitro/raw/main/skins/AL_AYAM_FHD_v-1.1.tar.gz"
 rm -rf "/usr/lib/enigma2/python/Plugins/Extensions/TeamNitro"
 rm -rf "/usr/share/enigma2/AL_AYAM_FHD"
 rm -rf "/usr/lib/enigma2/python/Components/Converter/TN_Bitrate3.pyc"
 rm -rf "/usr/lib/enigma2/python/Components/Converter/DRNextEvents.pyc"
+wget -O /var/volatile/tmp/TeamNitro.tar.gz --no-check-certificate "https://github.com/biko-73/TeamNitro/raw/main/skins/TeamNitro.tar.gz"
+wget -O /var/volatile/tmp/AL_AYAM_FHD_v-1.1.tar.gz --no-check-certificate "https://github.com/biko-73/TeamNitro/raw/main/skins/AL_AYAM_FHD_v-1.1.tar.gz"
 if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_FILE1 ]; then
 echo ''
 echo $MY_SEP
