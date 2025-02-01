@@ -35,7 +35,7 @@ echo 'Downloading '$MY_FILE1' ...'
 echo $MY_SEP
 echo ''
 rm -rf "/usr/lib/enigma2/python/Plugins/Extensions/TeamNitro"
-#rm -rf "/usr/share/enigma2/AL_AYAM_FHD"
+rm -rf "/usr/share/enigma2/AL_AYAM_FHD"
 rm -rf "/usr/lib/enigma2/python/Components/Converter/TN_Bitrate3.pyc"
 rm -rf "/usr/lib/enigma2/python/Components/Converter/DRNextEvents.pyc"
 wget -O /var/volatile/tmp/TeamNitro.tar.gz --no-check-certificate "https://github.com/biko-73/TeamNitro/raw/main/skins/TeamNitro.tar.gz"
@@ -46,8 +46,7 @@ echo $MY_SEP
 echo 'Extracting ...'
 echo $MY_SEP
 echo ''
-tar -xzvf $MY_TMP_FILE -C /
-tar -xzvf $MY_TMP_FILE1 -C /
+tar -xzvf $MY_TMP_FILE, $MY_TMP_FILE1  -C /
 chmod 755 /usr/bin/opbitrate
 MY_RESULT=$?
 rm -f $MY_TMP_FILE > /dev/null 2>&1
