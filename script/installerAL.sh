@@ -1,5 +1,5 @@
-version= 1.0
-description= AL_AYAM_FHD V1.0\n Presenting the new skin by TeamNitro\n Ready to Download... Lets Fun !!!
+version= 1.1
+description= AL_AYAM_FHD V1.1\n Presenting the new skin by TeamNitro\n Ready to Download... Lets Fun !!!
 initializeANSI()
 {
 esc=""
@@ -23,10 +23,8 @@ ${boldon}${redfbright}   ■■    ${greenf}   ■■     ${yellowf}    ■■  
 ${boldon}${redfbright}  ■■■■   ${greenf}  ■■■■■■■■${yellowf}   ■■         ■■${bluef}   ■■        ■■ ${redf}    ■■     ■■■■ ${greenf}  ■■■■${yellowf}     ■■■■${bluef}     ■■■■   ■■${purplef}    ■■■■ ${reset}
 ${boldon}${yellowfbright}				    TeamNitro Skin BoHLALA V2.3 ${reset}
 EOF
-MY_FILE="TeamNitro.tar.gz"
+MY_FILE="AL_AYAM_FHD_v-1.1.tar.gz"
 MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
-MY_FILE1="AL_AYAM_FHD_v-1.1.tar.gz"
-MY_TMP_FILE1="/var/volatile/tmp/"$MY_FILE1
 MY_SEP='============================================================='
 echo $MY_SEP
 echo 'Downloading '$MY_FILE' ...'
