@@ -21,7 +21,7 @@ ${boldon}${redfbright}   ■■    ${greenf}   ■■■■■■ ${yellowf}    
 ${boldon}${redfbright}   ■■    ${greenf}   ■■     ${yellowf}     ■■■■ ■■■■  ${bluef}   ■■        ■■ ${redf}    ■■   ■■  ■■ ${greenf}   ■■ ${yellowf}      ■■ ${bluef}      ■■ ■■   ${purplef}  ■■    ■■ ${reset}
 ${boldon}${redfbright}   ■■    ${greenf}   ■■     ${yellowf}    ■■       ■■ ${bluef}   ■■        ■■ ${redf}    ■■    ■■    ${greenf}   ■■ ${yellowf}      ■■ ${bluef}      ■■   ■■ ${purplef}  ■■    ■■ ${reset}
 ${boldon}${redfbright}  ■■■■   ${greenf}  ■■■■■■■■${yellowf}   ■■         ■■${bluef}   ■■        ■■ ${redf}    ■■     ■■■■ ${greenf}  ■■■■${yellowf}     ■■■■${bluef}     ■■■■   ■■${purplef}    ■■■■ ${reset}
-${boldon}${yellowfbright}				    TeamNitro Skin BoHLALA V2.3 ${reset}
+${boldon}${yellowfbright}				    TeamNitro Skin AL_AYAM_FHD V_1.1 ${reset}
 EOF
 MY_FILE="TeamNitro.tar.gz"
 MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
