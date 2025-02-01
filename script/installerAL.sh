@@ -46,7 +46,7 @@ echo $MY_SEP
 echo 'Extracting ...'
 echo $MY_SEP
 echo ''
-tar -xzvf $MY_TMP_FILE; tar -xzvf $MY_TMP_FILE1  -C /
+tar -xzvf $MY_TMP_FILE -C /; tar -xzvf $MY_TMP_FILE1  -C /
 chmod 755 /usr/bin/opbitrate
 MY_RESULT=$?
 rm -f $MY_TMP_FILE > /dev/null 2>&1
